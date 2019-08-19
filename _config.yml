@@ -16,18 +16,21 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
+title: Structural Analysis
+author: Neal Holtz
+email: neal.holtz@carleton.ca
 description: >-
   This is an example book built with Jupyter Books.
 
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
+url: http://www.nealholtz.ca/beatsme              # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
 # Jupyter Book settings
+
+# Notebook content settings
+use_hide_code_button: true        # If True, a small button appears to the right of each cell that lets you hide its contents.
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
@@ -45,11 +48,11 @@ search_max_words_in_content: 100   # In the search function, use at most this ma
 # Interact link settings
 
 # General interact settings
-use_jupyterlab: false                     # If 'true', interact links will use JupyterLab as the interface
+use_jupyterlab: true                     # If 'true', interact links will use JupyterLab as the interface
 
 # Jupyterhub link settings
-use_jupyterhub_button: false              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
-jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL, use ""
+use_jupyterhub_button: true              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
+jupyterhub_url: 'http://www.nealholtz.ca/jupyterhub/3203-book'                     # The URL for your JupyterHub. If no URL, use ""
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings

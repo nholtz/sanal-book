@@ -22,35 +22,24 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
-  url: /intro
-  not_numbered: true
-
-# External link
-- title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
-  external: true
-  not_numbered: true
+- title: Structural Analysis
+  url: /index
 
 # Adds a searchbar link
 - title: Search
   search: true
 
-# Divider for meta-pages and content page
-- divider: true
-
-# Add a header and sample content section
-- header: Demo textbook
-
 # A chapter w/ a collection of sections beneath it
-- title: Features and customization
-  url: /features/features
-  not_numbered: true
-  expand_sections: true
+- title: Fundamental Concepts
+  url: /fundamentals/index
   sections:
-  - title: Markdown files
-    url: /features/markdown
-    not_numbered: true
-  - title: Jupyter notebooks
-    url: /features/notebooks
-    not_numbered: true
+  - title: Introduction
+    url: /fundamentals/introduction
+  - title: Equilibrium
+    url: /fundamentals/equilibrium
+  - title: Boundary Conditions
+    url: /fundamentals/boundary-conditions
+  - title: Free Body Diagrams
+    url: /fundamentals/free-body-diagrams
+  - title: Small Rigid Body Displacements
+    url: /fundamentals/small-rigid-body-displacements
