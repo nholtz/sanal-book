@@ -21,10 +21,8 @@ the idea that there are never more than three available on any one
 force system is crucial.  Some special force systems have fewer than
 three independent equations available.
 
-.. figure:: couple-1.png
-   :align: right
-
-   Couple/Moment Equivalency
+![Couple/Moment Equivalency](images/couple-1.svg)
+Couple/Moment Equivalency
 
 Before proceeding, we note the equivalency regarding a couple.  A
 couple is a pair of equal, opposite and parallel forces, $F$,
@@ -81,14 +79,22 @@ points is not parallel to the force direction.
 
 In some force systems, there are even fewer than three equations available.
 
-If forces are concurrent, :math:`\sum M_c = 0` happens automatically when point *c* is the point of concurrency, so only two equations remain.  You may still use a moment equation to solve for unknowns, but you can only use :math:`\sum M_o = 0` when point *o* is *not* the point of concurrency.
+If forces are concurrent, $\sum M_c = 0$ happens automatically
+when point *c* is the point of concurrency, so only two equations
+remain.  You may still use a moment equation to solve for unknowns,
+but you can only use $\sum M_o = 0$ when point *o* is *not* the
+point of concurrency.
 
-If forces are parallel, :math:`\sum F_y = 0`, where *y* is perpendicular to the forces, happens automatically no matter what the magnitude of the forces is, and so only two equations remain.
-You could still use two force equations such as :math:`\sum F_x = 0` and :math:`\sum F_z = 0`, where direction *z* is neither parallel nor perpendicular to *x*.
+If forces are parallel, $\sum F_y = 0$, where *y* is
+perpendicular to the forces, happens automatically no matter what the
+magnitude of the forces are, and so only two equations remain.  You
+could still use two force equations such as $\sum F_x = 0$ and
+$\sum F_z = 0$, where direction *z* is neither parallel to nor
+perpendicular to *x*.
 
-.. IMPORTANT::
-   In parallel and concurrent 2D force systems, only two scalar equations of equilibrium are available.
+> :EXCLAMATION: In parallel and in concurrent 2D force systems, only two
+> scalar equations of equilibrium are available.
 
-.. IMPORTANT::
-   In parallel and concurrent 2D force systems, there is some choice as to which set of two equations you use.
+> :EXCLAMATION: In parallel and in concurrent 2D force systems, there
+> is some choice as to which set of two equations you use.
    

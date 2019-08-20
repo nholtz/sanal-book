@@ -1,6 +1,6 @@
-## 1: Fundamental Concepts
+# 1: Fundamental Concepts
 
-### 1.1: Introduction
+## 1.1: Introduction
 
 To perform a structural analysis means to determine all of the forces
 and displacements that act on and within a structural assembly such as
