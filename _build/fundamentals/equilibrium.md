@@ -78,7 +78,8 @@ and two moment equations, as long as a line through the two moment
 points is not parallel to the force direction.
 
 
-> :exclamation: In a general 2D force system, there are *never* more
+> :exclamation:
+> In a general 2D force system, there are *never* more
 > than three independent scalar equations available.
 
 > :exclamation: In a general 2D force system, there is some choice as

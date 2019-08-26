@@ -27,3 +27,5 @@ using Jupyter notebooks and Python programming.
 * Jupyter Book does a reasonably good job of building a multi-page website
 with nice navigational tools.
 * maybe some others that I'll think of later ...
+
+An emoji:  :exclamation:

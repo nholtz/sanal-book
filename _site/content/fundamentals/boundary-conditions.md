@@ -10,9 +10,10 @@
 > If a displacement or relative displacement is freely allowed, the
 > corresponding force will be zero.
 
->**IMPORTANT:** If an external or internal force is constrained to b**
->zero, there must be a corresponding displacement that is exactly
->sufficient to ensure that constraint.
+>**IMPORTANT:** If an external or internal force is constrained to be
+>zero (or, rarely, some other specific value), there must be a
+>corresponding displacement that is exactly sufficient to ensure that
+>constraint.
 
 >**IMPORTANT:** At any point in a structure you cannot constrain both
 >*force* and *displacement*.  If one is constrained, the principles of
