@@ -41,5 +41,8 @@
     url: /fundamentals/boundary-conditions
   - title: Free Body Diagrams
     url: /fundamentals/free-body-diagrams
+    subsections:
+    - title: FBD Example 1
+      url: /fundamentals/fbd-eg1
   - title: Small Rigid Body Displacements
     url: /fundamentals/small-rigid-body-displacements

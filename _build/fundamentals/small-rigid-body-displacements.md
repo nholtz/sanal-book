@@ -1,8 +1,8 @@
 ---
 title: 'Small Rigid Body Displacements'
 prev_page:
-  url: /fundamentals/free-body-diagrams.html
-  title: 'Free Body Diagrams'
+  url: /fundamentals/fbd-eg1.html
+  title: 'FBD Example 1'
 next_page:
   url: 
   title: ''

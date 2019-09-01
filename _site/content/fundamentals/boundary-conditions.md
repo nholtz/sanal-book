@@ -23,7 +23,7 @@
 
 ### 1.3.1: Supports
 
-![Support Conditions](images/fig-1-6.png)
+![Support Conditions](images/bc/fig-1-6.png)
 Fig. 1-6: Support Conditions
 
 From Statics we are familiar with beam support conditions. The free
@@ -51,7 +51,7 @@ force along the direction of rolling.
 
 ### 1.3.2: Conditions
 
-![Internal Conditions](images/fig-1-7.png)
+![Internal Conditions](images/bc/fig-1-7.png)
 Fig. 1-7: Internal Conditions (Support and Release)
 
 
@@ -87,7 +87,7 @@ elements are free to articulate about it.
 
 ### 1.3.3: Contrived Supports and Conditions
 
-![Contrived end and internal conditions](images/fig-1-8.png)
+![Contrived end and internal conditions](images/bc/fig-1-8.png)
 Fig. 1-8: Contrived end and internal conditions
 
 The conditions pictured in Fig. 1-8 are called contrived. As unusual

@@ -29,9 +29,9 @@
   "headline":
     "Search the site",
   "datePublished":
-    "2019-08-25T22:01:43-04:00",
+    "2019-08-31T21:34:06-04:00",
   "dateModified":
-    "2019-08-25T22:01:43-04:00",
+    "2019-08-31T21:34:06-04:00",
   "description":
     "This is an example book built with Jupyter Books.",
   "author": {
@@ -826,6 +826,20 @@ initFunction(initQuery);
 
                 
                 
+                  
+                  
+
+                  <li class="c-sidebar__subsection">
+                    <a class="c-sidebar__entry "
+                      href="/fundamentals/fbd-eg1.html"
+                    >
+                      
+                        2.4.1
+                        
+                      
+                      FBD Example 1
+                    </a>
+                
 
               </li>
               
@@ -902,10 +916,18 @@ initFunction(initQuery);
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/fundamentals/equilibrium.html",
         "teaser":null},{
+        "title": "FBD Example 1",
+        
+        "excerpt":
+            "from sympy import var,solve from sympy.physics.units import m,kilo,newton kN = kilo*newton Free Body Diagram of Part b-c-d-e var('Hb,Vb,Vd') (Hb, Vb, Vd) $\\sum M_b = 0~~~~~+ccw$ sum_Mb = -65*kN*4*m - 28*kN/m*(6*m+2*m)*(6*m+2*m)/2 + Vd*6*m sum_Mb -1156000*meter*newton + 6*meter*Vd Vd = solve(sum_Mb,Vd)[0].n() Vd 192666.666666667*newton $\\sum F_y = 0~~~~~+\\uparrow$ sum_Fy = Vb - 28*kN/m*(6*m+2*m) - 65*kN + Vd sum_Fy -96333.3333333333*newton + Vb Vb = solve(sum_Fy,Vb)[0].n() Vb 96333.3333333333*newton $\\sum F_x = 0~~~~~+ \\rightarrow$ sum_Fx = Hb Hb = solve(sum_Fx,Hb)[0].n() Hb 0 Vd/kN, Vb/kN, Hb/kN (192.666666666667, 96.3333333333333, 0) Free Body Diagram of part a-b var('Ha,Ma,Va') (Ha, Ma, Va) $\\sum F_x = 0~~~~~+\\rightarrow$ sum_Fx = Ha -...",
+        "categories": [],
+        "tags": [],
+        "url": "http://www.nealholtz.ca/beatsme/fundamentals/fbd-eg1.html",
+        "teaser":null},{
         "title": "Free Body Diagrams",
         
         "excerpt":
-            "Free Body Diagrams  ",
+            "1: Fundamental Concepts 1.4: Free Body Diagrams The construction of a proper free body diagram (FBD) is an essential first step in a structural analysis. A free body diagram is a sketch of the outline of a structure, roughly to scale and isolated from its surroundings. It shows key features of the geometry, all applied forces (loads), and all relevant reactive forces at the points of contact between the portion shown and its surroundings. To determine the character of the reactive forces (i.e. their types and directions), you determine the displacement contraints, and show the force corresponding to each. Fig...",
         "categories": [],
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/fundamentals/free-body-diagrams.html",
