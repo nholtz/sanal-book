@@ -51,7 +51,7 @@ search_max_words_in_content: 100   # In the search function, use at most this ma
 use_jupyterlab: true                     # If 'true', interact links will use JupyterLab as the interface
 
 # Jupyterhub link settings
-use_jupyterhub_button: true              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
+use_jupyterhub_button: false              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
 jupyterhub_url: 'http://www.nealholtz.ca/jupyterhub/3203-book'                     # The URL for your JupyterHub. If no URL, use ""
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
@@ -65,12 +65,12 @@ binder_repo_branch: gh-pages                   # The branch on which your textbo
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
 # Thebelab settings
-use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
+use_thebelab_button: false                # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text: Thebelab                 # The text to display inside the Thebelab initialization button
 codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
 # nbinteract settings
-use_show_widgets_button: true                # If 'true', display a button to allow in-page running code cells with nbinteract
+use_show_widgets_button: false                # If 'true', display a button to allow in-page running code cells with nbinteract
 
 # Download settings
 use_download_button: true                # If 'true', display a button to download a zip file for the notebook

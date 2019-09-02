@@ -14,8 +14,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-from sympy import var,solve
-from sympy.physics.units import m,force,newton,kilo,Quantity
+from sympy import symbols,solve
+from sympy.physics.units import m,newton,force,kilo,Quantity
 kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
 
 ```
@@ -36,23 +36,11 @@ kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-var('Hb,Vb,Vd')
+Hb,Vb,Vd = symbols('Hb Vb Vd')
 
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-{:.output_data_text}
-```
-(Hb, Vb, Vd)
-```
-
-
-</div>
-</div>
 </div>
 
 
@@ -227,23 +215,11 @@ Vd/kN, Vb/kN, Hb/kN
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-var('Ha,Ma,Va')
+Ha,Ma,Va = symbols('Ha Ma Va')
 
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-{:.output_data_text}
-```
-(Ha, Ma, Va)
-```
-
-
-</div>
-</div>
 </div>
 
 
