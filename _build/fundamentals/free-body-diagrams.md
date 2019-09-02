@@ -4,8 +4,8 @@ prev_page:
   url: /fundamentals/boundary-conditions.html
   title: 'Boundary Conditions'
 next_page:
-  url: /fundamentals/fbd-eg1.html
-  title: 'FBD Example 1'
+  url: /fundamentals/eq-demo-2.html
+  title: 'Equilibrium Example'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 1: Fundamental Concepts

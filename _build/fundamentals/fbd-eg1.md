@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'FBD Example 1'
 prev_page:
-  url: /fundamentals/free-body-diagrams.html
-  title: 'Free Body Diagrams'
+  url: /fundamentals/eq-demo-2.html
+  title: 'Equilibrium Example'
 next_page:
   url: /fundamentals/small-rigid-body-displacements.html
   title: 'Small Rigid Body Displacements'
@@ -15,8 +15,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div class="input_area" markdown="1">
 ```python
 from sympy import var,solve
-from sympy.physics.units import m,kilo,newton
-kN = kilo*newton
+from sympy.physics.units import m,force,newton,kilo,Quantity
+kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
 
 ```
 </div>
@@ -76,7 +76,7 @@ sum_Mb
 
 {:.output_data_text}
 ```
--1156000*meter*newton + 6*meter*Vd
+-1156*kilonewton*meter + 6*meter*Vd
 ```
 
 
@@ -101,7 +101,7 @@ Vd
 
 {:.output_data_text}
 ```
-192666.666666667*newton
+192.666666666667*kilonewton
 ```
 
 
@@ -130,7 +130,7 @@ sum_Fy
 
 {:.output_data_text}
 ```
--96333.3333333333*newton + Vb
+-96.3333333333333*kilonewton + Vb
 ```
 
 
@@ -155,7 +155,7 @@ Vb
 
 {:.output_data_text}
 ```
-96333.3333333333*newton
+96.3333333333333*kilonewton
 ```
 
 
@@ -298,7 +298,7 @@ Va
 
 {:.output_data_text}
 ```
-320333.333333333*newton
+320.333333333333*kilonewton
 ```
 
 
@@ -328,7 +328,7 @@ Ma
 
 {:.output_data_text}
 ```
-1666666.66666667*meter*newton
+1666.66666666667*kilonewton*meter
 ```
 
 
@@ -418,7 +418,7 @@ Ma
 
 {:.output_data_text}
 ```
-800.0*meter*newton
+0.799999999999841*kilonewton*meter
 ```
 
 
@@ -446,7 +446,7 @@ Ma + 28*(kN/m)*(14*m+2*m)*(14*m+2*m)/2 + 65*kN*(2*m+2*m) - Va*(14*m+2*m) - Vd*2*
 
 {:.output_data_text}
 ```
-5.29689714312553e-9*meter*newton
+6.25277607468888e-13*kilonewton*meter
 ```
 
 
@@ -456,5 +456,5 @@ Ma + 28*(kN/m)*(14*m+2*m)*(14*m+2*m)/2 + 65*kN*(2*m+2*m) - Va*(14*m+2*m) - Vd*2*
 
 
 
-Thats easily close enough to zero.
+$6.25 \times 10^{-13}$ is easily close enough to zero, attributable to normal floating point truncation errors.
 

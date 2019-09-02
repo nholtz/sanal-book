@@ -29,3 +29,7 @@ serve:
 build:
 	bundle exec jekyll build
 	touch _site/.nojekyll
+
+site:
+	bundle exec jekyll build
+	touch _site/.nojekyll

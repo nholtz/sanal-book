@@ -29,9 +29,9 @@
   "headline":
     "Search the site",
   "datePublished":
-    "2019-08-31T21:34:06-04:00",
+    "2019-09-02T13:20:27-04:00",
   "dateModified":
-    "2019-08-31T21:34:06-04:00",
+    "2019-09-02T13:20:27-04:00",
   "description":
     "This is an example book built with Jupyter Books.",
   "author": {
@@ -831,10 +831,24 @@ initFunction(initQuery);
 
                   <li class="c-sidebar__subsection">
                     <a class="c-sidebar__entry "
-                      href="/fundamentals/fbd-eg1.html"
+                      href="/fundamentals/eq-demo-2.html"
                     >
                       
                         2.4.1
+                        
+                      
+                      Equilibrium Example
+                    </a>
+                
+                  
+                  
+
+                  <li class="c-sidebar__subsection">
+                    <a class="c-sidebar__entry "
+                      href="/fundamentals/fbd-eg1.html"
+                    >
+                      
+                        2.4.2
                         
                       
                       FBD Example 1
@@ -908,6 +922,14 @@ initFunction(initQuery);
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/fundamentals/boundary-conditions.html",
         "teaser":null},{
+        "title": "Equilibrium Example",
+        
+        "excerpt":
+            "Demonstration of Equilibrium for a Beam Structure The following beam structure may not be completely shown, though it is complete enough to discuss the principles of equilibrium. We will define some specific values and draw the Free Body Diagram. At the left end (point $a$) there is complete fixity (against horizontal and vertical displacements, as well as against rotation), so there are correspondingly three forces, ($F_a$, $V_a$ and $M_a$). At the right end (point $c$) there is only a constraint against vertical displacement and so there is one vertical force, $V_c$, at that point. Considerinng the above FBD, there are...",
+        "categories": [],
+        "tags": [],
+        "url": "http://www.nealholtz.ca/beatsme/fundamentals/eq-demo-2.html",
+        "teaser":null},{
         "title": "Equilibrium",
         
         "excerpt":
@@ -919,7 +941,7 @@ initFunction(initQuery);
         "title": "FBD Example 1",
         
         "excerpt":
-            "from sympy import var,solve from sympy.physics.units import m,kilo,newton kN = kilo*newton Free Body Diagram of Part b-c-d-e var('Hb,Vb,Vd') (Hb, Vb, Vd) $\\sum M_b = 0~~~~~+ccw$ sum_Mb = -65*kN*4*m - 28*kN/m*(6*m+2*m)*(6*m+2*m)/2 + Vd*6*m sum_Mb -1156000*meter*newton + 6*meter*Vd Vd = solve(sum_Mb,Vd)[0].n() Vd 192666.666666667*newton $\\sum F_y = 0~~~~~+\\uparrow$ sum_Fy = Vb - 28*kN/m*(6*m+2*m) - 65*kN + Vd sum_Fy -96333.3333333333*newton + Vb Vb = solve(sum_Fy,Vb)[0].n() Vb 96333.3333333333*newton $\\sum F_x = 0~~~~~+ \\rightarrow$ sum_Fx = Hb Hb = solve(sum_Fx,Hb)[0].n() Hb 0 Vd/kN, Vb/kN, Hb/kN (192.666666666667, 96.3333333333333, 0) Free Body Diagram of part a-b var('Ha,Ma,Va') (Ha, Ma, Va) $\\sum F_x = 0~~~~~+\\rightarrow$ sum_Fx = Ha -...",
+            "from sympy import var,solve from sympy.physics.units import m,force,newton,kilo,Quantity kilonewton = kilonewtons = kN = Quantity(\"kilonewton\", force, kilo*newton, \"kN\") Free Body Diagram of Part b-c-d-e var('Hb,Vb,Vd') (Hb, Vb, Vd) $\\sum M_b = 0~~~~~+ccw$ sum_Mb = -65*kN*4*m - 28*kN/m*(6*m+2*m)*(6*m+2*m)/2 + Vd*6*m sum_Mb -1156*kilonewton*meter + 6*meter*Vd Vd = solve(sum_Mb,Vd)[0].n() Vd 192.666666666667*kilonewton $\\sum F_y = 0~~~~~+\\uparrow$ sum_Fy = Vb - 28*kN/m*(6*m+2*m) - 65*kN + Vd sum_Fy -96.3333333333333*kilonewton + Vb Vb = solve(sum_Fy,Vb)[0].n() Vb 96.3333333333333*kilonewton $\\sum F_x = 0~~~~~+ \\rightarrow$ sum_Fx = Hb Hb = solve(sum_Fx,Hb)[0].n() Hb 0 Vd/kN, Vb/kN, Hb/kN (192.666666666667, 96.3333333333333, 0) Free Body Diagram of part a-b var('Ha,Ma,Va') (Ha, Ma, Va) $\\sum...",
         "categories": [],
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/fundamentals/fbd-eg1.html",

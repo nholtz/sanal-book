@@ -42,7 +42,11 @@
   - title: Free Body Diagrams
     url: /fundamentals/free-body-diagrams
     subsections:
+    - title: Equilibrium Example
+      url: /fundamentals/eq-demo-2
+      expand_sections: false
     - title: FBD Example 1
       url: /fundamentals/fbd-eg1
+      expand_sections: false
   - title: Small Rigid Body Displacements
     url: /fundamentals/small-rigid-body-displacements
