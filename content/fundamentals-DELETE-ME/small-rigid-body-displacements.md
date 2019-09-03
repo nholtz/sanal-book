@@ -1,1 +1,0 @@
-# Small Rigid Body Displacements
