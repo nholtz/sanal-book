@@ -14,4 +14,4 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 * **[Equilibrium](equilibrium)**
 * **[Boundary Conditions: Constraints and Internal Conditions](boundary-conditions)**
 * **[Free Body Diagrams](free-body-diagrams)**
-* **[Small Rigid Body Displacements](small-rigid-body-displacements)**
+* **[Small Rigid Body Displacements](small-displacements)**

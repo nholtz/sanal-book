@@ -17,3 +17,5 @@
  
  The overiding criteria is to make to easier to manage notebook copies for students.
  
+After 1/2 day - the above was a maintenance nightmare.  Now one top level /images
+folder with everuthing underneath.  To copy notebooks, get both /notebooks and /images folders.

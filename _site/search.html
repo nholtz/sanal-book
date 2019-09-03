@@ -29,9 +29,9 @@
   "headline":
     "Search the site",
   "datePublished":
-    "2019-09-03T11:11:10-04:00",
+    "2019-09-03T19:16:15-04:00",
   "dateModified":
-    "2019-09-03T11:11:10-04:00",
+    "2019-09-03T19:16:15-04:00",
   "description":
     "This is an example book built with Jupyter Books.",
   "author": {
@@ -425,7 +425,7 @@ initFunction(initQuery);
 
 
 <nav id="js-sidebar" class="c-textbook__sidebar">
-  <a href="https://jupyter.org/jupyter-book/"><img src="/images/logo/logo.png" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
+  <a href="https://jupyter.org/jupyter-book/"><img src="/images/logo/jb-logo.png" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
   <h2 class="c-sidebar__title">Structural Analysis</h2>
   <ul class="c-sidebar__chapters">
     
@@ -566,7 +566,7 @@ initFunction(initQuery);
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/text/fundamentals/small-rigid-body-displacements.html"
+                  href="/text/fundamentals/small-displacements.html"
                 >
                   
                     2.5
@@ -620,10 +620,29 @@ initFunction(initQuery);
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/nb/sdbeams/eq-demo-2.html"
+                  href="/text/sdbeams/free-body-diagrams.html"
                 >
                   
                     3.1
+                  
+                  Free Body Diagrams
+                </a>
+
+                
+                
+
+              </li>
+              
+            
+              
+              
+
+              <li class="c-sidebar__section">
+                <a class="c-sidebar__entry "
+                  href="/notebooks/sdbeams/eq-demo-2.html"
+                >
+                  
+                    3.2
                   
                   Equilibrium Example
                 </a>
@@ -639,10 +658,10 @@ initFunction(initQuery);
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/nb/sdbeams/fbd-eg1.html"
+                  href="/notebooks/sdbeams/fbd-eg1.html"
                 >
                   
-                    3.2
+                    3.3
                   
                   FBD Example 1
                 </a>
@@ -696,7 +715,7 @@ initFunction(initQuery);
             "Demonstration of Equilibrium for a Beam Structure The following beam structure may not be completely shown, though it is complete enough to discuss the principles of equilibrium. We will define some specific values and draw the Free Body Diagram. At the left end (point $a$) there is complete fixity (against horizontal and vertical displacements, as well as against rotation), so there are correspondingly three forces, ($F_a$, $V_a$ and $M_a$). At the right end (point $c$) there is only a constraint against vertical displacement and so there is one vertical force, $V_c$, at that point. Considerinng the above FBD, there are...",
         "categories": [],
         "tags": [],
-        "url": "http://www.nealholtz.ca/beatsme/nb/sdbeams/eq-demo-2.html",
+        "url": "http://www.nealholtz.ca/beatsme/notebooks/sdbeams/eq-demo-2.html",
         "teaser":null},{
         "title": "FBD Example 1",
         
@@ -704,7 +723,7 @@ initFunction(initQuery);
             "from sympy import symbols,solve from sympy.physics.units import m,newton,force,kilo,Quantity kilonewton = kilonewtons = kN = Quantity(\"kilonewton\", force, kilo*newton, \"kN\") Free Body Diagram of Part b-c-d-e Hb,Vb,Vd = symbols('Hb Vb Vd') $\\sum M_b = 0~~~~~+ccw$ sum_Mb = -65*kN*4*m - 28*kN/m*(6*m+2*m)*(6*m+2*m)/2 + Vd*6*m sum_Mb -1156*kilonewton*meter + 6*meter*Vd Vd = solve(sum_Mb,Vd)[0].n() Vd 192.666666666667*kilonewton $\\sum F_y = 0~~~~~+\\uparrow$ sum_Fy = Vb - 28*kN/m*(6*m+2*m) - 65*kN + Vd sum_Fy -96.3333333333333*kilonewton + Vb Vb = solve(sum_Fy,Vb)[0].n() Vb 96.3333333333333*kilonewton $\\sum F_x = 0~~~~~+ \\rightarrow$ sum_Fx = Hb Hb = solve(sum_Fx,Hb)[0].n() Hb 0 Vd/kN, Vb/kN, Hb/kN (192.666666666667, 96.3333333333333, 0) Free Body Diagram of part a-b Ha,Ma,Va = symbols('Ha Ma...",
         "categories": [],
         "tags": [],
-        "url": "http://www.nealholtz.ca/beatsme/nb/sdbeams/fbd-eg1.html",
+        "url": "http://www.nealholtz.ca/beatsme/notebooks/sdbeams/fbd-eg1.html",
         "teaser":null},{
         "title": "Boundary Conditions",
         
@@ -725,7 +744,7 @@ initFunction(initQuery);
         "title": "Free Body Diagrams",
         
         "excerpt":
-            "1: Fundamental Concepts 1.4: Free Body Diagrams The construction of a proper free body diagram (FBD) is an essential first step in a structural analysis. A free body diagram is a sketch of the outline of a structure, roughly to scale and isolated from its surroundings. It shows key features of the geometry, all applied forces (loads), and all relevant reactive forces at the points of contact between the portion shown and its surroundings. To determine the character of the reactive forces (i.e. their types and directions), you determine the displacement contraints, and show the force corresponding to each. Fig...",
+            "1: Fundamental Concepts   1.4: Free Body Diagrams  ",
         "categories": [],
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/text/fundamentals/free-body-diagrams.html",
@@ -752,7 +771,7 @@ initFunction(initQuery);
             "Small Rigid Body Displacements  ",
         "categories": [],
         "tags": [],
-        "url": "http://www.nealholtz.ca/beatsme/text/fundamentals/small-rigid-body-displacements.html",
+        "url": "http://www.nealholtz.ca/beatsme/text/fundamentals/small-displacements.html",
         "teaser":null},{
         "title": "Structural Analysis",
         
@@ -761,6 +780,14 @@ initFunction(initQuery);
         "categories": [],
         "tags": [],
         "url": "http://www.nealholtz.ca/beatsme/text/index.html",
+        "teaser":null},{
+        "title": "Free Body Diagrams",
+        
+        "excerpt":
+            "1: Fundamental Concepts 1.4: Free Body Diagrams The construction of a proper free body diagram (FBD) is an essential first step in a structural analysis. A free body diagram is a sketch of the outline of a structure, roughly to scale and isolated from its surroundings. It shows key features of the geometry, all applied forces (loads), and all relevant reactive forces at the points of contact between the portion shown and its surroundings. To determine the character of the reactive forces (i.e. their types and directions), you determine the displacement contraints, and show the force corresponding to each. Fig...",
+        "categories": [],
+        "tags": [],
+        "url": "http://www.nealholtz.ca/beatsme/text/sdbeams/free-body-diagrams.html",
         "teaser":null},{
         "title": "Forces in Statically Determinate Beams and Plane Frames",
         

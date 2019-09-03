@@ -42,11 +42,13 @@
   - title: Free Body Diagrams
     url: /text/fundamentals/free-body-diagrams
   - title: Small Rigid Body Displacements
-    url: /text/fundamentals/small-rigid-body-displacements
+    url: /text/fundamentals/small-displacements
 - title: Forces in Statically Determinate Beams and Plane Frames
   url: /text/sdbeams/index
   sections:
+  - title: Free Body Diagrams
+    url: /text/sdbeams/free-body-diagrams
   - title: Equilibrium Example
-    url: /nb/sdbeams/eq-demo-2
+    url: /notebooks/sdbeams/eq-demo-2
   - title: FBD Example 1
-    url: /nb/sdbeams/fbd-eg1
+    url: /notebooks/sdbeams/fbd-eg1
