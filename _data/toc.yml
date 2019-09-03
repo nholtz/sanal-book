@@ -23,7 +23,7 @@
 
 # Top-level page
 - title: Structural Analysis
-  url: /index
+  url: /text/index
 
 # Adds a searchbar link
 - title: Search
@@ -31,22 +31,22 @@
 
 # A chapter w/ a collection of sections beneath it
 - title: Fundamental Concepts
-  url: /fundamentals/index
+  url: /text/fundamentals/index
   sections:
   - title: Introduction
-    url: /fundamentals/introduction
+    url: /text/fundamentals/introduction
   - title: Equilibrium
-    url: /fundamentals/equilibrium
+    url: /text/fundamentals/equilibrium
   - title: Boundary Conditions
-    url: /fundamentals/boundary-conditions
+    url: /text/fundamentals/boundary-conditions
   - title: Free Body Diagrams
-    url: /fundamentals/free-body-diagrams
-    subsections:
-    - title: Equilibrium Example
-      url: /fundamentals/eq-demo-2
-      expand_sections: false
-    - title: FBD Example 1
-      url: /fundamentals/fbd-eg1
-      expand_sections: false
+    url: /text/fundamentals/free-body-diagrams
   - title: Small Rigid Body Displacements
-    url: /fundamentals/small-rigid-body-displacements
+    url: /text/fundamentals/small-rigid-body-displacements
+- title: Forces in Statically Determinate Beams and Plane Frames
+  url: /text/sdbeams/index
+  sections:
+  - title: Equilibrium Example
+    url: /nb/sdbeams/eq-demo-2
+  - title: FBD Example 1
+    url: /nb/sdbeams/fbd-eg1
