@@ -24,10 +24,11 @@
 # Top-level page
 - title: Structural Analysis
   url: /text/index
+  not_numbered: true
 
 # Adds a searchbar link
-- title: Search
-  search: true
+# - title: Search
+#   search: true
 
 # A chapter w/ a collection of sections beneath it
 - title: Fundamental Concepts
