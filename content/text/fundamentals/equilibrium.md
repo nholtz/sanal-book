@@ -21,7 +21,7 @@ the idea that there are never more than three available on any one
 force system is crucial.  Some special force systems have fewer than
 three independent equations available.
 
-![Couple/Moment Equivalency](/images/fundamentals/eq/couple-1.svg)
+![Couple/Moment Equivalency](../../images/fundamentals/eq/couple-1.svg)
 Couple/Moment Equivalency
 
 Before proceeding, we note the equivalency regarding a couple.  A

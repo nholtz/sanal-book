@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 The following beam structure may not be completely shown, though it is complete enough to
 discuss the principles of equilibrium.
 
-![Beam Structure](/images/sdbeams/eq/eq-demo-2-01.svg)
+![Beam Structure](../../images/sdbeams/eq/eq-demo-2-01.svg)
 
 
 
@@ -25,7 +25,7 @@ so there are correspondingly three forces, ($F_a$, $V_a$ and $M_a$).  At the rig
 (point $c$) there is only a constraint against vertical displacement and so there is one 
 vertical force, $V_c$, at that point.
 
-![Beam FBD](/images/sdbeams/eq/eq-demo-2-02.svg)
+![Beam FBD](../../images/sdbeams/eq/eq-demo-2-02.svg)
 
 
 
@@ -33,7 +33,7 @@ Considerinng the above FBD, there are 4 unknown forces shown, but we have only 3
 equilibrium available.  That means there are an infinite number of sets of forces that satisfy
 equilibrium.  To demonstrate that, we will show 2 of them:
 
-![EQ Soln 1](/images/sdbeams/eq/eq-demo-2-03.svg)
+![EQ Soln 1](../../images/sdbeams/eq/eq-demo-2-03.svg)
 
 
 
@@ -115,7 +115,7 @@ The above forces are in equilibrium:
 
 But so is the following set of forces:
 
-![EQ Soln 2](/images/sdbeams/eq/eq-demo-2-04.svg)
+![EQ Soln 2](../../images/sdbeams/eq/eq-demo-2-04.svg)
 
 
 
@@ -208,7 +208,7 @@ at point $d$, 4m from the right support.  That specifies that the
 internal bending moment in the beam is zero at that support, and allows us to form a FBD on one side of the pin.  We choose a side that allows us to write an equilibrium equation that contains only
 one unknown; here the right side:
 
-![FBD Right Side](/images/sdbeams/eq/eq-demo-2-03c.svg)
+![FBD Right Side](../../images/sdbeams/eq/eq-demo-2-03c.svg)
 
 
 
@@ -225,14 +225,14 @@ $$
 With a hinge at that location, here is the only correct set of forces (that satisfy all 4 equilibrium
 equations):
 
-![Soln 1](/images/sdbeams/eq/eq-demo-2-03b.svg)
+![Soln 1](../../images/sdbeams/eq/eq-demo-2-03b.svg)
 
 
 
 On the other hand, if the hinge is 5m from the right support, here are the only forces that
 satisfy all 4 quilibrium equations:
 
-![Soln 2](/images/sdbeams/eq/eq-demo-2-04b.svg)
+![Soln 2](../../images/sdbeams/eq/eq-demo-2-04b.svg)
 
 
 
@@ -258,11 +258,11 @@ method of 'virtual work'.
 
 
 
-![Beam Structure](/images/sdbeams/eq/eq-demo-2-01.svg)
+![Beam Structure](../../images/sdbeams/eq/eq-demo-2-01.svg)
 
 
 
-![Beam Structure](/images/sdbeams/eq/eq-demo-2-05.svg)
+![Beam Structure](../../images/sdbeams/eq/eq-demo-2-05.svg)
 
 
 
@@ -583,7 +583,7 @@ $$93.75$$
 
 For a linearly elastic, prismatic, statically indeterminate beam, the reactions are:
 
-![Beam Structure](/images/sdbeams/eq/eq-demo-2-06.svg)
+![Beam Structure](../../images/sdbeams/eq/eq-demo-2-06.svg)
 
 
 

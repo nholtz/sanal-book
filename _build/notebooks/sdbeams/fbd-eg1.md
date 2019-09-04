@@ -29,7 +29,7 @@ kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
 
 
 
-![FBD 1](/images/sdbeams/fbd/drawing-2.svg)
+![FBD 1](../../images/sdbeams/fbd/drawing-2.svg)
 
 
 
@@ -208,7 +208,7 @@ Vd/kN, Vb/kN, Hb/kN
 
 
 ## Free Body Diagram of part a-b
-![FBD a-b](/images/sdbeams/fbd/drawing-3.svg)
+![FBD a-b](../../images/sdbeams/fbd/drawing-3.svg)
 
 
 
@@ -316,7 +316,7 @@ Ma
 
 ## Equilibrium Check
 
-![Entire Beam FBD](/images/sdbeams/fbd/drawing-4.svg)
+![Entire Beam FBD](../../images/sdbeams/fbd/drawing-4.svg)
 
 
 

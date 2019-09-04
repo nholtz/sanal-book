@@ -24,7 +24,7 @@ To determine the character of the reactive forces (i.e. their types
 and directions), you determine the displacement contraints, and show
 the force corresponding to each.
 
-![Beam Model and FBD](/images/sdbeams/fbd/drawing-1.svg)
+![Beam Model and FBD](../../images/sdbeams/fbd/drawing-1.svg)
 
    Fig 2-1: Beam model and FBD of complete structure
 
@@ -73,7 +73,7 @@ this FBD, so it is not shown.
    should be shown, even if you can trivially determine they are zero
    under the given loading condition.
 
-![FBD of portion b-c-d](/images/sdbeams/fbd/drawing-2.svg)
+![FBD of portion b-c-d](../../images/sdbeams/fbd/drawing-2.svg)
 
    Fig 2-2: Beam - FBD of portion b-c-d
 
@@ -102,7 +102,7 @@ we do not show an internal moment at *b*.
   Recognizing points in a structure at which internal forces are known to be zero is crucial to
   analyzing many complex structures.
 
-![FBD of portion a-b](/images/sdbeams/fbd/drawing-3.svg)
+![FBD of portion a-b](../../images/sdbeams/fbd/drawing-3.svg)
 
    Fig 2-3: Beam - FBD of portion a-b
 
