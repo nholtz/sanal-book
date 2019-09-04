@@ -11,6 +11,8 @@ next_page:
   title: 'FBD Example 1'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
+
+
 # Demonstration of Equilibrium for a Beam Structure
 The following beam structure may not be completely shown, though it is complete enough to
 discuss the principles of equilibrium.
