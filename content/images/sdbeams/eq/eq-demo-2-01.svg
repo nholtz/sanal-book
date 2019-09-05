@@ -14,8 +14,8 @@
    height="1.5103923in"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (unknown)"
-   sodipodi:docname="eg-demo-1-01.svg"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="eq-demo-2-01.svg"
    viewBox="0 0 338.94296 144.99766">
   <sodipodi:namedview
      id="base"
@@ -28,7 +28,7 @@
      inkscape:cx="169.47148"
      inkscape:cy="72.498831"
      inkscape:document-units="in"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      units="in"
      inkscape:window-width="2373"
@@ -40,7 +40,8 @@
      fit-margin-top="0.2"
      fit-margin-right="0.2"
      fit-margin-left="0.2"
-     fit-margin-bottom="0.2">
+     fit-margin-bottom="0.2"
+     inkscape:snap-global="false">
     <inkscape:grid
        opacity="0.31372549"
        color="#3fe7ff"
@@ -459,5 +460,17 @@
          x="278.39999"
          id="tspan6188"
          sodipodi:role="line">L</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="border">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect77"
+       width="336"
+       height="144"
+       x="1.706349"
+       y="0.42336431" />
   </g>
 </svg>
