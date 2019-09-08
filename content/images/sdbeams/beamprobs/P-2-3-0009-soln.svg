@@ -6,11 +6,32 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg301"
    viewBox="0 0 474.86934 286.80294"
    height="3.9833741in"
    width="6.5954075in"
-   version="1.1">
+   version="1.1"
+   sodipodi:docname="P-2-3-0009-soln.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview161"
+     showgrid="false"
+     inkscape:zoom="1.6893132"
+     inkscape:cx="316.57956"
+     inkscape:cy="191.20196"
+     inkscape:current-layer="g294" />
   <metadata
      id="metadata305">
     <rdf:RDF>
@@ -479,10 +500,11 @@
          d="M -2,-2 2,2 M -2,2 2,-2"
          class="dim" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowEnd)"
          id="path125"
          d="M 0,-15 A 15,15 0 0 1 0,15"
-         class="mloadInkscape" />
+         class="mloadInkscape"
+         inkscape:connector-curvature="0" />
       <text
          style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
          id="text127"
@@ -916,10 +938,11 @@
            d="M -2,-2 2,2 M -2,2 2,-2"
            class="dim" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowEnd)"
            id="path290"
            d="M 0,-15 A 15,15 0 0 1 0,15"
-           class="mloadInkscape" />
+           class="mloadInkscape"
+           inkscape:connector-curvature="0" />
         <text
            style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
            id="text292"
