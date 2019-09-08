@@ -1,14 +1,32 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     version="1.1"
-     width="8.5in" 
-     height="11.0in" 
-     viewBox="0 0 612 792">
-  <defs>
-    <style type="text/css"><![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg397"
+   viewBox="0 0 482.34492 286.80294"
+   height="3.9833741in"
+   width="6.699235in"
+   version="1.1">
+  <metadata
+     id="metadata401">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs61">
+    <style
+       id="style2"
+       type="text/css"><![CDATA[
     .elem {
 	stroke-width: 2.0;
 	stroke: black;
@@ -116,298 +134,1063 @@
      }
 
     ]]></style>
-    <g id="PinnedSupport" transform="translate(0,1.0)">
-      <path d="M 0 0 l 4 6 l -8 0 z" 
-	    stroke="black" stroke-width="0" fill="black" opacity="1.0" />
-      <path d="M -6 6 l 12 0" 
-	    stroke="black" stroke-width="1" fill="none" />
-      <path d="M 6 6 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3"
-	    stroke="black" stroke-width="1" fill="none" />
+    <g
+       transform="translate(0,1)"
+       id="PinnedSupport">
+      <path
+         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0"
+         id="path4"
+         d="M 0,0 4,6 H -4 Z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path6"
+         d="M -6,6 H 6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path8"
+         d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
     </g>
-    <g id="RollerSupport" transform="translate(0,1.0)">
-      <circle cx="0" cy="3" r="3"
-	    stroke="black" stroke-width="0" fill="black" opacity="1.0" />
-      <path d="M -6 6 l 12 0" 
-	    stroke="black" stroke-width="1" fill="none" />
-      <path d="M 6 6 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3"
-	    stroke="black" stroke-width="1" fill="none" />
+    <g
+       transform="translate(0,1)"
+       id="RollerSupport">
+      <circle
+         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0"
+         id="circle11"
+         r="3"
+         cy="3"
+         cx="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path13"
+         d="M -6,6 H 6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path15"
+         d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
     </g>
-    <g id="LFixedSupport" transform="translate(-0.5,0)">
-      <path d="M 0 -6 l 0 12"
-	    stroke="black" stroke-width="1" fill="none" />
-      <path d="M 0 -6 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3"
-	    stroke="black" stroke-width="1" fill="none" />
+    <g
+       transform="translate(-0.5)"
+       id="LFixedSupport">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path18"
+         d="M 0,-6 V 6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1"
+         id="path20"
+         d="m 0,-6 -3,3 m 3,0 -3,3 m 3,0 -3,3 m 3,0 -3,3 m 3,0 -3,3" />
     </g>
-    <g id="RFixedSupport">
-      <use xlink:href="#LFixedSupport" transform="scale(-1,1)"/>
+    <g
+       id="RFixedSupport">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use23"
+         transform="scale(-1,1)"
+         xlink:href="#LFixedSupport" />
     </g>
-    <g id="Hinge">
-      <circle cx="0" cy="0" r="2.5"
-	      stroke="black" stroke-width="1" fill="white"/>
+    <g
+       id="Hinge">
+      <circle
+         style="fill:#ffffff;stroke:#000000;stroke-width:1"
+         id="circle26"
+         r="2.5"
+         cy="0"
+         cx="0" />
     </g>
-    <g id="ShearRelease">
-      <rect x="-3" y="-6" width="6" height="12"
-	    stroke="none" fill="white"/>
-      <circle cx="0" cy="-6" r="2" stroke="black" strokewidth="0.5" fill="white"/>
-      <circle cx="0" cy="0" r="2" stroke="black" strokewidth="0.5" fill="white"/>
-      <circle cx="0" cy="6" r="2" stroke="black" strokewidth="0.5" fill="white"/>
-      <path d="M -3 -9 l 0 18 M 3 -9 l 0 18" stroke="black" stroke-width="1"/>
+    <g
+       id="ShearRelease">
+      <rect
+         style="fill:#ffffff;stroke:none"
+         id="rect29"
+         height="12"
+         width="6"
+         y="-6"
+         x="-3" />
+      <circle
+         style="fill:#ffffff;stroke:#000000"
+         id="circle31"
+         strokewidth="0.5"
+         r="2"
+         cy="-6"
+         cx="0" />
+      <circle
+         style="fill:#ffffff;stroke:#000000"
+         id="circle33"
+         strokewidth="0.5"
+         r="2"
+         cy="0"
+         cx="0" />
+      <circle
+         style="fill:#ffffff;stroke:#000000"
+         id="circle35"
+         strokewidth="0.5"
+         r="2"
+         cy="6"
+         cx="0" />
+      <path
+         style="stroke:#000000;stroke-width:1"
+         id="path37"
+         d="M -3,-9 V 9 M 3,-9 V 9" />
     </g>
-    <marker id="DLArrowStart"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="8"
-	    markerHeight="4"
-	    orient="auto"
-	    viewBox="0 0 8 4"
-	    refX="0"
-	    refY="2">
-      <path d="M 0 2 l 8 -2 l 0 4 z"/>
+    <marker
+       refY="2"
+       refX="0"
+       viewBox="0 0 8 4"
+       orient="auto"
+       markerHeight="4"
+       markerWidth="8"
+       markerUnits="userSpaceOnUse"
+       id="DLArrowStart">
+      <path
+         id="path40"
+         d="M 0,2 8,0 v 4 z" />
     </marker>
-    <marker id="DLArrowEnd"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="8"
-	    markerHeight="4"
-	    orient="auto"
-	    viewBox="0 0 8 4"
-	    refX="8"
-	    refY="2">
-      <path d="M 0 0 l 8 2 l -8 2 z"/>
+    <marker
+       refY="2"
+       refX="8"
+       viewBox="0 0 8 4"
+       orient="auto"
+       markerHeight="4"
+       markerWidth="8"
+       markerUnits="userSpaceOnUse"
+       id="DLArrowEnd">
+      <path
+         id="path43"
+         d="M 0,0 8,2 0,4 Z" />
     </marker>
-    <marker id="CLArrowStart"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="10.0"
-	    markerHeight="6"
-	    orient="auto"
-	    viewBox="0 0 10 6"
-	    refX="3.0"
-	    refY="3">
-      <path d="M 0 3 l 10 -3 l -2 3 l 2 3 z"/>
+    <marker
+       refY="3"
+       refX="3"
+       viewBox="0 0 10 6"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="10"
+       markerUnits="userSpaceOnUse"
+       id="CLArrowStart">
+      <path
+         id="path46"
+         d="M 0,3 10,0 8,3 10,6 Z" />
     </marker>
-    <marker id="CLArrowEnd"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="10.0"
-	    markerHeight="6"
-	    orient="auto"
-	    viewBox="0 0 10 6"
-	    refX="7.0"
-	    refY="3">
-      <path d="M 0 0 l 10 3 l -10 3 l 2 -3 z"/>
+    <marker
+       refY="3"
+       refX="7"
+       viewBox="0 0 10 6"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="10"
+       markerUnits="userSpaceOnUse"
+       id="CLArrowEnd">
+      <path
+         id="path49"
+         d="M 0,0 10,3 0,6 2,3 Z" />
     </marker>
-    <marker id="MLArrowStart"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="10.0"
-	    markerHeight="6"
-	    orient="auto"
-	    viewBox="0 0 10 6"
-	    refX="8"
-	    refY="3">
-      <path d="M 10 0 l -10 3 l 10 3 l -2 -3 z"/>
+    <marker
+       refY="3"
+       refX="8"
+       viewBox="0 0 10 6"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="10"
+       markerUnits="userSpaceOnUse"
+       id="MLArrowStart">
+      <path
+         id="path52"
+         d="M 10,0 0,3 10,6 8,3 Z" />
     </marker>
-    <marker id="MLArrowEnd"
-	    markerUnits="userSpaceOnUse"
-	    markerWidth="10.0"
-	    markerHeight="6"
-	    orient="auto"
-	    viewBox="0 0 10 6"
-	    refX="2"
-	    refY="3">
-      <path d="M 0 0 l 10 3 l -10 3 l 2 -3 z"/>
+    <marker
+       refY="3"
+       refX="2"
+       viewBox="0 0 10 6"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="10"
+       markerUnits="userSpaceOnUse"
+       id="MLArrowEnd">
+      <path
+         id="path55"
+         d="M 0,0 10,3 0,6 2,3 Z" />
     </marker>
-    <pattern id="crosshatch45" patternUnits="userSpaceOnUse"
-             x="0" y="0" width="10" height="10"
-	     viewBox="0 0 10 10">
-       <path d="M 0 0 L 10 10" fill="none" stroke="grey" stroke-width="0.2"/>
+    <pattern
+       viewBox="0 0 10 10"
+       height="10"
+       width="10"
+       y="0"
+       x="0"
+       patternUnits="userSpaceOnUse"
+       id="crosshatch45">
+      <path
+         id="path58"
+         stroke-width="0.2"
+         stroke="grey"
+         fill="none"
+         d="M 0 0 L 10 10" />
     </pattern>
-
-
   </defs>
-
-<g transform="translate(72.0,122.0)">
-  <title>Beam! Length = 24.5</title>
-  <path class="elem" d="M 0 0 l 360.0 0"/>
-  <g transform="translate(0.0,0.0)">
-    <title>LD Load 22 - 18 kN/m</title>
-    <polygon points="0,0 0,-24.0 130.8,-12.0 130.8,0" class="dload"/>
-    <path class="dload" d="M 0.0 -24.0 L 0.0 -1.0"/>
-    <path class="dload" d="M 26.2 -21.6 L 26.2 -1.0"/>
-    <path class="dload" d="M 52.3 -19.2 L 52.3 -1.0"/>
-    <path class="dload" d="M 78.5 -16.8 L 78.5 -1.0"/>
-    <path class="dload" d="M 104.6 -14.4 L 104.6 -1.0"/>
-    <path class="dload" d="M 130.8 -12.0 L 130.8 -1.0"/>
-    <text style="text-anchor: end;" dx="0.0" dy="-2.0" y="-24.0" x="0.0" class="dim">22</text>
-    <text style="text-anchor: start;" dx="0.0" dy="-2.0" y="-12.0" x="130.8" class="dim">18</text>
+  <g
+     id="g395"
+     transform="translate(25.052344,77.281836)">
+    <title
+       id="title63">Beam! Length = 24.5</title>
+    <path
+       style="stroke:#000000;stroke-width:2"
+       id="path65"
+       d="M 0,0 H 360"
+       class="elem" />
+    <g
+       id="g87">
+      <title
+         id="title67">LD Load 22 - 18 kN/m</title>
+      <polygon
+         style="opacity:0.5;fill:#f0f0f0;stroke:#000000;stroke-width:1"
+         id="polygon69"
+         class="dload"
+         points="130.8,-12 130.8,0 0,0 0,-24 " />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path71"
+         d="M 0,-24 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path73"
+         d="M 26.2,-21.6 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path75"
+         d="M 52.3,-19.2 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path77"
+         d="M 78.5,-16.8 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path79"
+         d="M 104.6,-14.4 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path81"
+         d="M 130.8,-12 V -1"
+         class="dload" />
+      <text
+         id="text83"
+         class="dim"
+         x="0"
+         y="-24"
+         dy="-2"
+         dx="0"
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:end;fill:#000000">22</text>
+      <text
+         id="text85"
+         class="dim"
+         x="130.8"
+         y="-12"
+         dy="-2"
+         dx="0"
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000">18</text>
+    </g>
+    <g
+       id="g113"
+       transform="translate(130.8)">
+      <title
+         id="title89">UD Load 19 kN/m</title>
+      <polygon
+         style="opacity:0.5;fill:#f0f0f0;stroke:#000000;stroke-width:1"
+         id="polygon91"
+         class="dload"
+         points="208.7,-15 208.7,0 0,0 0,-15 " />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path93"
+         d="M 0,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path95"
+         d="M 26.1,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path97"
+         d="M 52.2,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path99"
+         d="M 78.2,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path101"
+         d="M 104.3,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path103"
+         d="M 130.4,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path105"
+         d="M 156.5,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path107"
+         d="M 182.6,-15 V -1"
+         class="dload" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+         id="path109"
+         d="M 208.7,-15 V -1"
+         class="dload" />
+      <text
+         id="text111"
+         class="dim"
+         x="104.3"
+         y="-15"
+         dy="-2"
+         dx="0"
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000">19</text>
+    </g>
+    <g
+       id="g121"
+       transform="translate(360,-1)">
+      <title
+         id="title115">Point Load = 75 kN</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+         id="path117"
+         d="M 0,-42 V -3"
+         class="cload" />
+      <text
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+         id="text119"
+         dy="-3"
+         class="dim"
+         x="0"
+         y="-42">75</text>
+    </g>
+    <g
+       id="g129"
+       transform="translate(95.5,-1)">
+      <title
+         id="title123">Point Load = 65 kN</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+         id="path125"
+         d="M 0,-26 V -3"
+         class="cload" />
+      <text
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+         id="text127"
+         dy="-3"
+         class="dim"
+         x="0"
+         y="-26">65</text>
+    </g>
+    <g
+       id="g139"
+       transform="translate(182.2)">
+      <title
+         id="title131">Moment load = -70 kN-m</title>
+      <path
+         style="stroke:#000000;stroke-width:0.5"
+         id="path133"
+         d="M -2,-2 2,2 M -2,2 2,-2"
+         class="dim" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+         id="path135"
+         d="m 7.5,-13 a 15,15 0 0 1 0,26"
+         class="mloadInkscape" />
+      <text
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+         id="text137"
+         dy="-4"
+         class="dim"
+         x="7.5"
+         y="-13">70</text>
+    </g>
+    <g
+       id="g149"
+       transform="translate(32.3)">
+      <title
+         id="title141">Moment load = -140 kN-m</title>
+      <path
+         style="stroke:#000000;stroke-width:0.5"
+         id="path143"
+         d="M -2,-2 2,2 M -2,2 2,-2"
+         class="dim" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+         id="path145"
+         d="M 0,-15 A 15,15 0 0 1 0,15"
+         class="mloadInkscape" />
+      <text
+         style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+         id="text147"
+         dy="-4"
+         class="dim"
+         x="0"
+         y="-15">140</text>
+    </g>
+    <use
+       height="100%"
+       width="100%"
+       id="use151"
+       xlink:href="#RollerSupport"
+       x="14.7"
+       y="0" />
+    <use
+       height="100%"
+       width="100%"
+       id="use153"
+       xlink:href="#Hinge"
+       x="95.5"
+       y="0" />
+    <use
+       height="100%"
+       width="100%"
+       id="use155"
+       xlink:href="#RollerSupport"
+       x="130.8"
+       y="0" />
+    <use
+       height="100%"
+       width="100%"
+       id="use157"
+       xlink:href="#Hinge"
+       x="263"
+       y="0" />
+    <use
+       height="100%"
+       width="100%"
+       id="use159"
+       xlink:href="#RollerSupport"
+       x="280.70001"
+       y="0" />
+    <use
+       height="100%"
+       width="100%"
+       id="use161"
+       xlink:href="#PinnedSupport"
+       x="339.39999"
+       y="0" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path163"
+       d="M 32.3,10 V 35"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path165"
+       d="M 14.7,30 H 32.3"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path167"
+       d="m 14.7,30 m -3,3 6,-6"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path169"
+       d="m 32.3,30 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text171"
+       dy="-3"
+       class="dim"
+       x="23.5"
+       y="30">1.2</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path173"
+       d="M 182.2,10 V 35"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path175"
+       d="m 130.8,30 h 51.4"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path177"
+       d="m 130.8,30 m -3,3 6,-6"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path179"
+       d="m 182.2,30 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text181"
+       dy="-3"
+       class="dim"
+       x="156.5"
+       y="30">3.5</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path183"
+       d="M 95.5,10 V 50"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path185"
+       d="M 14.7,45 H 95.5"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path187"
+       d="m 14.7,45 m -3,3 6,-6"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path189"
+       d="m 95.5,45 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text191"
+       dy="-3"
+       class="dim"
+       x="55.099998"
+       y="45">5.5</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path193"
+       d="M 263,10 V 50"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path195"
+       d="M 130.8,45 H 263"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path197"
+       d="m 130.8,45 m -3,3 6,-6"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path199"
+       d="m 263,45 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text201"
+       dy="-3"
+       class="dim"
+       x="196.89999"
+       y="45">9</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path203"
+       d="M 0,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path205"
+       d="M 14.7,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path207"
+       d="M 0,60 H 14.7"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path209"
+       d="m 0,60 m -3,3 6,-6"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path211"
+       d="m 14.7,60 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text213"
+       dy="-3"
+       class="dim"
+       x="7.3000002"
+       y="60">1</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path215"
+       d="M 130.8,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path217"
+       d="M 14.7,60 H 130.8"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path219"
+       d="m 130.8,60 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text221"
+       dy="-3"
+       class="dim"
+       x="72.699997"
+       y="60">7.9</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path223"
+       d="M 280.7,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path225"
+       d="M 130.8,60 H 280.7"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path227"
+       d="m 280.7,60 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text229"
+       dy="-3"
+       class="dim"
+       x="205.7"
+       y="60">10.2</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path231"
+       d="M 339.4,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path233"
+       d="m 280.7,60 h 58.8"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path235"
+       d="m 339.4,60 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text237"
+       dy="-3"
+       class="dim"
+       x="310"
+       y="60">4</text>
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path239"
+       d="M 360,10 V 65"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path241"
+       d="M 339.4,60 H 360"
+       class="dim" />
+    <path
+       style="stroke:#000000;stroke-width:0.5"
+       id="path243"
+       d="m 360,60 m -3,3 6,-6"
+       class="dim" />
+    <text
+       style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+       id="text245"
+       dy="-3"
+       class="dim"
+       x="349.70001"
+       y="60">1.4</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text247"
+       dx="1"
+       class="ptlabel"
+       x="0"
+       y="17">a</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text249"
+       dx="1"
+       class="ptlabel"
+       x="14.7"
+       y="17">b</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text251"
+       dx="1"
+       class="ptlabel"
+       x="32.299999"
+       y="17">c</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text253"
+       dx="1"
+       class="ptlabel"
+       x="95.5"
+       y="17">d</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text255"
+       dx="1"
+       class="ptlabel"
+       x="130.8"
+       y="17">e</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text257"
+       dx="1"
+       class="ptlabel"
+       x="182.2"
+       y="17">f</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text259"
+       dx="1"
+       class="ptlabel"
+       x="263"
+       y="17">g</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text261"
+       dx="1"
+       class="ptlabel"
+       x="280.70001"
+       y="17">h</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text263"
+       dx="1"
+       class="ptlabel"
+       x="339.39999"
+       y="17">i</text>
+    <text
+       style="font-style:italic;font-size:7px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+       id="text265"
+       dx="1"
+       class="ptlabel"
+       x="360"
+       y="17">j</text>
+    <text
+       style="font-style:italic;font-weight:normal;font-size:9px;font-family:Verdana, Arial;text-align:center;fill:#000000"
+       id="text267"
+       class="notes"
+       xml:space="preserve"
+       x="0"
+       y="-56">Units are m, kN;       Difficulty Level = 9</text>
+    <g
+       style="visibility:visible"
+       visibility="visible"
+       id="fbd-guides">
+      <path
+         style="stroke:#808080;stroke-width:0.5"
+         id="path269"
+         d="M 0,66 V 186 M 14.7,66 V 186 M 32.3,66 V 186 M 95.5,66 V 186 M 130.8,66 V 186 M 182.2,66 V 186 M 263,66 V 186 M 280.7,66 V 186 M 339.4,66 V 186 M 360,66 v 120"
+         class="guides" />
+    </g>
+    <g
+       style="visibility:visible"
+       transform="translate(0,144)"
+       visibility="visible"
+       id="beam-fb-diagram">
+      <title
+         id="title272">Free Body Diagram</title>
+      <path
+         style="stroke:#000000;stroke-width:2"
+         id="path274"
+         d="M 0,0 H 360"
+         class="elem" />
+      <g
+         id="g296">
+        <title
+           id="title276">LD Load 22 - 18 kN/m</title>
+        <polygon
+           style="opacity:0.5;fill:#f0f0f0;stroke:#000000;stroke-width:1"
+           id="polygon278"
+           class="dload"
+           points="130.8,-12 130.8,0 0,0 0,-24 " />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path280"
+           d="M 0,-24 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path282"
+           d="M 26.2,-21.6 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path284"
+           d="M 52.3,-19.2 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path286"
+           d="M 78.5,-16.8 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path288"
+           d="M 104.6,-14.4 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path290"
+           d="M 130.8,-12 V -1"
+           class="dload" />
+        <text
+           id="text292"
+           class="dim"
+           x="0"
+           y="-24"
+           dy="-2"
+           dx="0"
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:end;fill:#000000">22</text>
+        <text
+           id="text294"
+           class="dim"
+           x="130.8"
+           y="-12"
+           dy="-2"
+           dx="0"
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000">18</text>
+      </g>
+      <g
+         id="g322"
+         transform="translate(130.8)">
+        <title
+           id="title298">UD Load 19 kN/m</title>
+        <polygon
+           style="opacity:0.5;fill:#f0f0f0;stroke:#000000;stroke-width:1"
+           id="polygon300"
+           class="dload"
+           points="208.7,-15 208.7,0 0,0 0,-15 " />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path302"
+           d="M 0,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path304"
+           d="M 26.1,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path306"
+           d="M 52.2,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path308"
+           d="M 78.2,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path310"
+           d="M 104.3,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path312"
+           d="M 130.4,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path314"
+           d="M 156.5,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path316"
+           d="M 182.6,-15 V -1"
+           class="dload" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#DLArrowEnd)"
+           id="path318"
+           d="M 208.7,-15 V -1"
+           class="dload" />
+        <text
+           id="text320"
+           class="dim"
+           x="104.3"
+           y="-15"
+           dy="-2"
+           dx="0"
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000">19</text>
+      </g>
+      <g
+         id="g330"
+         transform="translate(360,-1)">
+        <title
+           id="title324">Point Load = 75 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path326"
+           d="M 0,-29.9 V -3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text328"
+           dy="-3"
+           class="dim"
+           x="0"
+           y="-29.9">75</text>
+      </g>
+      <g
+         id="g338"
+         transform="translate(95.5,-1)">
+        <title
+           id="title332">Point Load = 65 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path334"
+           d="M 0,-29.4 V -3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text336"
+           dy="-3"
+           class="dim"
+           x="0"
+           y="-29.4">65</text>
+      </g>
+      <g
+         id="g346"
+         transform="translate(14.7,1)">
+        <title
+           id="title340">Point Load = -55.3052 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path342"
+           d="M 0,28.9 V 3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text344"
+           dy="8"
+           class="dim"
+           x="0"
+           y="28.9">55.31</text>
+      </g>
+      <g
+         id="g354"
+         transform="translate(130.8,1)">
+        <title
+           id="title348">Point Load = -309.594 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path350"
+           d="M 0,42 V 3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text352"
+           dy="8"
+           class="dim"
+           x="0"
+           y="42">309.6</text>
+      </g>
+      <g
+         id="g362"
+         transform="translate(280.7,1)">
+        <title
+           id="title356">Point Load = -101.801 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path358"
+           d="M 0,31.3 V 3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text360"
+           dy="8"
+           class="dim"
+           x="0"
+           y="31.299999">101.8</text>
+      </g>
+      <g
+         id="g370"
+         transform="translate(339.4,1)">
+        <title
+           id="title364">Point Load = -121.1 kN</title>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#CLArrowEnd)"
+           id="path366"
+           d="M 0,32.3 V 3"
+           class="cload" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text368"
+           dy="8"
+           class="dim"
+           x="0"
+           y="32.299999">121.1</text>
+      </g>
+      <g
+         id="g380"
+         transform="translate(182.2)">
+        <title
+           id="title372">Moment load = -70 kN-m</title>
+        <path
+           style="stroke:#000000;stroke-width:0.5"
+           id="path374"
+           d="M -2,-2 2,2 M -2,2 2,-2"
+           class="dim" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+           id="path376"
+           d="m 7.5,-13 a 15,15 0 0 1 0,26"
+           class="mloadInkscape" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text378"
+           dy="-4"
+           class="dim"
+           x="7.5"
+           y="-13">70</text>
+      </g>
+      <g
+         id="g390"
+         transform="translate(32.3)">
+        <title
+           id="title382">Moment load = -140 kN-m</title>
+        <path
+           style="stroke:#000000;stroke-width:0.5"
+           id="path384"
+           d="M -2,-2 2,2 M -2,2 2,-2"
+           class="dim" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;marker-end:url(#MLArrowStart)"
+           id="path386"
+           d="M 0,-15 A 15,15 0 0 1 0,15"
+           class="mloadInkscape" />
+        <text
+           style="font-weight:bold;font-size:8px;font-family:Verdana, Arial;text-align:center;text-anchor:middle;fill:#000000"
+           id="text388"
+           dy="-4"
+           class="dim"
+           x="0"
+           y="-15">140</text>
+      </g>
+      <text
+         style="font-weight:bold;font-size:10px;font-family:Verdana, Arial;text-align:center;text-anchor:start;fill:#000000"
+         id="text392"
+         dx="18"
+         class="dwglabel"
+         y="0"
+         x="360">FBD [m,kN]</text>
+    </g>
   </g>
-  <g transform="translate(130.8,0.0)">
-    <title>UD Load 19 kN/m</title>
-    <polygon points="0,0 0,-15.0 208.7,-15.0 208.7,0" class="dload"/>
-    <path class="dload" d="M 0.0 -15.0 L 0.0 -1.0"/>
-    <path class="dload" d="M 26.1 -15.0 L 26.1 -1.0"/>
-    <path class="dload" d="M 52.2 -15.0 L 52.2 -1.0"/>
-    <path class="dload" d="M 78.2 -15.0 L 78.2 -1.0"/>
-    <path class="dload" d="M 104.3 -15.0 L 104.3 -1.0"/>
-    <path class="dload" d="M 130.4 -15.0 L 130.4 -1.0"/>
-    <path class="dload" d="M 156.5 -15.0 L 156.5 -1.0"/>
-    <path class="dload" d="M 182.6 -15.0 L 182.6 -1.0"/>
-    <path class="dload" d="M 208.7 -15.0 L 208.7 -1.0"/>
-    <text style="text-anchor: middle;" dx="0.0" dy="-2.0" y="-15.0" x="104.3" class="dim">19</text>
-  </g>
-  <g transform="translate(360.0,-1.0)">
-    <title>Point Load = 75 kN</title>
-    <path class="cload" d="M 0 -42.0 l 0 39.0"/>
-    <text y="-42.0" x="0" class="dim" dy="-3.0">75</text>
-  </g>
-  <g transform="translate(95.5,-1.0)">
-    <title>Point Load = 65 kN</title>
-    <path class="cload" d="M 0 -26.0 l 0 23.0"/>
-    <text y="-26.0" x="0" class="dim" dy="-3.0">65</text>
-  </g>
-  <g transform="translate(182.2,0.0)">
-    <title>Moment load = -70 kN-m</title>
-    <path class="dim" d="M -2.0 -2.0 l 4.0 4.0 M -2.0 2.0 l 4.0 -4.0"/>
-    <path class="mloadInkscape" d="M 7.5,-13.0 A 15.0,15.0 0 0,1 7.5,13.0"/>
-    <text y="-13.0" x="7.5" class="dim" dy="-4.0">70</text>
-  </g>
-  <g transform="translate(32.3,0.0)">
-    <title>Moment load = -140 kN-m</title>
-    <path class="dim" d="M -2.0 -2.0 l 4.0 4.0 M -2.0 2.0 l 4.0 -4.0"/>
-    <path class="mloadInkscape" d="M 0.0,-15.0 A 15.0,15.0 0 0,1 0.0,15.0"/>
-    <text y="-15.0" x="0.0" class="dim" dy="-4.0">140</text>
-  </g>
-  <use y="0" x="14.7" xlink:href="#RollerSupport"/>
-  <use y="0" x="95.5" xlink:href="#Hinge"/>
-  <use y="0" x="130.8" xlink:href="#RollerSupport"/>
-  <use y="0" x="263.0" xlink:href="#Hinge"/>
-  <use y="0" x="280.7" xlink:href="#RollerSupport"/>
-  <use y="0" x="339.4" xlink:href="#PinnedSupport"/>
-  <path class="dim" d="M 32.3 10.0 l 0 25.0"/>
-  <path class="dim" d="M 14.7 30.0 l 17.6 0"/>
-  <path class="dim" d="M 14.7 30.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <path class="dim" d="M 32.3 30.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="30.0" x="23.5" class="dim" dy="-3.0">1.2</text>
-  <path class="dim" d="M 182.2 10.0 l 0 25.0"/>
-  <path class="dim" d="M 130.8 30.0 l 51.4 0"/>
-  <path class="dim" d="M 130.8 30.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <path class="dim" d="M 182.2 30.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="30.0" x="156.5" class="dim" dy="-3.0">3.5</text>
-  <path class="dim" d="M 95.5 10.0 l 0 40.0"/>
-  <path class="dim" d="M 14.7 45.0 l 80.8 0"/>
-  <path class="dim" d="M 14.7 45.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <path class="dim" d="M 95.5 45.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="45.0" x="55.1" class="dim" dy="-3.0">5.5</text>
-  <path class="dim" d="M 263.0 10.0 l 0 40.0"/>
-  <path class="dim" d="M 130.8 45.0 l 132.2 0"/>
-  <path class="dim" d="M 130.8 45.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <path class="dim" d="M 263.0 45.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="45.0" x="196.9" class="dim" dy="-3.0">9</text>
-  <path class="dim" d="M 0.0 10.0 l 0 55.0"/>
-  <path class="dim" d="M 14.7 10.0 l 0 55.0"/>
-  <path class="dim" d="M 0.0 60.0 l 14.7 0"/>
-  <path class="dim" d="M 0.0 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <path class="dim" d="M 14.7 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="60.0" x="7.3" class="dim" dy="-3.0">1</text>
-  <path class="dim" d="M 130.8 10.0 l 0 55.0"/>
-  <path class="dim" d="M 14.7 60.0 l 116.1 0"/>
-  <path class="dim" d="M 130.8 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="60.0" x="72.7" class="dim" dy="-3.0">7.9</text>
-  <path class="dim" d="M 280.7 10.0 l 0 55.0"/>
-  <path class="dim" d="M 130.8 60.0 l 149.9 0"/>
-  <path class="dim" d="M 280.7 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="60.0" x="205.7" class="dim" dy="-3.0">10.2</text>
-  <path class="dim" d="M 339.4 10.0 l 0 55.0"/>
-  <path class="dim" d="M 280.7 60.0 l 58.8 0"/>
-  <path class="dim" d="M 339.4 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="60.0" x="310.0" class="dim" dy="-3.0">4</text>
-  <path class="dim" d="M 360.0 10.0 l 0 55.0"/>
-  <path class="dim" d="M 339.4 60.0 l 20.6 0"/>
-  <path class="dim" d="M 360.0 60.0 m -3.0 3.0 l 6.0 -6.0"/>
-  <text y="60.0" x="349.7" class="dim" dy="-3.0">1.4</text>
-  <text y="17.0" x="0.0" class="ptlabel" dx="1.0">a</text>
-  <text y="17.0" x="14.7" class="ptlabel" dx="1.0">b</text>
-  <text y="17.0" x="32.3" class="ptlabel" dx="1.0">c</text>
-  <text y="17.0" x="95.5" class="ptlabel" dx="1.0">d</text>
-  <text y="17.0" x="130.8" class="ptlabel" dx="1.0">e</text>
-  <text y="17.0" x="182.2" class="ptlabel" dx="1.0">f</text>
-  <text y="17.0" x="263.0" class="ptlabel" dx="1.0">g</text>
-  <text y="17.0" x="280.7" class="ptlabel" dx="1.0">h</text>
-  <text y="17.0" x="339.4" class="ptlabel" dx="1.0">i</text>
-  <text y="17.0" x="360.0" class="ptlabel" dx="1.0">j</text>
-  <text y="-56.0" x="0" xml:space="preserve" class="notes">Units are m, kN;       Difficulty Level = 9</text>
-  <g id="fbd-guides" visibility="visible" transform="translate(0.0,0.0)">
-    <path class="guides" d="M 0.0 66.0 L 0.0 186.0 M 14.7 66.0 L 14.7 186.0 M 32.3 66.0 L 32.3 186.0 M 95.5 66.0 L 95.5 186.0 M 130.8 66.0 L 130.8 186.0 M 182.2 66.0 L 182.2 186.0 M 263.0 66.0 L 263.0 186.0 M 280.7 66.0 L 280.7 186.0 M 339.4 66.0 L 339.4 186.0 M 360.0 66.0 L 360.0 186.0"/>
-  </g>
-  <g id="beam-fb-diagram" visibility="visible" transform="translate(0.0,144.0)">
-    <title>Free Body Diagram</title>
-    <path class="elem" d="M 0 0 l 360.0 0"/>
-    <g transform="translate(0.0,0.0)">
-      <title>LD Load 22 - 18 kN/m</title>
-      <polygon points="0,0 0,-24.0 130.8,-12.0 130.8,0" class="dload"/>
-      <path class="dload" d="M 0.0 -24.0 L 0.0 -1.0"/>
-      <path class="dload" d="M 26.2 -21.6 L 26.2 -1.0"/>
-      <path class="dload" d="M 52.3 -19.2 L 52.3 -1.0"/>
-      <path class="dload" d="M 78.5 -16.8 L 78.5 -1.0"/>
-      <path class="dload" d="M 104.6 -14.4 L 104.6 -1.0"/>
-      <path class="dload" d="M 130.8 -12.0 L 130.8 -1.0"/>
-      <text style="text-anchor: end;" dx="0.0" dy="-2.0" y="-24.0" x="0.0" class="dim">22</text>
-      <text style="text-anchor: start;" dx="0.0" dy="-2.0" y="-12.0" x="130.8" class="dim">18</text>
-    </g>
-    <g transform="translate(130.8,0.0)">
-      <title>UD Load 19 kN/m</title>
-      <polygon points="0,0 0,-15.0 208.7,-15.0 208.7,0" class="dload"/>
-      <path class="dload" d="M 0.0 -15.0 L 0.0 -1.0"/>
-      <path class="dload" d="M 26.1 -15.0 L 26.1 -1.0"/>
-      <path class="dload" d="M 52.2 -15.0 L 52.2 -1.0"/>
-      <path class="dload" d="M 78.2 -15.0 L 78.2 -1.0"/>
-      <path class="dload" d="M 104.3 -15.0 L 104.3 -1.0"/>
-      <path class="dload" d="M 130.4 -15.0 L 130.4 -1.0"/>
-      <path class="dload" d="M 156.5 -15.0 L 156.5 -1.0"/>
-      <path class="dload" d="M 182.6 -15.0 L 182.6 -1.0"/>
-      <path class="dload" d="M 208.7 -15.0 L 208.7 -1.0"/>
-      <text style="text-anchor: middle;" dx="0.0" dy="-2.0" y="-15.0" x="104.3" class="dim">19</text>
-    </g>
-    <g transform="translate(360.0,-1.0)">
-      <title>Point Load = 75 kN</title>
-      <path class="cload" d="M 0 -29.9 l 0 26.9"/>
-      <text y="-29.9" x="0" class="dim" dy="-3.0">75</text>
-    </g>
-    <g transform="translate(95.5,-1.0)">
-      <title>Point Load = 65 kN</title>
-      <path class="cload" d="M 0 -29.4 l 0 26.4"/>
-      <text y="-29.4" x="0" class="dim" dy="-3.0">65</text>
-    </g>
-    <g transform="translate(14.7,1.0)">
-      <title>Point Load = -55.3052 kN</title>
-      <path class="cload" d="M 0 28.9 l 0 -25.9"/>
-      <text y="28.9" x="0" class="dim" dy="8.0">55.31</text>
-    </g>
-    <g transform="translate(130.8,1.0)">
-      <title>Point Load = -309.594 kN</title>
-      <path class="cload" d="M 0 42.0 l 0 -39.0"/>
-      <text y="42.0" x="0" class="dim" dy="8.0">309.6</text>
-    </g>
-    <g transform="translate(280.7,1.0)">
-      <title>Point Load = -101.801 kN</title>
-      <path class="cload" d="M 0 31.3 l 0 -28.3"/>
-      <text y="31.3" x="0" class="dim" dy="8.0">101.8</text>
-    </g>
-    <g transform="translate(339.4,1.0)">
-      <title>Point Load = -121.1 kN</title>
-      <path class="cload" d="M 0 32.3 l 0 -29.3"/>
-      <text y="32.3" x="0" class="dim" dy="8.0">121.1</text>
-    </g>
-    <g transform="translate(182.2,0.0)">
-      <title>Moment load = -70 kN-m</title>
-      <path class="dim" d="M -2.0 -2.0 l 4.0 4.0 M -2.0 2.0 l 4.0 -4.0"/>
-      <path class="mloadInkscape" d="M 7.5,-13.0 A 15.0,15.0 0 0,1 7.5,13.0"/>
-      <text y="-13.0" x="7.5" class="dim" dy="-4.0">70</text>
-    </g>
-    <g transform="translate(32.3,0.0)">
-      <title>Moment load = -140 kN-m</title>
-      <path class="dim" d="M -2.0 -2.0 l 4.0 4.0 M -2.0 2.0 l 4.0 -4.0"/>
-      <path class="mloadInkscape" d="M 0.0,-15.0 A 15.0,15.0 0 0,1 0.0,15.0"/>
-      <text y="-15.0" x="0.0" class="dim" dy="-4.0">140</text>
-    </g>
-    <text x="360.0" y="0" class="dwglabel" dx="18.0">FBD [m,kN]</text>
-  </g>
-</g>
-
 </svg>
