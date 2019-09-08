@@ -57,14 +57,15 @@ displacement, and so we show only a vertical force, $V_d$.
 The location of the internal hinge is not particularly relevant on
 this FBD, so it is not shown.
 
-> **IMPORTANT:**
+<div class="admonition important>
    Free body diagrams should *not* show uniformly distributed loads
    replaced by their statically equivalent concentrated loads.  That
    does not make things simpler, but it does increase chances for
    confusion and error later when you draw shear force and bending
    moment diagrams.
+</div>
 
-> **IMPORTANT:**
+<div class="admonition important>
    After a little experience, you can tell by 'inspection' that the
    horizontal force at *a*, $H_a$, is 0.  However, you use an
    equation of equilibrium to know that, and it is important not to
@@ -72,6 +73,7 @@ this FBD, so it is not shown.
    All forces that *could* develop under other loading conditions
    should be shown, even if you can trivially determine they are zero
    under the given loading condition.
+</div>
 
 ![FBD of portion b-c-d](../../images/sdbeams/fbd/drawing-2.svg)
 
@@ -98,9 +100,10 @@ There is no constraint against relative rotation of the beam to either
 side of the hinge -- after all, that is what a hinge allows -- and so
 we do not show an internal moment at *b*.
 
-> **IMPORTANT:**
+<div class="admonition important>
   Recognizing points in a structure at which internal forces are known to be zero is crucial to
   analyzing many complex structures.
+</div>
 
 ![FBD of portion a-b](../../images/sdbeams/fbd/drawing-3.svg)
 
@@ -124,10 +127,11 @@ direction.
 The FBD of Fig. 2-3 shows the forces at *b*, $H_b$ and $V_b$ being
 equal and opposite to those shown in Fig. 2-2.
 
-> **IMPORTANT:**
+<div class="admonition important>
    Unknown internal forces shown on one FBD of a portion of a
    structure must be shown as equal and opposite at the same point on
    the adjacent FBD.
+</div>
 
 ### References
 
