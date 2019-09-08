@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="4.3612361in"
+   height="1.391106in"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="beam1-unstable.svg">
+  <script
+     xlink:href=""
+     id="script3033" />
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.52"
+     inkscape:cx="216.45368"
+     inkscape:cy="52.596182"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="in"
+     inkscape:window-width="1179"
+     inkscape:window-height="979"
+     inkscape:window-x="528"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:snap-global="false"
+     fit-margin-top="0.2"
+     fit-margin-left="0.2"
+     fit-margin-right="0.2"
+     fit-margin-bottom="0.2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="in"
+       spacingx="9"
+       spacingy="9"
+       originx="-239.10806"
+       originy="-629.60215" />
+    <sodipodi:guide
+       position="-239.10806,-629.60215"
+       orientation="0,765"
+       id="guide3042"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="525.89194,-629.60215"
+       orientation="-990,0"
+       id="guide3044"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="525.89194,360.39785"
+       orientation="0,-765"
+       id="guide3046"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-239.10806,360.39785"
+       orientation="990,0"
+       id="guide3048"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="480.89194,-584.60215"
+       orientation="0,765"
+       id="guide3050"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="480.89194,270.39785"
+       orientation="-990,0"
+       id="guide3052"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-176.10806,270.39785"
+       orientation="0,-765"
+       id="guide3054"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-149.10806,297.39785"
+       orientation="990,0"
+       id="guide3056"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-239.10806,-289.21367)">
+    <g
+       id="g4108">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2998"
+         d="M 270,332.362 H 630"
+         style="fill:none;stroke:#000000;stroke-width:2.53546286;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         transform="matrix(1.25,0,0,1.25,360.49344,332.362)"
+         id="use3513">
+        <circle
+           style="fill:#ffffff;stroke:#000000;stroke-width:1"
+           id="circle3573"
+           r="2.5"
+           cy="0"
+           cx="0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,1.25,270,332.362)"
+         id="use90">
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           id="path5224"
+           d="M 0,0 4,6 H -4 Z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5226"
+           d="M -6,6 H 6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5228"
+           d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+      </g>
+      <g
+         inkscape:transform-center-y="5.9375"
+         inkscape:transform-center-x="-6.125"
+         transform="matrix(1.25,0,0,1.25,405.19734,333.66466)"
+         id="use3515">
+        <circle
+           style="fill:#000000;stroke:#000000;stroke-width:0"
+           id="circle5277"
+           r="3"
+           cy="3"
+           cx="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5279"
+           d="M -6,6 H 6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5281"
+           d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,1.25,495,332.362)"
+         id="use90-2">
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           id="path5224-5"
+           d="M 0,0 4,6 H -4 Z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5226-4"
+           d="M -6,6 H 6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5228-7"
+           d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+      </g>
+      <g
+         inkscape:transform-center-y="5.9375"
+         inkscape:transform-center-x="-6.125"
+         transform="matrix(1.25,0,0,1.25,630.64477,332.612)"
+         id="use3515-4">
+        <circle
+           style="fill:#000000;stroke:#000000;stroke-width:0"
+           id="circle5277-4"
+           r="3"
+           cy="3"
+           cx="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5279-3"
+           d="M -6,6 H 6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1"
+           inkscape:connector-curvature="0"
+           id="path5281-0"
+           d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,1.25,459.82234,332.362)"
+         id="use3513-7">
+        <circle
+           style="fill:#ffffff;stroke:#000000;stroke-width:1"
+           id="circle3573-8"
+           r="2.5"
+           cy="0"
+           cx="0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,1.25,567.7039,332.362)"
+         id="use3513-6">
+        <circle
+           style="fill:#ffffff;stroke:#000000;stroke-width:1"
+           id="circle3573-88"
+           r="2.5"
+           cy="0"
+           cx="0" />
+      </g>
+      <text
+         transform="translate(0,62.362)"
+         id="text3311"
+         y="311.71054"
+         x="366.44736"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="311.71054"
+           x="366.44736"
+           id="tspan3313"
+           sodipodi:role="line"
+           style="font-size:11px;line-height:1.25">r = 2 + 1 + 2 + 1 = 6</tspan><tspan
+           id="tspan3315"
+           y="325.46054"
+           x="366.44736"
+           sodipodi:role="line"
+           style="font-size:11px;line-height:1.25">c = 3</tspan><tspan
+           id="tspan3317"
+           y="339.21054"
+           x="366.44736"
+           sodipodi:role="line"
+           style="font-size:11px;line-height:1.25">r = 3 + c, but unstable</tspan></text>
+      <path
+         transform="translate(0,62.362)"
+         inkscape:connector-curvature="0"
+         id="path3319"
+         d="m 270,270 90,18 98.55263,-38.13158 108.55263,58.55263 63.81579,-38.81579"
+         style="fill:none;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.99, 1.98;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         cx="0"
+         cy="0"
+         r="2.5"
+         id="circle3573-88-3"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
+         transform="matrix(1.25,0,0,1.25,567,368.99358)" />
+      <circle
+         cx="0"
+         cy="0"
+         r="2.5"
+         id="circle3573-88-3-1"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
+         transform="matrix(1.25,0,0,1.25,457.56174,312.16367)" />
+      <circle
+         cx="0"
+         cy="0"
+         r="2.5"
+         id="circle3573-88-3-1-4"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
+         transform="matrix(1.25,0,0,1.25,359.56174,350.16367)" />
+    </g>
+  </g>
+</svg>

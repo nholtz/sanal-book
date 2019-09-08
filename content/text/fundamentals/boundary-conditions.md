@@ -2,24 +2,32 @@
 
 ## 1.3: Boundary Conditions: Constraints and Internal Conditions
 
->**IMPORTANT:** If a displacement or a relative displacement is
->prevented, or constrained to be a certain value, there must be a
->corresponding force that is exactly sufficient to ensure that
->constraint.
+<div class="admonition important">
+If a displacement or a relative displacement is
+prevented, or constrained to be a certain value, there must be a
+corresponding force that is exactly sufficient to ensure that
+constraint.
+<BR/>
+If a displacement or relative displacement is freely allowed, the
+corresponding force will be zero.
+</div>
 
-> If a displacement or relative displacement is freely allowed, the
-> corresponding force will be zero.
+<div class="admonition important">
+If an external or internal force is constrained to be
+zero (or, rarely, some other specific value), there must be a
+corresponding displacement that is exactly sufficient to ensure that
+constraint.
+</div>
 
->**IMPORTANT:** If an external or internal force is constrained to be
->zero (or, rarely, some other specific value), there must be a
->corresponding displacement that is exactly sufficient to ensure that
->constraint.
+<div class="admonition important">
+At any point in a structure you cannot constrain both
+*force* and *displacement*.  If one is constrained, the principles of
+structural analysis must be used to compute the other.
+</div>
 
->**IMPORTANT:** At any point in a structure you cannot constrain both
->*force* and *displacement*.  If one is constrained, the principles of
->structural analysis must be used to compute the other.
-
->**NOTE:** This section by G.A. Hartley
+<div class="admonition note">
+This section by G.A. Hartley
+</div>
 
 ### 1.3.1: Supports
 
@@ -80,10 +88,12 @@ possible in general. The internal condition can be stated briefly as
 follows. The beam remains connected at this point, but the connected
 elements are free to articulate about it.
 
->**NOTE:** The distinction between internal support conditions and
->other support conditions is not very useful, but the determination of
->internal release conditions is essential for understanding statical
->determinacy (in a later section).
+<div class="admonition note">
+The distinction between internal support conditions and
+other support conditions is not very useful, but the determination of
+internal release conditions is essential for understanding statical
+determinacy (in a later section).
+</div>
 
 ### 1.3.3: Contrived Supports and Conditions
 

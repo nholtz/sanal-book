@@ -78,12 +78,15 @@ and two moment equations, as long as a line through the two moment
 points is not parallel to the force direction.
 
 
-> :exclamation:
-> In a general 2D force system, there are *never* more
-> than three independent scalar equations available.
+<div class="admonition important">
+In a general 2D force system, there are *never* more
+than three independent scalar equations available.
+</div>
 
-> :exclamation: In a general 2D force system, there is some choice as
-> to which set of three equations you use.
+<div class="admonition note">
+In a general 2D force system, there is some choice as
+to which set of three equations you use.
+</div>
 
 ### 1.2.2: Special Force Systems
 
@@ -103,9 +106,13 @@ could still use two force equations such as $\sum F_x = 0$ and
 $\sum F_z = 0$, where direction *z* is neither parallel to nor
 perpendicular to *x*.
 
-> :EXCLAMATION: In parallel and in concurrent 2D force systems, only two
-> scalar equations of equilibrium are available.
+<div class="admonition important">
+In parallel and in concurrent 2D force systems, only two
+scalar equations of equilibrium are available.
+</div>
 
-> :EXCLAMATION: In parallel and in concurrent 2D force systems, there
-> is some choice as to which set of two equations you use.
-   
+<div class="admonition note">
+In parallel and in concurrent 2D force systems, there
+is some choice as to which set of two equations you use.
+</div>
+
