@@ -32,7 +32,7 @@ build:
 	bundle exec jekyll build
 	touch _site/.nojekyll
 
-site:
+site:	book
 	bundle exec jekyll build
 	touch _site/.nojekyll
 
