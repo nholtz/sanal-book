@@ -14,7 +14,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 
 # Demonstration of Equilibrium for a Beam Structure
-The following beam structure may not be completely shown, though it is complete enough to
+The following beam structure is shown in order to
 discuss the principles of equilibrium.
 
 ![Beam Structure](../../images/sdbeams/eq/eq-demo-2-01.svg)
@@ -23,7 +23,7 @@ discuss the principles of equilibrium.
 
 We will define some specific values and draw the Free Body Diagram.  At the left end (point $a$)
 there is complete fixity (against horizontal and vertical displacements, as well as against rotation),
-so there are correspondingly three forces, ($F_a$, $V_a$ and $M_a$).  At the right end
+so there are correspondingly three forces/moments, ($F_a$, $V_a$ and $M_a$).  At the right end
 (point $c$) there is only a constraint against vertical displacement and so there is one 
 vertical force, $V_c$, at that point.
 
@@ -31,9 +31,9 @@ vertical force, $V_c$, at that point.
 
 
 
-Considerinng the above FBD, there are 4 unknown forces shown, but we have only 3 equations of
-equilibrium available.  That means there are an infinite number of sets of forces that satisfy
-equilibrium.  To demonstrate that, we will show 2 of them:
+In the above FBD, there are 4 unknown forces shown, but we have only 3 equations of
+equilibrium available on that FBD.  That means there are an infinite number of sets of forces that satisfy
+those equations of equilibrium.  To demonstrate that, we will show 2 sets of them:
 
 ![EQ Soln 1](../../images/sdbeams/eq/eq-demo-2-03.svg)
 
@@ -198,16 +198,22 @@ beam than has been shown so far.
 
 
 
-## a) It Is Statically Determinate
+## A) If it is Statically Determinate
 
 
 
 If there are additional conditions specified where an internal force in the beam is required to
-be a specific value, then we have additional equiations of equilibrium available to us.  These are equilibrium equations we can write on a *different* FBD that do not introduce additional unknowns.
+be a specific value, then we have additional equations of equilibrium available to us.  These are equilibrium equations we can write on a *different* FBD that do not introduce additional unknowns.
 
 For example, we might have a hinge in the beam
-at point $d$, 4m from the right support.  That specifies that the
-internal bending moment in the beam is zero at that support, and allows us to form a FBD on one side of the pin.  We choose a side that allows us to write an equilibrium equation that contains only
+at point $d$, 4m from the right support.  
+
+![FBD Right Side](../../images/sdbeams/eq/eq-demo-2-03c0.svg)
+
+
+
+That hinge specifies that the
+internal bending moment in the beam is known to be zero at that point, and allows us to form a FBD on one side of the pin.  We choose a side that allows us to write an equilibrium equation that contains only
 one unknown; here the right side:
 
 ![FBD Right Side](../../images/sdbeams/eq/eq-demo-2-03c.svg)
@@ -215,7 +221,7 @@ one unknown; here the right side:
 
 
 Knowing the moment is 0 at point $d$, we can write an equilibrium equation $\sum M_d = 0$ that does not
-reference either of the two new unknowns, $H_d$ nor $V_d$:
+involve either of the two new unknowns, $H_d$ nor $V_d$:
 
 $$
 \begin{align}
@@ -232,13 +238,13 @@ equations):
 
 
 On the other hand, if the hinge is 5m from the right support, here are the only forces that
-satisfy all 4 quilibrium equations:
+satisfy all 4 equilibrium equations:
 
 ![Soln 2](../../images/sdbeams/eq/eq-demo-2-04b.svg)
 
 
 
-## b) It Is Statically Indeterminate
+## B) If it is Statically Indeterminate
 
 On the other hand, there may be no conditions that allow for extra equilbrium equations.
 
@@ -284,7 +290,7 @@ init_printing()
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-EI,L,P,d,x,Vc = symbols('EI L P d x Vc')
+EI,L,P,d,x,Vc = symbols('EI L P d x V_c')
 
 ```
 </div>
@@ -464,7 +470,7 @@ Now write 3 equilbrium equations and solve them for the remaing 3 reactions:
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Ha,Va,Ma = symbols('Ha Va Ma')
+Ha,Va,Ma = symbols('H_a V_a M_a')
 
 ```
 </div>
@@ -501,7 +507,7 @@ solns
 
 
 
-$$\left \{ Ha : 0, \quad Ma : L P - L Vc - P d, \quad Va : P - Vc\right \}$$
+$$\left \{ H_{a} : 0, \quad M_{a} : L P - L V_{c} - P d, \quad V_{a} : P - V_{c}\right \}$$
 
 
 </div>
@@ -510,15 +516,14 @@ $$\left \{ Ha : 0, \quad Ma : L P - L Vc - P d, \quad Va : P - Vc\right \}$$
 
 
 
-And substitute to get their numerical values:
+And substitute the parameters to get numerical values:
 
 
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-rHa = solns[Ha].subs({L:8,d:2,P:100,Vc:rVc})
-rHa
+{s:v.subs({L:8,d:2,P:100,Vc:rVc}) for s,v in solns.items()}
 
 ```
 </div>
@@ -528,53 +533,7 @@ rHa
 
 
 
-$$0$$
-
-
-</div>
-</div>
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-rVa = solns[Va].subs({L:8,d:2,P:100,Vc:rVc})
-rVa
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-
-$$36.71875$$
-
-
-</div>
-</div>
-</div>
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-rMa = solns[Ma].subs({L:8,d:2,P:100,Vc:rVc})
-rMa
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-
-$$93.75$$
+$$\left \{ H_{a} : 0, \quad M_{a} : 93.75, \quad V_{a} : 36.71875\right \}$$
 
 
 </div>

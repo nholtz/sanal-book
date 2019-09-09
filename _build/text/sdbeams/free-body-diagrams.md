@@ -8,9 +8,9 @@ next_page:
   title: 'Equilibrium Example'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
-# 1: Fundamental Concepts
+# 2: Determinate Beams and Frames
 
-## 1.4: Free Body Diagrams
+## 2.1: Free Body Diagrams
 
 
 The construction of a proper free body diagram (FBD) is an essential
@@ -26,9 +26,9 @@ the force corresponding to each.
 
 ![Beam Model and FBD](../../images/sdbeams/fbd/drawing-1.svg)
 
-   Fig 2-1: Beam model and FBD of complete structure
+   Fig 1-1: Beam model and FBD of complete structure
 
-Fig. 2-1 shows the structural model of a beam in the top portion and a
+Fig. 1-1 shows the structural model of a beam in the top portion and a
 free body diagram of the entire beam in the bottom portion.  Note that
 the figure shows a beam that is completely fixed at the left end, has
 a roller support 2m from the right end, and an internal hinge at point
@@ -77,14 +77,14 @@ this FBD, so it is not shown.
 
 ![FBD of portion b-c-d](../../images/sdbeams/fbd/drawing-2.svg)
 
-   Fig 2-2: Beam - FBD of portion b-c-d
+   Fig 1-2: Beam - FBD of portion b-c-d
 
 We will see later that it is often necessary to draw a FBD of a
 portion of the structure, particularly when we can 'break', or 'cut',
 the structure at an internal release condition such as the hinge at
 *b*.
 
-Fig. 2-2 shows a FBD of portion *b-c-d* of one portion of the
+Fig. 1-2 shows a FBD of portion *b-c-d* of one portion of the
 structure.  Of course, we show only those applied loads that act on
 the portion of the structure that we show.  The 65kN concentrated
 force is as before, but the length of the distributed load has been
@@ -107,11 +107,11 @@ we do not show an internal moment at *b*.
 
 ![FBD of portion a-b](../../images/sdbeams/fbd/drawing-3.svg)
 
-   Fig 2-3: Beam - FBD of portion a-b
+   Fig 1-3: Beam - FBD of portion a-b
 
 Occasionally it is important to also draw the FBD of adjacent portions
-of a structure.  Fig. 2-3 shows one such FBD for the portion *a-b*
-which is immediately adjacent to the FBD portion shown in Fig. 2-2.
+of a structure.  Fig. 1-3 shows one such FBD for the portion *a-b*
+which is immediately adjacent to the FBD portion shown in Fig. 1-2.
 It is *vital* to realize that the forces shown at *b* are *internal*
 forces and that internal forces always occur in equal and opposite
 pairs.  A single FBD of a structure cut at a point only shows one of
@@ -124,8 +124,8 @@ FBD.  You establish equality by using the same label, and you
 establish 'oppositeness' by showning the forces in the opposite
 direction.
 
-The FBD of Fig. 2-3 shows the forces at *b*, $H_b$ and $V_b$ being
-equal and opposite to those shown in Fig. 2-2.
+The FBD of Fig. 1-3 shows the forces at *b*, $H_b$ and $V_b$ being
+equal and opposite to those shown in Fig. 1-2.
 
 <div class="admonition important>
    Unknown internal forces shown on one FBD of a portion of a

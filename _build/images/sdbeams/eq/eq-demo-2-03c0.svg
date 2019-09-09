@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3.5306559in"
-   height="1.5103923in"
+   width="3.9104168in"
+   height="1.9104167in"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="eq-demo-2-01.svg"
-   viewBox="0 0 338.94296 144.99766">
+   sodipodi:docname="eq-demo-2-03c0.svg"
+   viewBox="0 0 375.40001 183.4">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.4465124"
-     inkscape:cx="169.47148"
-     inkscape:cy="72.498831"
+     inkscape:cx="187.46513"
+     inkscape:cy="66.804915"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -54,48 +54,48 @@
        empspacing="5"
        id="grid2985"
        type="xygrid"
-       originx="-120.3967"
-       originy="-796.79997" />
+       originx="-102.40306"
+       originy="-777.67421" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3042"
        orientation="0,765"
-       position="-120.3967,-796.79998" />
+       position="-102.40305,-777.67426" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3044"
        orientation="-990,0"
-       position="695.60329,383.99999" />
+       position="713.59692,403.12569" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3046"
        orientation="0,-765"
-       position="-110.7967,259.19999" />
+       position="-92.803048,278.32569" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3048"
        orientation="990,0"
-       position="-120.3967,193.2" />
+       position="-102.40305,212.3257" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3050"
        orientation="0,765"
-       position="599.60329,-751.79998" />
+       position="617.59693,-732.67426" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3052"
        orientation="-990,0"
-       position="647.60329,364.79999" />
+       position="665.59693,383.92569" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3054"
        orientation="0,-765"
-       position="-33.996697,211.2" />
+       position="-16.00305,230.3257" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide3056"
        orientation="990,0"
-       position="-72.396697,316.79999" />
+       position="-54.403049,335.92569" />
   </sodipodi:namedview>
   <script
      id="script3033"
@@ -241,6 +241,48 @@
          id="path3451-5"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="DimensionTick"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DimensionTick-3"
+       style="overflow:visible">
+      <path
+         d="M 0,0 8,8"
+         style="stroke:#4d4d4d;stroke-width:1px;marker-start:none"
+         transform="translate(-4,-4)"
+         id="path6-6"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DimensionTick"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker87"
+       style="overflow:visible">
+      <path
+         d="M 0,0 8,8"
+         style="stroke:#4d4d4d;stroke-width:1px;marker-start:none"
+         transform="translate(-4,-4)"
+         id="path85"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DimensionTick"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker91"
+       style="overflow:visible">
+      <path
+         d="M 0,0 8,8"
+         style="stroke:#4d4d4d;stroke-width:1px;marker-start:none"
+         transform="translate(-4,-4)"
+         id="path89"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <metadata
      id="metadata7">
@@ -272,7 +314,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-120.3967,-48.202344)"
+     transform="translate(-102.40305,-28.925709)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -389,7 +431,7 @@
          id="tspan6334"
          x="392.5"
          y="75"
-         style="stroke-width:1px">d</tspan></text>
+         style="stroke-width:1px">2</tspan></text>
     <text
        transform="translate(135.89999,6.6)"
        id="text6168"
@@ -438,27 +480,75 @@
     <path
        inkscape:connector-curvature="0"
        id="path6182"
-       d="M 144,145.2 V 174"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       d="M 144,137.2 V 186"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path6184"
-       d="M 432,154.8 V 174"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       d="M 432,146.8 V 188"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path6186"
-       d="M 144,164.4 H 432"
+       d="M 144,180.4 H 432"
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#DimensionTick);marker-mid:url(#DimensionTick);marker-end:url(#DimensionTick);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <text
        id="text6190"
-       y="162.39999"
+       y="178.39999"
        x="278.39999"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:13.33333302px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="162.39999"
+         y="178.39999"
          x="278.39999"
          id="tspan6188"
-         sodipodi:role="line">L</tspan></text>
+         sodipodi:role="line">8</tspan></text>
+    <g
+       style=""
+       transform="matrix(1.25,0,0,1.25,287.75924,126.01757)"
+       id="use3513">
+      <circle
+         style="fill:#ffffff;stroke:#000000;stroke-width:1"
+         id="circle3573"
+         r="2.5"
+         cy="0"
+         cx="0" />
+    </g>
+    <path
+       transform="translate(120.3967,48.202344)"
+       inkscape:connector-curvature="0"
+       id="path6963"
+       d="m 167.44403,83.52743 v 36.4"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(120.3967,48.202344)"
+       inkscape:connector-curvature="0"
+       id="path6965"
+       d="m 167.44403,114.32746 h 144"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#DimensionTick-3);marker-mid:url(#DimensionTick-3);marker-end:url(#DimensionTick-3);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <text
+       transform="translate(120.3967,48.202344)"
+       id="text6969"
+       y="111.32745"
+       x="237.44403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:13.33333302px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="111.32745"
+         x="237.44403"
+         id="tspan6967"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       transform="translate(120.3967,48.202344)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:13.33333302px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="169.88177"
+       y="74.31916"
+       id="text7131"><tspan
+         sodipodi:role="line"
+         id="tspan7129"
+         x="169.88177"
+         y="74.31916">d</tspan></text>
   </g>
 </svg>

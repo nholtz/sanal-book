@@ -13,21 +13,25 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-from sympy import symbols,solve
-from sympy.physics.units import m,newton,force,kilo,Quantity
-kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
+# Beam Reactions Example
 
-```
-</div>
+Consider the following beam structure, below which is shown the overall FBD.
 
-</div>
+![FBD 0](../../images/sdbeams/fbd/drawing-1.svg)
+
+There are 4 unknown reactions - the 3 available equations of equilibrium are not sufficient to solve for the reactions.
 
 
 
 ## Free Body Diagram of Part b-c-d-e
+
+The pin at point $b$ requires the internal bending moment at that point to be 0.  That allows us to
+split the structure at that spot to develop an additional FBD.  It only adds 2 additional unknowns
+(horizontal and vertical force at $b$) and so the three additional equilibrium equations will now
+be sufficient.
+
+We choose a side that involves only one unknown in an equation, allowing us to solve for
+that unknown immediately; here the right side:
 
 
 
@@ -38,7 +42,23 @@ kilonewton = kilonewtons = kN = Quantity("kilonewton", force, kilo*newton, "kN")
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Hb,Vb,Vd = symbols('Hb Vb Vd')
+from sympy import symbols,solve
+from sympy.physics.units import m,newton,force,kilo,Quantity
+kilonewton = kilonewtons = kN = Quantity("kilonewton", "kN")
+kN.set_dimension(force)
+kN.set_scale_factor(kilo*newton)
+
+```
+</div>
+
+</div>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+Hb,Vb,Vd = symbols('H_b V_b V_d')
 
 ```
 </div>
@@ -66,7 +86,7 @@ sum_Mb
 
 {:.output_data_text}
 ```
--1156*kilonewton*meter + 6*meter*Vd
+-1156*kilonewton*meter + 6*meter*V_d
 ```
 
 
@@ -120,7 +140,7 @@ sum_Fy
 
 {:.output_data_text}
 ```
--96.3333333333333*kilonewton + Vb
+-96.3333333333333*kilonewton + V_b
 ```
 
 
@@ -217,7 +237,7 @@ Vd/kN, Vb/kN, Hb/kN
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Ha,Ma,Va = symbols('Ha Ma Va')
+Ha,Ma,Va = symbols('H_a M_a V_a')
 
 ```
 </div>
