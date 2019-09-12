@@ -29,7 +29,7 @@ constraint.
 
 ### Small Rotations
 
-![Small Rotation](../../images/fundamentals/sd/fig-1.png)
+![Small Rotation](../../images/fundamentals/sd/fig-1.svg)
 
 Fig. 5-1: Small Rotation
 
@@ -49,7 +49,7 @@ In the limit, as $d\theta \rightarrow 0$, this is valid and without error.
 </div>
 
 
-![Small Rotation + Translation](../../images/fundamentals/sd/fig-2.png)
+![Small Rotation + Translation](../../images/fundamentals/sd/fig-2.svg)
 
 Fig. 5-2: Small Rotation + Translation
 
@@ -62,7 +62,7 @@ of the line on an axis parallel to the original line does not change.
    direction do not change.
 </div>
 
-![Resulting Displacements](../../images/fundamentals/sd/fig-3.png)
+![Resulting Displacements](../../images/fundamentals/sd/fig-3.svg)
 
 Fig. 5-3: Resulting Displacements
 
@@ -84,7 +84,7 @@ not change</em> as a result of this small rotation.
 
 Finally, Fig. 5-4 shows all of these concepts together on one structure.
 
-![Small Rigid Structural Displacements](../../images/fundamentals/sd/fig-4.png)
+![Small Rigid Structural Displacements](../../images/fundamentals/sd/fig-4.svg)
 
 Fig. 5-4: Small Rigid Structural Displacements
 

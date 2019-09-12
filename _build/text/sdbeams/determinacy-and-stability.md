@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdbeams/introduction.html
   title: 'Introduction'
 next_page:
-  url: /text/sdbeams/free-body-diagrams.html
-  title: 'Free Body Diagrams'
+  url: /text/sdbeams/determinacy-and-stability-problems.html
+  title: 'Problems - Determinacy and Stability'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Plane Frames

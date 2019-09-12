@@ -51,9 +51,12 @@
     url: /text/sdbeams/introduction
   - title: Determinacy and Stability
     url: /text/sdbeams/determinacy-and-stability
+  - title: Problems - Determinacy and Stability
+    not_numbered: true
+    url: /text/sdbeams/determinacy-and-stability-problems
   - title: Free Body Diagrams
     url: /text/sdbeams/free-body-diagrams
-  - title: Equilibrium Example
+  - title: Equilibrium Demonstration
     url: /notebooks/sdbeams/eq-demo-2
-  - title: FBD Example 1
-    url: /notebooks/sdbeams/fbd-eg1
+  - title: Beam Reactions Example 1
+    url: /notebooks/sdbeams/fbd-eg1-no-units

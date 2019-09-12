@@ -2,26 +2,28 @@
 interact_link: content/notebooks/sdbeams/eq-demo-2.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Equilibrium Example'
+title: 'Equilibrium Demonstration'
 prev_page:
   url: /text/sdbeams/free-body-diagrams.html
   title: 'Free Body Diagrams'
 next_page:
-  url: /notebooks/sdbeams/fbd-eg1.html
-  title: 'FBD Example 1'
+  url: /notebooks/sdbeams/fbd-eg1-no-units.html
+  title: 'Beam Reactions Example 1'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
 
-# Demonstration of Equilibrium for a Beam Structure
-The following beam structure is shown in order to
-discuss the principles of equilibrium.
+#  2: Determinate Beams and Frames
+## 2.4: Demonstration of Equilibrium for a Beam Structure
+
+Consider the following beam structure.  Below, we will modify this structure to be statically determinate,
+but for now just consider it as is show here:
 
 ![Beam Structure](../../images/sdbeams/eq/eq-demo-2-01.svg)
 
 
 
-We will define some specific values and draw the Free Body Diagram.  At the left end (point $a$)
+We will define some specific values for the parametewrs and draw a Free Body Diagram.  At the left end (point $a$)
 there is complete fixity (against horizontal and vertical displacements, as well as against rotation),
 so there are correspondingly three forces/moments, ($F_a$, $V_a$ and $M_a$).  At the right end
 (point $c$) there is only a constraint against vertical displacement and so there is one 
@@ -32,8 +34,9 @@ vertical force, $V_c$, at that point.
 
 
 In the above FBD, there are 4 unknown forces shown, but we have only 3 equations of
-equilibrium available on that FBD.  That means there are an infinite number of sets of forces that satisfy
-those equations of equilibrium.  To demonstrate that, we will show 2 sets of them:
+equilibrium available on that FBD.  That means the structure as shown
+is _statically indeterminate_.  That also means there are an infinite number of sets of forces that satisfy
+the equations of equilibrium.  To demonstrate that, we will show 2 sets of them:
 
 ![EQ Soln 1](../../images/sdbeams/eq/eq-demo-2-03.svg)
 
@@ -237,10 +240,14 @@ equations):
 
 
 
+That was the first set shown to be in equilibrium, above.
+
 On the other hand, if the hinge is 5m from the right support, here are the only forces that
 satisfy all 4 equilibrium equations:
 
 ![Soln 2](../../images/sdbeams/eq/eq-demo-2-04b.svg)
+
+And that was the second set shown to be in equilibrium, above.
 
 
 

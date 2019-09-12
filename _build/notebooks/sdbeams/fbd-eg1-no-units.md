@@ -1,11 +1,11 @@
 ---
-interact_link: content/notebooks/sdbeams/fbd-eg1.ipynb
+interact_link: content/notebooks/sdbeams/fbd-eg1-no-units.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'FBD Example 1'
+title: 'Beam Reactions Example 1'
 prev_page:
   url: /notebooks/sdbeams/eq-demo-2.html
-  title: 'Equilibrium Example'
+  title: 'Equilibrium Demonstration'
 next_page:
   url: 
   title: ''
@@ -13,7 +13,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-# Beam Reactions Example
+# 2: Determinate Beams and Frames
+## 2.5: Beam Reactions Example
 
 Consider the following beam structure, below which is shown the overall FBD.
 
@@ -23,7 +24,7 @@ There are 4 unknown reactions - the 3 available equations of equilibrium are not
 
 
 
-## Free Body Diagram of Part b-c-d-e
+### 2.5.1: Free Body Diagram of Part b-c-d-e
 
 The pin at point $b$ requires the internal bending moment at that point to be 0.  That allows us to
 split the structure at that spot to develop an additional FBD.  It only adds 2 additional unknowns
@@ -43,10 +44,6 @@ that unknown immediately; here the right side:
 <div class="input_area" markdown="1">
 ```python
 from sympy import symbols,solve
-from sympy.physics.units import m,newton,force,kilo,Quantity
-kilonewton = kilonewtons = kN = Quantity("kilonewton", "kN")
-kN.set_dimension(force)
-kN.set_scale_factor(kilo*newton)
 
 ```
 </div>
@@ -58,7 +55,7 @@ kN.set_scale_factor(kilo*newton)
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Hb,Vb,Vd = symbols('H_b V_b V_d')
+Hb,Vb,Vd = symbols('Hb Vb Vd')
 
 ```
 </div>
@@ -74,7 +71,7 @@ Hb,Vb,Vd = symbols('H_b V_b V_d')
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-sum_Mb = -65*kN*4*m  - 28*kN/m*(6*m+2*m)*(6*m+2*m)/2 + Vd*6*m
+sum_Mb = -65*4  - 28*(6+2)*(6+2)/2 + Vd*6
 sum_Mb
 
 ```
@@ -86,7 +83,7 @@ sum_Mb
 
 {:.output_data_text}
 ```
--1156*kilonewton*meter + 6*meter*V_d
+6*Vd - 1156.0
 ```
 
 
@@ -111,7 +108,7 @@ Vd
 
 {:.output_data_text}
 ```
-192.666666666667*kilonewton
+192.666666666667
 ```
 
 
@@ -128,7 +125,7 @@ Vd
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-sum_Fy = Vb - 28*kN/m*(6*m+2*m) - 65*kN + Vd
+sum_Fy = Vb - 28*(6+2) - 65 + Vd
 sum_Fy
 
 ```
@@ -140,7 +137,7 @@ sum_Fy
 
 {:.output_data_text}
 ```
--96.3333333333333*kilonewton + V_b
+Vb - 96.3333333333333
 ```
 
 
@@ -165,7 +162,7 @@ Vb
 
 {:.output_data_text}
 ```
-96.3333333333333*kilonewton
+96.3333333333333
 ```
 
 
@@ -208,7 +205,7 @@ Hb
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Vd/kN, Vb/kN, Hb/kN
+Vd, Vb, Hb
 
 ```
 </div>
@@ -229,15 +226,17 @@ Vd/kN, Vb/kN, Hb/kN
 
 
 
-## Free Body Diagram of part a-b
+### 2.5.2: Free Body Diagram of part a-b
 ![FBD a-b](../../images/sdbeams/fbd/drawing-3.svg)
+
+Note that $H_b$ and $V_b$ are shown equal and opposite to what they were on the FBD. **This is important.**
 
 
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-Ha,Ma,Va = symbols('H_a M_a V_a')
+Ha,Ma,Va = symbols('Ha Ma Va')
 
 ```
 </div>
@@ -253,8 +252,7 @@ Ha,Ma,Va = symbols('H_a M_a V_a')
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-sum_Fx = Ha - Hb
-Ha = solve(sum_Fx,Ha)[0].n()
+Ha = solve(Ha - Hb, Ha)[0].n()
 Ha
 
 ```
@@ -283,8 +281,7 @@ Ha
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-sum_Fy = Va - 28*(kN/m)*8*m - Vb
-Va = solve(sum_Fy,Va)[0].n()
+Va = solve(Va - 28*8 - Vb, Va)[0].n()
 Va
 
 ```
@@ -296,7 +293,7 @@ Va
 
 {:.output_data_text}
 ```
-320.333333333333*kilonewton
+320.333333333333
 ```
 
 
@@ -313,8 +310,7 @@ Va
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-sum_Ma = Ma - 28*(kN/m)*8*m*8*m/2 - Vb*8*m
-Ma = solve(sum_Ma,Ma)[0].n()
+Ma = solve(Ma - 28*8*8/2 - Vb*8, Ma)[0].n()
 Ma
 
 ```
@@ -326,7 +322,7 @@ Ma
 
 {:.output_data_text}
 ```
-1666.66666666667*kilonewton*meter
+1666.66666666667
 ```
 
 
@@ -336,7 +332,10 @@ Ma
 
 
 
-## Equilibrium Check
+### 2.5.3: Equilibrium Check
+
+We can use a third FBD as an equilibrium check.  It is not an independent FBD but it will at
+least check for some numerical errors, giving us some confidence that the work is correct.
 
 ![Entire Beam FBD](../../images/sdbeams/fbd/drawing-4.svg)
 
@@ -349,7 +348,7 @@ Ma
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-0*kN
+Ha
 
 ```
 </div>
@@ -377,7 +376,7 @@ Ma
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-320.3*kN + 192.7*kN - 28*(kN/m)*(14*m+2*m) - 65*kN
+Va + Vd - 28*(14+2) - 65
 
 ```
 </div>
@@ -405,7 +404,7 @@ Ma
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-1667*kN*m + 28*(kN/m)*(14*m+2*m)*(14*m+2*m)/2 + 65*kN*(2*m+2*m) - 320.3*kN*(14*m+2*m) - 192.7*kN*2*m
+Ma + 28*(14+2)*(14+2)/2 + 65*(2+2) - Va*(14+2) - Vd*2
 
 ```
 </div>
@@ -416,35 +415,7 @@ Ma
 
 {:.output_data_text}
 ```
-0.799999999999841*kilonewton*meter
-```
-
-
-</div>
-</div>
-</div>
-
-
-
-This is 0.8 kN-m which is very small compared to the moment at *a* (1667 kN-m) and is due entirely to floating point round-off errors.  This is further demonstrated below where we use the computed (and non-rounded) values.
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-Ma + 28*(kN/m)*(14*m+2*m)*(14*m+2*m)/2 + 65*kN*(2*m+2*m) - Va*(14*m+2*m) - Vd*2*m
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-{:.output_data_text}
-```
-6.25277607468888e-13*kilonewton*meter
+6.25277607468888e-13
 ```
 
 
@@ -455,4 +426,9 @@ Ma + 28*(kN/m)*(14*m+2*m)*(14*m+2*m)/2 + 65*kN*(2*m+2*m) - Va*(14*m+2*m) - Vd*2*
 
 
 $6.25 \times 10^{-13}$ is easily close enough to zero, attributable to normal floating point truncation errors.
+
+
+
+**Note:** If you were using manual calculations and the numeric valies of $M_a$, $V_a$ and $V_d$ rounded to 4 significant
+figures, this last equilibrium check would give something quite a bit further from zero, but still acceptable.
 
