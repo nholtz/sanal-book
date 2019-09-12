@@ -39,8 +39,6 @@ constraint.
 
 ### Small Rotations
 
-
-
 ![Small Rotation](../../images/fundamentals/sd/fig-1.png)
 
 Fig. 5-1: Small Rotation
@@ -87,6 +85,11 @@ movement is equal to its vertical distance from *a* times the angle
 change and its vertical movement is equal to the horizontal distance
 from *a* times the angle change.
 
+<div class="admonition important">
+The lengths of the horizontal projections, $x$ and $y$, <em>do
+not change</em> as a result of this small rotation.
+</div>
+
 ### Systems of Small Displacements
 
 Finally, Fig. 5-4 shows all of these concepts together on one structure.
@@ -97,7 +100,7 @@ Fig. 5-4: Small Rigid Structural Displacements
 
 Articulated frame *a-b-c-d* has an internal hinge at *b*.  The section
 *b-c-d* is rigid; let it rotate clockwise a small amount $\theta$
-about the pin at point *d*.
+about the pin at point *d* - this is our starting point.
 
 * The rigid joint *c* translates horizontally (perpendicular to *c-d*)
   a distance $4\theta$, and rotates clockwise an amount
@@ -108,7 +111,7 @@ about the pin at point *d*.
 
 * Point *b* then translates horizontally a distance $4\theta$
   (the same as *c*) and vertically a distance $3\theta$ (its
-  horizontal distance from the centre of rotation was 3).
+  horizontal distance from the centre of rotation is 3).
 
 * Point *a* translates horizontally a distance of $4\theta$, as
   does every point on the straight line *a-b-c*.
@@ -121,10 +124,10 @@ about the pin at point *d*.
 
 <div class="admonition important">
    Rigid portions of the structure remain rigid -- they do not change
-   their shape.
+   their shape.  In particular, rigid angles do not change.
 </div>
 
 <div class="admonition warning">
-   This structure is *unstable*; see the section on Determinacy and
-   Stability.
+   This structure is <em>unstable</em>; see the section on 
+   <a href="../sdbeams/determinacy-and-stability">Determinacy and Stability</a>.
 </div>

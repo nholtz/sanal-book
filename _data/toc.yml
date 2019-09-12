@@ -47,6 +47,10 @@
 - title: Forces in Statically Determinate Beams and Plane Frames
   url: /text/sdbeams/index
   sections:
+  - title: Introduction
+    url: /text/sdbeams/introduction
+  - title: Determinacy and Stability
+    url: /text/sdbeams/determinacy-and-stability
   - title: Free Body Diagrams
     url: /text/sdbeams/free-body-diagrams
   - title: Equilibrium Example

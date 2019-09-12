@@ -1,8 +1,8 @@
 ---
 title: 'Free Body Diagrams'
 prev_page:
-  url: /text/sdbeams/index.html
-  title: 'Forces in Statically Determinate Beams and Plane Frames'
+  url: /text/sdbeams/determinacy-and-stability.html
+  title: 'Determinacy and Stability'
 next_page:
   url: /notebooks/sdbeams/eq-demo-2.html
   title: 'Equilibrium Example'

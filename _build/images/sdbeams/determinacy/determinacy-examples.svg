@@ -33,7 +33,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="442.51087"
-     inkscape:cy="275.51608"
+     inkscape:cy="195.51608"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/" />
       </cc:Work>
