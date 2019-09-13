@@ -1,0 +1,20 @@
+# run with 'svgexports png|eps|pdf|svg'
+#
+# multiple layers dont work - I think --export-area is broken for svg files in inkscape
+#
+#  Input		Layers	Output
+#----------------	-------	--------------
+br-example-1a.svg	Layer 1	br-example-1-0
+br-example-1a.svg	FBD-1	br-example-1-1
+br-example-1a.svg	FBD-2	br-example-1-2
+br-example-1a.svg	FBD-3	br-example-1-3
+br-example-1a.svg	FBD-S	br-example-1-4
+br-example-1a.svg	Layer 1,FBD-1,FBD-2,FBD-3,FBD-S	br-example-1-5
+br-example-1a.svg	V	br-example-1-6
+br-example-1a.svg	V,M	br-example-1-7
+br-example-1a.svg	FBD-S,V,M	br-example-1-8
+br-example-2.svg	Layer 1	br-example-2-0
+br-example-2.svg	FBD-1	br-example-2-1
+br-example-2.svg	FBD-2	br-example-2-2
+br-example-2.svg	FBD-S	br-example-2-3
+br-example-2.svg	Layer 1,FBD-1,FBD-2,FBD-S	br-example-2-4

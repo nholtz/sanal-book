@@ -2,13 +2,13 @@
 interact_link: content/notebooks/sdbeams/eq-demo-2.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Equilibrium Demonstration'
+title: 'Equilibrium Demonstration (Notebook)'
 prev_page:
   url: /text/sdbeams/free-body-diagrams.html
   title: 'Free Body Diagrams'
 next_page:
   url: /notebooks/sdbeams/fbd-eg1-no-units.html
-  title: 'Beam Reactions Example 1'
+  title: 'Beam Reactions Example (Notebook)'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

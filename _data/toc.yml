@@ -56,7 +56,12 @@
     url: /text/sdbeams/determinacy-and-stability-problems
   - title: Free Body Diagrams
     url: /text/sdbeams/free-body-diagrams
-  - title: Equilibrium Demonstration
+  - title: Equilibrium Demonstration (Notebook)
     url: /notebooks/sdbeams/eq-demo-2
-  - title: Beam Reactions Example 1
+  - title: Beam Reactions Example (Notebook)
     url: /notebooks/sdbeams/fbd-eg1-no-units
+  - title: Beam Reactions Examples
+    url: /text/sdbeams/beam-example-1
+  - title: Problems - Beam Reactions
+    not_numbered: true
+    url: /text/sdbeams/beam-reaction-problems

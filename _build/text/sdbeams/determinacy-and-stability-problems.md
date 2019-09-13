@@ -75,7 +75,7 @@ indeterminacy.  Click on the link to see the solution.
 
 **Problem 12**
 
-For the above problem (Problem 5), if it is unstable, can you arrange the
+For the above problem (Problem 11), if it is unstable, can you arrange the
 four roller supports so that it becomes stable?  If so, show the new
 arrangement and state the determinacy of the resulting structure.
 

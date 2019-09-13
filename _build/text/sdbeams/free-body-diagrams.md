@@ -5,7 +5,7 @@ prev_page:
   title: 'Problems - Determinacy and Stability'
 next_page:
   url: /notebooks/sdbeams/eq-demo-2.html
-  title: 'Equilibrium Demonstration'
+  title: 'Equilibrium Demonstration (Notebook)'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Determinate Beams and Frames

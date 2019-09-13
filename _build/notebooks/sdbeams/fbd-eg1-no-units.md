@@ -2,13 +2,13 @@
 interact_link: content/notebooks/sdbeams/fbd-eg1-no-units.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Beam Reactions Example 1'
+title: 'Beam Reactions Example (Notebook)'
 prev_page:
   url: /notebooks/sdbeams/eq-demo-2.html
-  title: 'Equilibrium Demonstration'
+  title: 'Equilibrium Demonstration (Notebook)'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdbeams/beam-example-1.html
+  title: 'Beam Reactions Examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
