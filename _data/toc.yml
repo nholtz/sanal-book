@@ -67,4 +67,15 @@
     url: /text/sdbeams/beam-reaction-problems
   - title: Frame Reactions, Part 1
     url: /text/sdbeams/frame-reactions-1
+  - title: Frame Reactions, Part 2
+    not_numbered: true
+    url: /text/sdbeams/frame-reactions-2
+  - title: Problems - Frame Reactions
+    not_numbered: true
+    url: /text/sdbeams/frame-reaction-problems
+  - title: NVM Diagrams
+    url: /text/sdbeams/NVM-diagrams
+  - title: Problems - Beam VM Diagrams
+    not_numbered: true
+    url: /text/sdbeams/beam-VM-problems
     

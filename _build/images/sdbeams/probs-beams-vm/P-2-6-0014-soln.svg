@@ -1,0 +1,423 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     width="8.5in" 
+     height="11.0in" 
+     viewBox="0 0 612 792">
+  <defs>
+    <style type="text/css"><![CDATA[
+    .elem {
+	stroke-width: 2.0;
+	stroke: black;
+	}
+    path.dim {
+       stroke-width: 0.5;
+       stroke: black;
+       }
+    path.guides {
+       stroke-width: 0.5;
+       stroke: grey;
+       }
+    text.dwglabel {
+       font-family: Verdana, Arial;
+       font-size: 10px;
+       font-weight: bold;
+       fill: black;
+       text-align: center;
+       text-anchor: start;
+       }
+    text.dim {
+       font-family: Verdana, Arial;
+       font-size: 8px;
+       font-weight: bold;
+       fill: black;
+       text-align: center;
+       text-anchor: middle;
+       }
+    text.guides {
+       font-family: Verdana, Arial;
+       font-size: 8px;
+       font-weight: normal;
+       font-style: italic;
+       fill: black;
+       text-align: center;
+       text-anchor: middle;
+       }
+    text.vmlabel {
+       font-family: Verdana, Arial;
+       font-size: 8px;
+       font-style: italic;
+       fill: black;
+       }
+    text.notes {
+       font-family: Verdana, Arial;
+       font-size: 9px;
+       font-weight: normal;
+       font-style: italic;
+       fill: black;
+       text-align: center;
+       text-anchor: left;
+       }
+    text.ptlabel {
+       font-family: Verdana, Arial;
+       font-size: 7px;
+       font-style: italic;
+       fill: black;
+       text-align: center;
+       text-anchor: start;
+       }
+     path.cload {
+       fill: none;
+       stroke-width: 1;
+       stroke: black; 
+       marker-end: url(#CLArrowEnd);
+     }
+      path.mload {
+       fill: none;
+       stroke-width: 1;
+       stroke: black; 
+       marker-end: url(#MLArrowEnd);
+     }
+      path.mloadInkscape {
+       fill: none;
+       stroke-width: 1;
+       stroke: black; 
+       marker-end: url(#MLArrowStart);
+     }
+     polygon.dload {
+       fill: rgb(240,240,240);
+       opacity: 0.5; /* if < 1, REALLY slows down printing of the pdfs */
+       stroke-width: 1;
+       stroke: black; 
+     }
+     path.dload {
+       fill: none;
+       stroke-width: 1;
+       stroke: black; 
+       marker-end: url(#DLArrowEnd);
+     }
+     path.dloadna {
+       fill: none;
+       stroke-width: 1;
+       stroke: black; 
+     }
+     path.vdiag {
+       fill: url(#crosshatch45);
+       stroke-width: 1;
+       stroke: black; 
+     }
+     path.mdiag {
+       fill: url(#crosshatch45);
+       stroke-width: 1;
+       stroke: black; 
+     }
+
+    ]]></style>
+    <g id="PinnedSupport" transform="translate(0,1.0)">
+      <path d="M 0 0 l 4 6 l -8 0 z" 
+	    stroke="black" stroke-width="0" fill="black" opacity="1.0" />
+      <path d="M -6 6 l 12 0" 
+	    stroke="black" stroke-width="1" fill="none" />
+      <path d="M 6 6 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3"
+	    stroke="black" stroke-width="1" fill="none" />
+    </g>
+    <g id="RollerSupport" transform="translate(0,1.0)">
+      <circle cx="0" cy="3" r="3"
+	    stroke="black" stroke-width="0" fill="black" opacity="1.0" />
+      <path d="M -6 6 l 12 0" 
+	    stroke="black" stroke-width="1" fill="none" />
+      <path d="M 6 6 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3 m 0 -3 l -3 3"
+	    stroke="black" stroke-width="1" fill="none" />
+    </g>
+    <g id="LFixedSupport" transform="translate(-0.5,0)">
+      <path d="M 0 -6 l 0 12"
+	    stroke="black" stroke-width="1" fill="none" />
+      <path d="M 0 -6 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3 m 3 0 l -3 3"
+	    stroke="black" stroke-width="1" fill="none" />
+    </g>
+    <g id="RFixedSupport">
+      <use xlink:href="#LFixedSupport" transform="scale(-1,1)"/>
+    </g>
+    <g id="Hinge">
+      <circle cx="0" cy="0" r="2.5"
+	      stroke="black" stroke-width="1" fill="white"/>
+    </g>
+    <g id="ShearRelease">
+      <rect x="-3" y="-6" width="6" height="12"
+	    stroke="none" fill="white"/>
+      <circle cx="0" cy="-6" r="2" stroke="black" strokewidth="0.5" fill="white"/>
+      <circle cx="0" cy="0" r="2" stroke="black" strokewidth="0.5" fill="white"/>
+      <circle cx="0" cy="6" r="2" stroke="black" strokewidth="0.5" fill="white"/>
+      <path d="M -3 -9 l 0 18 M 3 -9 l 0 18" stroke="black" stroke-width="1"/>
+    </g>
+    <marker id="DLArrowStart"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="8"
+	    markerHeight="4"
+	    orient="auto"
+	    viewBox="0 0 8 4"
+	    refX="0"
+	    refY="2">
+      <path d="M 0 2 l 8 -2 l 0 4 z"/>
+    </marker>
+    <marker id="DLArrowEnd"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="8"
+	    markerHeight="4"
+	    orient="auto"
+	    viewBox="0 0 8 4"
+	    refX="8"
+	    refY="2">
+      <path d="M 0 0 l 8 2 l -8 2 z"/>
+    </marker>
+    <marker id="CLArrowStart"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="10.0"
+	    markerHeight="6"
+	    orient="auto"
+	    viewBox="0 0 10 6"
+	    refX="3.0"
+	    refY="3">
+      <path d="M 0 3 l 10 -3 l -2 3 l 2 3 z"/>
+    </marker>
+    <marker id="CLArrowEnd"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="10.0"
+	    markerHeight="6"
+	    orient="auto"
+	    viewBox="0 0 10 6"
+	    refX="7.0"
+	    refY="3">
+      <path d="M 0 0 l 10 3 l -10 3 l 2 -3 z"/>
+    </marker>
+    <marker id="MLArrowStart"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="10.0"
+	    markerHeight="6"
+	    orient="auto"
+	    viewBox="0 0 10 6"
+	    refX="8"
+	    refY="3">
+      <path d="M 10 0 l -10 3 l 10 3 l -2 -3 z"/>
+    </marker>
+    <marker id="MLArrowEnd"
+	    markerUnits="userSpaceOnUse"
+	    markerWidth="10.0"
+	    markerHeight="6"
+	    orient="auto"
+	    viewBox="0 0 10 6"
+	    refX="2"
+	    refY="3">
+      <path d="M 0 0 l 10 3 l -10 3 l 2 -3 z"/>
+    </marker>
+    <pattern id="crosshatch45" patternUnits="userSpaceOnUse"
+             x="0" y="0" width="10" height="10"
+	     viewBox="0 0 10 10">
+       <path d="M 0 0 L 10 10" fill="none" stroke="grey" stroke-width="0.2"/>
+    </pattern>
+
+
+  </defs>
+
+<g transform="translate(72.0,122.0)">
+  <title>Beam! Length = 18.8</title>
+  <path class="elem" d="M 0 0 l 360.0 0"/>
+  <g transform="translate(19.1,0.0)">
+    <title>UD Load 28 kN/m</title>
+    <polygon points="0,0 0,-12.0 340.9,-12.0 340.9,0" class="dload"/>
+    <path class="dload" d="M 0.0 -12.0 L 0.0 -1.0"/>
+    <path class="dload" d="M 24.3 -12.0 L 24.3 -1.0"/>
+    <path class="dload" d="M 48.7 -12.0 L 48.7 -1.0"/>
+    <path class="dload" d="M 73.0 -12.0 L 73.0 -1.0"/>
+    <path class="dload" d="M 97.4 -12.0 L 97.4 -1.0"/>
+    <path class="dload" d="M 121.7 -12.0 L 121.7 -1.0"/>
+    <path class="dload" d="M 146.1 -12.0 L 146.1 -1.0"/>
+    <path class="dload" d="M 170.4 -12.0 L 170.4 -1.0"/>
+    <path class="dload" d="M 194.8 -12.0 L 194.8 -1.0"/>
+    <path class="dload" d="M 219.1 -12.0 L 219.1 -1.0"/>
+    <path class="dload" d="M 243.5 -12.0 L 243.5 -1.0"/>
+    <path class="dload" d="M 267.8 -12.0 L 267.8 -1.0"/>
+    <path class="dload" d="M 292.2 -12.0 L 292.2 -1.0"/>
+    <path class="dload" d="M 316.5 -12.0 L 316.5 -1.0"/>
+    <path class="dload" d="M 340.9 -12.0 L 340.9 -1.0"/>
+    <text style="text-anchor: middle;" dx="0.0" dy="-2.0" y="-12.0" x="170.4" class="dim">28</text>
+  </g>
+  <g transform="translate(0.0,-1.0)">
+    <title>Point Load = 45 kN</title>
+    <path class="cload" d="M 0 -26.0 l 0 23.0"/>
+    <text y="-26.0" x="0" class="dim" dy="-3.0">45</text>
+  </g>
+  <g transform="translate(147.4,-1.0)">
+    <title>Point Load = 50 kN</title>
+    <path class="cload" d="M 0 -42.0 l 0 39.0"/>
+    <text y="-42.0" x="0" class="dim" dy="-3.0">50</text>
+  </g>
+  <use y="0" x="19.1" xlink:href="#PinnedSupport"/>
+  <use y="0" x="124.5" xlink:href="#RollerSupport"/>
+  <use y="0" x="147.4" xlink:href="#Hinge"/>
+  <use y="0" x="243.2" xlink:href="#Hinge"/>
+  <use y="0" x="273.8" xlink:href="#RollerSupport"/>
+  <use y="0" x="360.0" xlink:href="#RollerSupport"/>
+  <path class="dim" d="M 147.4 10.0 l 0 25.0"/>
+  <path class="dim" d="M 124.5 30.0 l 23.0 0"/>
+  <path class="dim" d="M 124.5 30.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <path class="dim" d="M 147.4 30.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="30.0" x="136.0" class="dim" dy="-3.0">1.2</text>
+  <path class="dim" d="M 243.2 10.0 l 0 25.0"/>
+  <path class="dim" d="M 147.4 30.0 l 95.7 0"/>
+  <path class="dim" d="M 147.4 30.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <path class="dim" d="M 243.2 30.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="30.0" x="195.3" class="dim" dy="-3.0">5</text>
+  <path class="dim" d="M 0.0 10.0 l 0 40.0"/>
+  <path class="dim" d="M 19.1 10.0 l 0 40.0"/>
+  <path class="dim" d="M 0.0 45.0 l 19.1 0"/>
+  <path class="dim" d="M 0.0 45.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <path class="dim" d="M 19.1 45.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="45.0" x="9.6" class="dim" dy="-3.0">1</text>
+  <path class="dim" d="M 124.5 10.0 l 0 40.0"/>
+  <path class="dim" d="M 19.1 45.0 l 105.3 0"/>
+  <path class="dim" d="M 124.5 45.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="45.0" x="71.8" class="dim" dy="-3.0">5.5</text>
+  <path class="dim" d="M 273.8 10.0 l 0 40.0"/>
+  <path class="dim" d="M 124.5 45.0 l 149.4 0"/>
+  <path class="dim" d="M 273.8 45.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="45.0" x="199.1" class="dim" dy="-3.0">7.8</text>
+  <path class="dim" d="M 360.0 10.0 l 0 40.0"/>
+  <path class="dim" d="M 273.8 45.0 l 86.2 0"/>
+  <path class="dim" d="M 360.0 45.0 m -3.0 3.0 l 6.0 -6.0"/>
+  <text y="45.0" x="316.9" class="dim" dy="-3.0">4.5</text>
+  <text y="17.0" x="0.0" class="ptlabel" dx="1.0">a</text>
+  <text y="17.0" x="19.1" class="ptlabel" dx="1.0">b</text>
+  <text y="17.0" x="124.5" class="ptlabel" dx="1.0">c</text>
+  <text y="17.0" x="147.4" class="ptlabel" dx="1.0">d</text>
+  <text y="17.0" x="243.2" class="ptlabel" dx="1.0">e</text>
+  <text y="17.0" x="273.8" class="ptlabel" dx="1.0">f</text>
+  <text y="17.0" x="360.0" class="ptlabel" dx="1.0">g</text>
+  <text y="-56.0" x="0" xml:space="preserve" class="notes">Units are m, kN;       Difficulty Level = 7</text>
+  <g id="beam-guides" visibility="visible" transform="translate(0.0,0.0)">
+    <path class="guides" d="M 0.0 51.0 L 0.0 474.0 M 19.1 51.0 L 19.1 474.0 M 124.5 51.0 L 124.5 474.0 M 147.4 51.0 L 147.4 474.0 M 243.2 51.0 L 243.2 474.0 M 273.8 51.0 L 273.8 474.0 M 360.0 51.0 L 360.0 474.0"/>
+  </g>
+  <g id="beam-fb-diagram" visibility="visible" transform="translate(0.0,144.0)">
+    <title>Free Body Diagram</title>
+    <path class="elem" d="M 0 0 l 360.0 0"/>
+    <g transform="translate(19.1,0.0)">
+      <title>UD Load 28 kN/m</title>
+      <polygon points="0,0 0,-12.0 340.9,-12.0 340.9,0" class="dload"/>
+      <path class="dload" d="M 0.0 -12.0 L 0.0 -1.0"/>
+      <path class="dload" d="M 24.3 -12.0 L 24.3 -1.0"/>
+      <path class="dload" d="M 48.7 -12.0 L 48.7 -1.0"/>
+      <path class="dload" d="M 73.0 -12.0 L 73.0 -1.0"/>
+      <path class="dload" d="M 97.4 -12.0 L 97.4 -1.0"/>
+      <path class="dload" d="M 121.7 -12.0 L 121.7 -1.0"/>
+      <path class="dload" d="M 146.1 -12.0 L 146.1 -1.0"/>
+      <path class="dload" d="M 170.4 -12.0 L 170.4 -1.0"/>
+      <path class="dload" d="M 194.8 -12.0 L 194.8 -1.0"/>
+      <path class="dload" d="M 219.1 -12.0 L 219.1 -1.0"/>
+      <path class="dload" d="M 243.5 -12.0 L 243.5 -1.0"/>
+      <path class="dload" d="M 267.8 -12.0 L 267.8 -1.0"/>
+      <path class="dload" d="M 292.2 -12.0 L 292.2 -1.0"/>
+      <path class="dload" d="M 316.5 -12.0 L 316.5 -1.0"/>
+      <path class="dload" d="M 340.9 -12.0 L 340.9 -1.0"/>
+      <text style="text-anchor: middle;" dx="0.0" dy="-2.0" y="-12.0" x="170.4" class="dim">28</text>
+    </g>
+    <g transform="translate(0.0,-1.0)">
+      <title>Point Load = 45 kN</title>
+      <path class="cload" d="M 0 -28.9 l 0 25.9"/>
+      <text y="-28.9" x="0" class="dim" dy="-3.0">45</text>
+    </g>
+    <g transform="translate(147.4,-1.0)">
+      <title>Point Load = 50 kN</title>
+      <path class="cload" d="M 0 -29.2 l 0 26.2"/>
+      <text y="-29.2" x="0" class="dim" dy="-3.0">50</text>
+    </g>
+    <g transform="translate(19.1,1.0)">
+      <title>Point Load = -100.335 kN</title>
+      <path class="cload" d="M 0 32.4 l 0 -29.4"/>
+      <text y="32.4" x="0" class="dim" dy="8.0">100.3</text>
+    </g>
+    <g transform="translate(124.5,1.0)">
+      <title>Point Load = -252.265 kN</title>
+      <path class="cload" d="M 0 42.0 l 0 -39.0"/>
+      <text y="42.0" x="0" class="dim" dy="8.0">252.3</text>
+    </g>
+    <g transform="translate(273.8,1.0)">
+      <title>Point Load = -210.653 kN</title>
+      <path class="cload" d="M 0 39.4 l 0 -36.4"/>
+      <text y="39.4" x="0" class="dim" dy="8.0">210.7</text>
+    </g>
+    <g transform="translate(360.0,1.0)">
+      <title>Point Load = -30.1467 kN</title>
+      <path class="cload" d="M 0 27.9 l 0 -24.9"/>
+      <text y="27.9" x="0" class="dim" dy="8.0">30.15</text>
+    </g>
+    <text x="360.0" y="0" class="dwglabel" dx="18.0">FBD [m,kN]</text>
+  </g>
+  <g id="beam-shear-diagram" visibility="visible" transform="translate(0.0,216.0)">
+    <g transform="translate(0.0,61.8)">
+      <title>Shear Force Diagram</title>
+      <path class="vdiag" d="M 0,0 L -0.0,-0.0 0.0,18.1 19.1,18.1 19.1,-22.3 124.5,39.7 124.5,-61.8 147.4,-48.3 147.4,-28.2 243.2,28.2 273.8,46.2 273.8,-38.6 360.0,12.1 360.0,0.0 z"/>
+      <circle cx="0.0" cy="18.1" r="1.5" stroke="none" fill="red"><title>-45 kN</title></circle>
+      <text x="0.0" y="18.1" dx="-1.0" dy="7.0" class="vmlabel" text-anchor="end"><title>-45 kN</title>-45</text>
+      <circle cx="19.1" cy="18.1" r="1.5" stroke="none" fill="red"><title>-45 kN</title></circle>
+      <text x="19.1" y="18.1" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-45 kN</title>-45</text>
+      <circle cx="19.1" cy="-22.3" r="1.5" stroke="none" fill="red"><title>55.33 kN</title></circle>
+      <text x="19.1" y="-22.3" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>55.33 kN</title>55.33</text>
+      <circle cx="124.5" cy="39.7" r="1.5" stroke="none" fill="red"><title>-98.67 kN</title></circle>
+      <text x="124.5" y="39.7" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-98.67 kN</title>-98.67</text>
+      <circle cx="124.5" cy="-61.8" r="1.5" stroke="none" fill="red"><title>153.6 kN</title></circle>
+      <text x="124.5" y="-61.8" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>153.6 kN</title>153.6</text>
+      <circle cx="147.4" cy="-48.3" r="1.5" stroke="none" fill="red"><title>120 kN</title></circle>
+      <text x="147.4" y="-48.3" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>120 kN</title>120</text>
+      <circle cx="147.4" cy="-28.2" r="1.5" stroke="none" fill="red"><title>70 kN</title></circle>
+      <text x="147.4" y="-28.2" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>70 kN</title>70</text>
+      <circle cx="243.2" cy="28.2" r="1.5" stroke="none" fill="red"><title>-70 kN</title></circle>
+      <text x="243.2" y="28.2" dx="-1.0" dy="7.0" class="vmlabel" text-anchor="end"><title>-70 kN</title>-70</text>
+      <circle cx="273.8" cy="46.2" r="1.5" stroke="none" fill="red"><title>-114.8 kN</title></circle>
+      <text x="273.8" y="46.2" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-114.8 kN</title>-114.8</text>
+      <circle cx="273.8" cy="-38.6" r="1.5" stroke="none" fill="red"><title>95.85 kN</title></circle>
+      <text x="273.8" y="-38.6" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>95.85 kN</title>95.85</text>
+      <circle cx="360.0" cy="12.1" r="1.5" stroke="none" fill="red"><title>-30.15 kN</title></circle>
+      <text x="360.0" y="12.1" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-30.15 kN</title>-30.15</text>
+      <text x="360.0" y="0" class="dwglabel" dx="18.0">V [kN]</text>
+    </g>
+    <g id="beam-zvguides" visibility="visible" transform="translate(0.0,0.0)">
+      <path class="guides" d="M 57.0 63.8 L 57.0 258.0 M 195.3 63.8 L 195.3 258.0 M 339.4 63.8 L 339.4 258.0"/>
+      <path class="guides" d="M 19.1 126.0 L 57.0 126.0"/>
+      <path class="guides" d="M 19.1 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <path class="guides" d="M 57.0 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <text y="126.0" x="38.1" class="guides" dy="-3.0">1.98</text>
+      <path class="guides" d="M 147.4 126.0 L 195.3 126.0"/>
+      <path class="guides" d="M 147.4 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <path class="guides" d="M 195.3 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <text y="126.0" x="171.4" class="guides" dy="-3.0">2.5</text>
+      <path class="guides" d="M 273.8 126.0 L 339.4 126.0"/>
+      <path class="guides" d="M 273.8 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <path class="guides" d="M 339.4 126.0 m -3.0 3.0 l 6.0 -6.0"/>
+      <text y="126.0" x="306.6" class="guides" dy="-3.0">3.42</text>
+    </g>
+  </g>
+  <g id="beam-moment-diagram" visibility="visible" transform="translate(0.0,360.0)">
+    <g transform="translate(0.0,37.6)">
+      <title>Bending Moment Diagram</title>
+      <path class="mdiag" d="M 0,0 L 0.0,0.0 19.1,19.3 20.9,17.2 22.7,15.1 24.5,13.1 26.3,11.3 28.1,9.5 29.9,7.9 31.6,6.4 33.4,4.9 35.2,3.6 37.0,2.4 38.8,1.3 40.6,0.3 42.4,-0.6 44.1,-1.4 45.9,-2.1 47.7,-2.7 49.5,-3.2 51.3,-3.6 53.1,-3.9 54.9,-4.1 56.6,-4.2 57.0,-4.2 58.4,-4.1 60.2,-4.0 62.0,-3.7 63.8,-3.4 65.6,-2.9 67.3,-2.4 69.1,-1.7 70.9,-1.0 72.7,-0.1 74.5,0.9 76.3,1.9 78.1,3.1 79.8,4.4 81.6,5.8 83.4,7.3 85.2,8.9 87.0,10.6 88.8,12.4 90.6,14.3 92.3,16.3 94.1,18.4 95.9,20.7 97.7,23.0 99.5,25.4 101.3,28.0 103.0,30.6 104.8,33.3 106.6,36.2 108.4,39.2 110.2,42.2 112.0,45.4 113.8,48.6 115.5,52.0 117.3,55.5 119.1,59.1 120.9,62.8 122.7,66.6 124.5,70.4 126.2,64.4 128.0,58.5 129.8,52.7 131.5,46.9 133.3,41.3 135.1,35.8 136.8,30.4 138.6,25.0 140.4,19.8 142.1,14.7 143.9,9.7 145.7,4.8 147.4,0.0 149.3,-2.8 151.1,-5.5 152.9,-8.0 154.7,-10.5 156.5,-12.8 158.3,-15.1 160.1,-17.2 161.9,-19.2 163.7,-21.2 165.5,-23.0 167.3,-24.7 169.1,-26.3 170.9,-27.8 172.7,-29.2 174.5,-30.5 176.4,-31.7 178.2,-32.7 180.0,-33.7 181.8,-34.5 183.6,-35.3 185.4,-35.9 187.2,-36.5 189.0,-36.9 190.8,-37.2 192.6,-37.4 194.4,-37.5 195.3,-37.6 196.2,-37.5 198.0,-37.4 199.8,-37.2 201.6,-36.9 203.4,-36.5 205.3,-35.9 207.1,-35.3 208.9,-34.5 210.7,-33.7 212.5,-32.7 214.3,-31.7 216.1,-30.5 217.9,-29.2 219.7,-27.8 221.5,-26.3 223.3,-24.7 225.1,-23.0 226.9,-21.2 228.7,-19.2 230.5,-17.2 232.4,-15.1 234.2,-12.8 236.0,-10.5 237.8,-8.0 239.6,-5.5 241.4,-2.8 243.2,-0.0 245.0,2.9 246.8,5.9 248.6,9.0 250.4,12.2 252.2,15.5 254.0,18.9 255.8,22.4 257.6,26.0 259.4,29.8 261.2,33.6 263.0,37.5 264.8,41.6 266.6,45.7 268.4,50.0 270.2,54.4 272.0,58.9 273.8,63.4 275.6,59.6 277.4,55.9 279.2,52.4 281.0,48.9 282.8,45.5 284.6,42.2 286.4,39.0 288.2,36.0 290.0,33.0 291.8,30.2 293.6,27.4 295.4,24.8 297.2,22.2 299.0,19.8 300.8,17.5 302.6,15.3 304.3,13.1 306.1,11.1 307.9,9.2 309.7,7.4 311.5,5.7 313.3,4.2 315.1,2.7 316.9,1.3 318.7,0.0 320.5,-1.1 322.3,-2.2 324.1,-3.1 325.9,-4.0 327.7,-4.7 329.5,-5.4 331.3,-5.9 333.1,-6.3 334.9,-6.6 336.7,-6.8 338.5,-7.0 339.4,-7.0 340.3,-7.0 342.0,-6.8 343.8,-6.6 345.6,-6.3 347.4,-5.9 349.2,-5.4 351.0,-4.7 352.8,-4.0 354.6,-3.2 356.4,-2.2 358.2,-1.2 360.0,0.0 z"/>
+      <circle cx="19.1" cy="19.3" r="1.5" stroke="none" fill="red"><title>-45 kN-m</title></circle>
+      <text x="19.1" y="19.3" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-45 kN-m</title>-45</text>
+      <circle cx="57.0" cy="-4.2" r="1.5" stroke="none" fill="red"><title>9.677 kN-m</title></circle>
+      <text x="57.0" y="-4.2" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>9.677 kN-m</title>9.677</text>
+      <circle cx="124.5" cy="70.4" r="1.5" stroke="none" fill="red"><title>-164.2 kN-m</title></circle>
+      <text x="124.5" y="70.4" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-164.2 kN-m</title>-164.2</text>
+      <circle cx="195.3" cy="-37.6" r="1.5" stroke="none" fill="red"><title>87.5 kN-m</title></circle>
+      <text x="195.3" y="-37.6" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>87.5 kN-m</title>87.5</text>
+      <circle cx="273.8" cy="63.4" r="1.5" stroke="none" fill="red"><title>-147.8 kN-m</title></circle>
+      <text x="273.8" y="63.4" dx="1.0" dy="7.0" class="vmlabel" text-anchor="start"><title>-147.8 kN-m</title>-147.8</text>
+      <circle cx="339.4" cy="-7.0" r="1.5" stroke="none" fill="red"><title>16.23 kN-m</title></circle>
+      <text x="339.4" y="-7.0" dx="1.0" dy="-1.0" class="vmlabel" text-anchor="start"><title>16.23 kN-m</title>16.23</text>
+      <text x="360.0" y="0" class="dwglabel" dx="18.0">M [kN-m]</text>
+    </g>
+  </g>
+</g>
+
+</svg>

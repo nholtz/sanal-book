@@ -95,11 +95,13 @@ $$
 ### 2.7.2: Loads on Inclined Members, General Relationships
 
 Here are some general relationships, expressed in terms of the
-geometry of the basi structure.  For each load case are shown the
+geometry of the basic structure.  For each load case are shown the
 moment about point _a_, $M_a$, the total vertical component, $F_y$,
 and the total horizontal component, $F_x$.  Also shown are the
-distribute components normal to the member, $w_n$ and parallel to it,
-$w_p$.
+distributed components normal to the member, $w_n$ and parallel to it,
+$w_p$.  These distributed components, $w_n$ and $w_p$, are particularly
+important when it comes time to construct the NVM diagrams for sloped
+members, but can also be useful for local member equilibrium.
 
 **Basic Structure**
 
