@@ -1,0 +1,20 @@
+# svg-file	id-or-layer-label	target
+frame-1b.svg		Layer 1		frame-1b-1
+frame-1b.svg		Layer 2		frame-1b-2
+frame-1b.svg		Layer 3		frame-1b-3
+frame-1b.svg		Layer 4		frame-1b-4
+frame-1c.svg		Joint d		frame-1c-1
+frame-1c.svg		Joint b		frame-1c-2
+frame-1.svg		Layer 1		frame-1-frame
+frame-1.svg		FBD-1		frame-1-fbd-1
+frame-1.svg		FBD-2		frame-1-fbd-2
+frame-1.svg		FBD-S		frame-1-fbd-s
+load-types-general.svg	Layer-1		load-types-general-none
+load-types-general.svg	snow		load-types-general-snow
+load-types-general.svg	dead		load-types-general-dead
+load-types-general.svg	wind		load-types-general-wind
+load-types.svg		Layer-1		load-types-none
+load-types.svg		snow		load-types-snow
+load-types.svg		dead		load-types-dead
+load-types.svg		wind		load-types-wind
+

@@ -4,15 +4,16 @@ prev_page:
   url: /text/sdbeams/beam-example-1.html
   title: 'Beam Reactions Examples'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdbeams/frame-reactions-1.html
+  title: 'Frame Reactions, Part 1'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Plane Frames
 
-## 2.6: Problems - Reactions in Beams
+## Suggested Problems - Reactions in Beams
 
-Solve all of the following beam problems.  Click on
+Solve for the reactions for all of the following beam problems and
+show your results on a complete free body diagram.  Click on
 the link to see the answer.
 
 ### Problem 01

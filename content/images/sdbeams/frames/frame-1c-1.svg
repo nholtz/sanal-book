@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   height="97.221199"
+   width="131.75787">
+  <script
+     id="script3033"
+     xlink:href="" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4776" />
+    </marker>
+    <marker
+       id="CLArrowStart"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="3"
+       refY="3">
+      <path
+         d="M 0,3 10,0 8,3 10,6 Z"
+         id="path3448" />
+    </marker>
+    <marker
+       id="CLArrowEnd"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path3451" />
+    </marker>
+    <marker
+       id="marker16149"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path16151" />
+    </marker>
+    <marker
+       id="CLArrowStart-8"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="3"
+       refY="3">
+      <path
+         d="M 0,3 10,0 8,3 10,6 Z"
+         id="path3448-5" />
+    </marker>
+    <marker
+       id="CLArrowEnd-0"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path3451-6" />
+    </marker>
+    <marker
+       id="marker16239"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path16241" />
+    </marker>
+    <marker
+       id="CLArrowStart-4"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="3"
+       refY="3">
+      <path
+         d="M 0,3 10,0 8,3 10,6 Z"
+         id="path3448-6" />
+    </marker>
+    <marker
+       id="CLArrowEnd-2"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path3451-5" />
+    </marker>
+    <marker
+       id="marker16426"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10"
+       markerHeight="6"
+       orient="auto"
+       viewBox="0 0 10 6"
+       refX="7"
+       refY="3">
+      <path
+         d="M 0,0 10,3 0,6 2,3 Z"
+         id="path16428" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-411.4022,-230.36848)"
+     id="layer3">
+    <g
+       id="g16484"
+       transform="translate(0,-62.362)">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd)"
+         class="cload"
+         d="M 522.3373,352.08104 H 481.21106"
+         id="path16359" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd)"
+         class="cload"
+         d="m 494.59922,377.64354 v -28.75"
+         id="path16361" />
+      <g
+         transform="rotate(67.503013,588.53467,355.79805)"
+         id="g16363">
+        <path
+           id="path16365"
+           d="m 542.875,419.612 a 18.75,18.75 0 0 1 0,37.5"
+           class="mload"
+           style="visibility:visible;fill:none;stroke:#000000;stroke-width:1.25999999;stroke-miterlimit:4;stroke-dasharray:none;marker-end:none" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.25999999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#CLArrowStart)"
+           d="m 537.0689,457.09896 h 6.77369"
+           id="path16367" />
+      </g>
+      <text
+         id="text16369"
+         y="389.58517"
+         x="479.83655"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:11px;line-height:1.25"
+           y="389.58517"
+           x="479.83655"
+           id="tspan16371">36kN</tspan></text>
+      <text
+         id="text16373"
+         y="361.5755"
+         x="515.26672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:11px;line-height:1.25"
+           y="361.5755"
+           x="515.26672"
+           id="tspan16375">36kN</tspan></text>
+      <text
+         id="text16377"
+         y="343.81281"
+         x="416.30783"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:11px;line-height:1.25"
+           y="343.81281"
+           x="416.30783"
+           id="tspan16379">144kN-m</tspan></text>
+      <path
+         id="path16381"
+         d="m 494.94829,341.40464 0.0438,-9.10138 -9.01386,-2.93169"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="499.35654"
+         y="336.4079"
+         id="text10718"><tspan
+           style="font-size:9px;line-height:1.25"
+           id="tspan10720"
+           x="499.35654"
+           y="336.4079">d</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd)"
+         class="cload"
+         d="m 487.14892,313.36311 -9.92399,26.9829"
+         id="path10722" />
+      <path
+         id="path10724"
+         d="m 455.21064,318.66035 27.25887,9.13875"
+         class="cload"
+         style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd)" />
+      <g
+         id="g10726"
+         transform="matrix(-0.8356777,-0.54922016,-0.54922016,0.8356777,1180.788,259.96912)">
+        <path
+           style="visibility:visible;fill:none;stroke:#000000;stroke-width:1.25999999;stroke-miterlimit:4;stroke-dasharray:none;marker-end:none"
+           class="mload"
+           d="m 542.875,419.612 a 18.75,18.75 0 0 1 0,37.5"
+           id="path10728" />
+        <path
+           id="path10730"
+           d="m 537.0689,457.09896 h 6.77369"
+           style="fill:none;stroke:#000000;stroke-width:1.25999999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#CLArrowStart)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="476.17874"
+         y="301.2879"
+         id="text15064"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan15066"
+           x="476.17874"
+           y="301.2879">22.77kN</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="411.18863"
+         y="316.58493"
+         id="text15068"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan15070"
+           x="411.18863"
+           y="316.58493">45.53kN</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="429.95139"
+         y="367.49597"
+         id="text16480"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan16482"
+           x="429.95139"
+           y="367.49597">144kN-m</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,8 +1,9 @@
 # 2: Forces in Statically Determinate Beams and Plane Frames
 
-## 2.6: Problems - Reactions in Beams
+## Suggested Problems - Reactions in Beams
 
-Solve all of the following beam problems.  Click on
+Solve for the reactions for all of the following beam problems and
+show your results on a complete free body diagram.  Click on
 the link to see the answer.
 
 ### Problem 01
