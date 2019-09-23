@@ -15,6 +15,8 @@ For each of the following frames:
 
 ![Figure](../../images/sdbeams/probs-frames/prob-1.svg)
 
+[Solution](../../images/sdbeams/probs-frames/prob-1-soln.pdf)
+
 Problem 2.7-1
 
 

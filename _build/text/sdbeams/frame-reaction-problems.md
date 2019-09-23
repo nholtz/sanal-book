@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdbeams/frame-reactions-2.html
   title: 'Frame Reactions, Part 2'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdbeams/NVM-diagrams.html
+  title: 'NVM Diagrams'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Plane Frames
@@ -24,6 +24,8 @@ For each of the following frames:
   (with an '*') and show that joint equilibrium is satisfied.
 
 ![Figure](../../images/sdbeams/probs-frames/prob-1.svg)
+
+[Solution](../../images/sdbeams/probs-frames/prob-1-soln.pdf)
 
 Problem 2.7-1
 
