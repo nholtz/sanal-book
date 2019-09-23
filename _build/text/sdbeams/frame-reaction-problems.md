@@ -29,11 +29,11 @@ For each of the following frames:
 
 Problem 2.7-1
 
-
 ![Figure](../../images/sdbeams/probs-frames/prob-2.svg)
 
-Problem 2.7-2
+[Partial Solution](../../images/sdbeams/probs-frames/prob-2-soln.pdf)
 
+Problem 2.7-2
 
 ![Figure](../../images/sdbeams/probs-frames/prob-3.svg)
 
@@ -52,5 +52,7 @@ Problem 2.7-5
 
 
 ![Figure](../../images/sdbeams/probs-frames/prob-6.svg)
+
+[Partial Solution](../../images/sdbeams/probs-frames/prob-6-soln.pdf)
 
 Problem 2.7-6
