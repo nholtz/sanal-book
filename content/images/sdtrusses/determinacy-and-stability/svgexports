@@ -1,0 +1,8 @@
+# svg-file	[+]layer-labels		target
+hextruss.svg	Layer 1			hextruss-1
+hextruss.svg	+Paths			hextruss-2
+hextruss.svg	+step1			hextruss-3
+hextruss.svg	+step2			hextruss-4
+hextruss.svg	+step3			hextruss-5
+hextruss.svg	+step4			hextruss-6
+
