@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   height="174.6642"
+   width="173">
+  <script
+     id="script3033"
+     xlink:href="" />
+  <defs
+     id="defs4">
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TrussNodeS"
+       markerUnits="userSpaceOnUse"
+       style="overflow:visible">
+      <circle
+         cx="0"
+         cy="0"
+         r="3"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1"
+         id="circle4221" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-273.5,-299.30425)"
+     id="layer1">
+    <g
+       id="g5982">
+      <path
+         transform="translate(0,62.362)"
+         style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 423,315 -31.5,54.5596 h -63 L 297,315 328.5,260.4404 h 63 z"
+         id="path5523" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+         d="m 328.5,260.4404 63,109.1192"
+         id="path5526"
+         transform="translate(0,62.362)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+         d="m 391.5,260.4404 -63,109.1192"
+         id="path5528"
+         transform="translate(0,62.362)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+         d="M 297,315 H 423"
+         id="path5530"
+         transform="translate(0,62.362)" />
+      <g
+         id="g10775"
+         transform="translate(72.81785,80.345938)">
+        <g
+           transform="matrix(1.25,0,0,1.25,255.65647,356.59727)"
+           id="use90">
+          <path
+             style="fill:#000000;stroke:#000000;stroke-width:0"
+             id="path5224"
+             d="M 0.19825424,-1.057356 5.1895254,5.8678305 H -5.3216949 Z" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1"
+             id="path5226"
+             d="M -6,6 H 6" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1"
+             id="path5228"
+             d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+        </g>
+      </g>
+      <g
+         id="g3395"
+         transform="translate(259.46741,97.547651)">
+        <path
+           d="m 132.30977,337.64131 5,7.5 h -10 z"
+           id="path5224-5"
+           style="fill:#000000;stroke:#000000;stroke-width:0" />
+        <path
+           d="m 124.80977,352.22885 h 15"
+           id="path5226-4"
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square" />
+        <path
+           d="m 139.80977,352.22885 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75"
+           id="path5228-7"
+           style="fill:none;stroke:#000000;stroke-width:1.25" />
+        <path
+           id="path3342"
+           d="m 123.97004,345.62043 h 16.4794"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <g
+           transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)"
+           id="use3513-4">
+          <circle
+             style="fill:#ffffff;stroke:#000000;stroke-width:1"
+             id="circle3573-4"
+             r="2.5"
+             cy="0"
+             cx="0" />
+        </g>
+        <g
+           transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)"
+           id="use3513-4-7">
+          <circle
+             style="fill:#ffffff;stroke:#000000;stroke-width:1"
+             id="circle3573-4-8"
+             r="2.5"
+             cy="0"
+             cx="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

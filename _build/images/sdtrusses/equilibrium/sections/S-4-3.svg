@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with wpg2svg/libwpg 0.2.0 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="640.8"
+   height="244.8"
+   id="svg4982"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="S-4-3.svg"
+   inkscape:export-filename="D:\CHAPS.45\png\MOS8.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata5056">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5054" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="476"
+     inkscape:window-height="447"
+     id="namedview5052"
+     showgrid="false"
+     inkscape:zoom="0.50561798"
+     inkscape:cx="320.44151"
+     inkscape:cy="49.875059"
+     inkscape:window-x="898"
+     inkscape:window-y="177"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4982" />
+  <g
+     id="g3015"
+     inkscape:export-filename="/home/nholtz/3203/drawings/SDTrusses/Equilibrium/MethodOfSections/S-4-3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <ellipse
+       id="ellipse4984"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="5.46"
+       rx="5.52"
+       cy="194.58"
+       cx="287.82" />
+    <ellipse
+       id="ellipse4986"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="5.46"
+       rx="5.52"
+       cy="195.66"
+       cx="182.34" />
+    <ellipse
+       id="ellipse4988"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="5.46"
+       rx="5.52"
+       cy="194.58"
+       cx="77.82" />
+    <ellipse
+       id="ellipse4990"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="5.46"
+       rx="5.52"
+       cy="67.5"
+       cx="182.34" />
+    <line
+       id="line4992"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="71.7"
+       x2="177.12"
+       y1="189.3"
+       x1="81.06" />
+    <line
+       id="line4994"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="187.68"
+       x2="182.1"
+       y1="72.6"
+       x1="181.26" />
+    <line
+       id="line4996"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="189.3"
+       x2="283.86"
+       y1="69.24"
+       x1="187.08" />
+    <line
+       id="line4998"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="194.28"
+       x2="177.96"
+       y1="194.28"
+       x1="83.52" />
+    <line
+       id="line5000"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="195.96"
+       x2="281.4"
+       y1="195.96"
+       x1="186.24" />
+    <line
+       id="line5002"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="38.64"
+       x2="283.08"
+       y1="63.42"
+       x1="186.24" />
+    <line
+       id="line5004"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="238.56"
+       x2="77.58"
+       y1="203.4"
+       x1="77.58" />
+    <line
+       id="line5006"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="223.44"
+       x2="182.58"
+       y1="202.32"
+       x1="182.58" />
+    <polygon
+       id="polygon5008"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="77.58 202.26, 72.36 216.18, 82.32 216.18, 77.58 203.04" />
+    <polygon
+       id="polygon5010"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="182.58 225.84, 180.54 215.46, 184.56 215.46, 183 225.42" />
+    <line
+       id="line5012"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="222.12"
+       x2="287.22"
+       y1="201"
+       x1="287.22" />
+    <polygon
+       id="polygon5014"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="287.22 224.52, 285.18 214.14, 289.2 214.14, 287.58 224.1" />
+    <text
+       id="text5016"
+       y="232.32"
+       x="307.44">
+sect.
+</text>
+    <line
+       id="line5018"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="37.32"
+       x2="327.3"
+       y1="37.32"
+       x1="288.12" />
+    <line
+       id="line5020"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="18.3"
+       x2="357.72"
+       y1="40.44"
+       x1="276.12" />
+    <line
+       id="line5022"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="36.66"
+       x2="287.94"
+       y1="18"
+       x1="287.94" />
+    <line
+       id="line5024"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="37.02"
+       x2="358.86"
+       y1="37.02"
+       x1="287.94" />
+    <line
+       id="line5026"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="144.78"
+       x2="328.32"
+       y1="190.62"
+       x1="292.8" />
+    <line
+       id="line5028"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="194.1"
+       x2="351"
+       y1="193.62"
+       x1="293.34" />
+    <polygon
+       id="polygon5030"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="330.78 141.84, 312.06 153.18, 325.32 161.58, 331.26 141.84" />
+    <polygon
+       id="polygon5032"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="354.9 194.1, 333.72 187.2, 333.72 200.04, 353.94 193.62" />
+    <polygon
+       id="polygon5034"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="287.94 15.24, 284.28 23.82, 290.76 23.82, 287.52 15.66" />
+    <polygon
+       id="polygon5036"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="358.08 17.34, 341.7 17.34, 344.94 25.44, 357.66 18.12" />
+    <polygon
+       id="polygon5038"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="359.94 37.68, 351.6 34.02, 351.48 40.32, 359.58 37.26" />
+    <text
+       id="text5040"
+       y="25.08"
+       x="360.66">
+F
+</text>
+    <text
+       id="text5042"
+       y="31.8"
+       x="369.18">
+A
+</text>
+    <path
+       id="path5044"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       d="  M274.26,21.9 C290.4,42.78 298.26,59.94 303.78,85.8 C308.28,109.38 306.78,126.3 301.44,149.64" />
+    <polyline
+       id="polyline5046"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="274.26 21.9, 275.46 23.46, 276.6 25.02, 277.74 26.52, 278.82 28.08, 279.9 29.58, 280.98 31.08, 282 32.58, 282.96 34.08, 283.92 35.58, 284.88 37.08, 285.78 38.52, 286.68 40.02, 287.58 41.52, 288.42 43.02, 289.2 44.46, 290.04 45.96, 290.76 47.46, 291.54 48.96, 292.26 50.46, 292.98 51.96, 293.7 53.52, 294.36 55.02, 295.02 56.58, 295.62 58.14, 296.28 59.7, 296.88 61.32, 297.42 62.94, 298.02 64.56, 298.56 66.18, 299.1 67.86, 299.64 69.54, 300.12 71.22, 300.6 72.96, 301.08 74.7, 301.56 76.5, 302.04 78.3, 302.46 80.1, 302.94 81.96, 303.36 83.88, 303.78 85.8" />
+    <polyline
+       id="polyline5048"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="303.78 85.8, 304.08 87.54, 304.38 89.28, 304.68 91.02, 304.92 92.7, 305.16 94.38, 305.4 96, 305.58 97.62, 305.76 99.24, 305.94 100.86, 306.06 102.42, 306.18 104.04, 306.24 105.6, 306.3 107.16, 306.36 108.66, 306.42 110.22, 306.42 111.72, 306.42 113.28, 306.42 114.78, 306.36 116.28, 306.3 117.78, 306.18 119.34, 306.12 120.84, 306 122.34, 305.88 123.9, 305.7 125.4, 305.52 126.9, 305.34 128.46, 305.16 130.02, 304.92 131.58, 304.68 133.14, 304.44 134.7, 304.14 136.32, 303.84 137.88, 303.54 139.5, 303.24 141.18, 302.94 142.8, 302.58 144.48, 302.22 146.16, 301.8 147.9, 301.44 149.64" />
+    <polyline
+       id="polyline5050"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="301.44 149.64, 300.84 152.1, 300.24 154.44, 299.64 156.84, 299.04 159.12, 298.38 161.4, 297.78 163.68, 297.12 165.84, 296.46 168.06, 295.8 170.22, 295.14 172.32, 294.42 174.42, 293.7 176.52, 292.98 178.56, 292.26 180.6, 291.48 182.58, 290.7 184.56, 289.92 186.54, 289.08 188.52, 288.24 190.44, 287.4 192.42, 286.5 194.34, 285.6 196.26, 284.7 198.18, 283.74 200.04, 282.78 201.96, 281.76 203.88, 280.74 205.74, 279.72 207.66, 278.64 209.58, 277.56 211.5, 276.42 213.42, 275.22 215.34, 274.02 217.26, 272.82 219.18, 271.56 221.16, 270.3 223.14, 268.92 225.12, 267.6 227.1, 266.22 229.14, 264.78 231.18" />
+  </g>
+</svg>

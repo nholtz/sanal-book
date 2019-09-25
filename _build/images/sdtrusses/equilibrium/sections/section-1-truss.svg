@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="765"
+   height="990"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="section-1-truss.svg">
+  <script
+     xlink:href=""
+     id="script3033" />
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8567114"
+     inkscape:cx="382.5"
+     inkscape:cy="711.65254"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="in"
+     inkscape:window-width="1179"
+     inkscape:window-height="979"
+     inkscape:window-x="660"
+     inkscape:window-y="50"
+     inkscape:window-maximized="0"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="in"
+       spacingx="0.1in"
+       spacingy="0.1in" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,765"
+       id="guide3042" />
+    <sodipodi:guide
+       position="765,0"
+       orientation="-990,0"
+       id="guide3044" />
+    <sodipodi:guide
+       position="765,990"
+       orientation="0,-765"
+       id="guide3046" />
+    <sodipodi:guide
+       position="0,990"
+       orientation="990,0"
+       id="guide3048" />
+    <sodipodi:guide
+       position="720,45"
+       orientation="0,765"
+       id="guide3050" />
+    <sodipodi:guide
+       position="720,900"
+       orientation="-990,0"
+       id="guide3052" />
+    <sodipodi:guide
+       position="63,900"
+       orientation="0,-765"
+       id="guide3054" />
+    <sodipodi:guide
+       position="90,927"
+       orientation="990,0"
+       id="guide3056" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Border"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3040"
+       width="630"
+       height="855"
+       x="90"
+       y="90" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-62.362)">
+    <g
+       id="g9077"
+       inkscape:export-filename="/home/nholtz/3203/drawings/SDTrusses/Equilibrium/MethodOfSections/section-1-truss.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <ellipse
+         id="ellipse334"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="538.85999"
+         cx="381.35999"
+         sodipodi:cx="381.35999"
+         sodipodi:cy="538.85999"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92"
+         transform="translate(0,-281.43799)" />
+      <ellipse
+         id="ellipse336"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="566.09998"
+         cx="381.29999"
+         sodipodi:cx="381.29999"
+         sodipodi:cy="566.09998"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92"
+         transform="translate(0,-281.43799)" />
+      <ellipse
+         id="ellipse338"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="553.32001"
+         cx="326.76001"
+         sodipodi:cx="326.76001"
+         sodipodi:cy="553.32001"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92"
+         transform="translate(0,-281.43799)" />
+      <ellipse
+         id="ellipse340"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="553.32001"
+         cx="436.98001"
+         sodipodi:cx="436.98001"
+         sodipodi:cy="553.32001"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92"
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line342"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="257.72198"
+         x2="378.84"
+         y1="271.04199"
+         x1="327.60001" />
+      <line
+         id="line344"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="271.22198"
+         x2="435.17999"
+         y1="258.14203"
+         x1="383.16" />
+      <line
+         id="line346"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="272.54199"
+         x2="434.88"
+         y1="284.00201"
+         x1="383.16" />
+      <line
+         id="line348"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="284.362"
+         x2="379.5"
+         y1="272.90204"
+         x1="328.5" />
+      <line
+         id="line350"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="282.38202"
+         x2="380.82001"
+         y1="259.46204"
+         x1="381.17999" />
+      <ellipse
+         id="ellipse352"
+         transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,-367.99959,458.29561)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="609.65997"
+         cx="298.01999"
+         sodipodi:cx="298.01999"
+         sodipodi:cy="609.65997"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <ellipse
+         id="ellipse354"
+         transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,-348.54832,483.88499)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="609.78003"
+         cx="324.42001"
+         sodipodi:cx="324.42001"
+         sodipodi:cy="609.78003"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <ellipse
+         id="ellipse356"
+         transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,-415.83989,495.18892)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="659.28003"
+         cx="298.14001"
+         sodipodi:cx="298.14001"
+         sodipodi:cy="659.28003"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <line
+         id="line358"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="273.62201"
+         x2="326.64001"
+         y1="326.362"
+         x1="324.23999" />
+      <line
+         id="line360"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="330.08203"
+         x2="323.57999"
+         y1="376.40204"
+         x1="299.51999" />
+      <ellipse
+         id="ellipse362"
+         transform="matrix(0.2419219,0.97029573,-0.97029573,0.2419219,942.57223,-270.11543)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="608.88"
+         cx="464.04001"
+         sodipodi:cx="464.04001"
+         sodipodi:cy="608.88"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <ellipse
+         id="ellipse364"
+         transform="matrix(0.2419219,0.97029573,-0.97029573,0.2419219,922.87736,-244.90714)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="608.88"
+         cx="438.06"
+         sodipodi:cx="438.06"
+         sodipodi:cy="608.88"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <ellipse
+         id="ellipse366"
+         transform="matrix(0.2419219,0.97029573,-0.97029573,0.2419219,867.8652,-286.57479)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="552.84003"
+         cx="437.22"
+         sodipodi:cx="437.22"
+         sodipodi:cy="552.84003"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <ellipse
+         id="ellipse368"
+         transform="matrix(0.2419219,0.97029573,-0.97029573,0.2419219,991.7462,-231.41524)"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="659.70001"
+         cx="463.85999"
+         sodipodi:cx="463.85999"
+         sodipodi:cy="659.70001"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92" />
+      <line
+         id="line370"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="376.40204"
+         x2="462.78"
+         y1="329.00201"
+         x1="439.14001" />
+      <line
+         id="line372"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="325.58203"
+         x2="437.94"
+         y1="273.26202"
+         x1="436.73999" />
+      <ellipse
+         id="ellipse374"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="1.92"
+         rx="1.92"
+         cy="621.23999"
+         cx="380.76001"
+         sodipodi:cx="380.76001"
+         sodipodi:cy="621.23999"
+         sodipodi:rx="1.92"
+         sodipodi:ry="1.92"
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line376"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="337.88202"
+         x2="378.84"
+         y1="272.78198"
+         x1="328.20001" />
+      <line
+         id="line378"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="338.422"
+         x2="382.73999"
+         y1="272.78198"
+         x1="435.06" />
+      <line
+         id="line380"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="377.90204"
+         x2="299.22"
+         y1="340.64203"
+         x1="378.23999" />
+      <line
+         id="line382"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="377.362"
+         x2="462.35999"
+         y1="340.64203"
+         x1="382.14001" />
+      <polygon
+         id="polygon384"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="290.1,675.96 307.38,675.96 298.68,661.56 297.96,661.38 "
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line386"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="401.422"
+         x2="285.29999"
+         y1="395.06201"
+         x1="291.06" />
+      <line
+         id="line388"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="401.422"
+         x2="291.06"
+         y1="395.06201"
+         x1="296.82001" />
+      <line
+         id="line390"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="401.66199"
+         x2="296.39999"
+         y1="395.302"
+         x1="302.16" />
+      <line
+         id="line392"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="401.422"
+         x2="302.39999"
+         y1="395.06201"
+         x1="308.10001" />
+      <polygon
+         id="polygon394"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="457.86,672.6 470.76,672.6 464.34,661.86 463.74,661.74 "
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line396"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="402.26202"
+         x2="451.20001"
+         y1="395.90204"
+         x1="456.95999" />
+      <line
+         id="line398"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="402.26202"
+         x2="456.95999"
+         y1="395.90204"
+         x1="462.72" />
+      <line
+         id="line400"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="402.44202"
+         x2="462.35999"
+         y1="396.14203"
+         x1="468.06" />
+      <line
+         id="line402"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="402.26202"
+         x2="468.29999"
+         y1="395.90204"
+         x1="474.06" />
+      <ellipse
+         id="ellipse404"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="2.0999999"
+         rx="2.1600001"
+         cy="674.88"
+         cx="460.14001"
+         sodipodi:cx="460.14001"
+         sodipodi:cy="674.88"
+         sodipodi:rx="2.1600001"
+         sodipodi:ry="2.0999999"
+         transform="translate(0,-281.43799)" />
+      <ellipse
+         id="ellipse406"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         ry="2.0999999"
+         rx="2.1600001"
+         cy="674.88"
+         cx="468.23999"
+         sodipodi:cx="468.23999"
+         sodipodi:cy="674.88"
+         sodipodi:rx="2.1600001"
+         sodipodi:ry="2.0999999"
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line408"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="395.72198"
+         x2="475.67999"
+         y1="395.72198"
+         x1="454.38" />
+      <line
+         id="line410"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="420.802"
+         x2="298.14001"
+         y1="405.742"
+         x1="298.14001" />
+      <line
+         id="line412"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="422.48199"
+         x2="464.51999"
+         y1="405.742"
+         x1="464.51999" />
+      <line
+         id="line414"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="396.862"
+         x2="325.38"
+         y1="383.48199"
+         x1="325.38" />
+      <line
+         id="line416"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="397.46204"
+         x2="436.73999"
+         y1="380.72198"
+         x1="436.73999" />
+      <line
+         id="line418"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="326.72198"
+         x2="505.20001"
+         y1="326.72198"
+         x1="483.48001" />
+      <line
+         id="line420"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="379.64203"
+         x2="504.60001"
+         y1="379.64203"
+         x1="482.34" />
+      <line
+         id="line422"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="423.02203"
+         x2="381.60001"
+         y1="377.90204"
+         x1="381.60001" />
+      <line
+         id="line424"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="375.802"
+         x2="297.84"
+         y1="330.14203"
+         x1="297.84" />
+      <line
+         id="line426"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="376.22198"
+         x2="464.10001"
+         y1="329.242"
+         x1="464.10001" />
+      <line
+         id="line428"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="326.18201"
+         x2="298.20001"
+         y1="273.38202"
+         x1="325.20001" />
+      <line
+         id="line430"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="328.40204"
+         x2="322.01999"
+         y1="328.40204"
+         x1="300" />
+      <line
+         id="line432"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="325.10199"
+         x2="463.14001"
+         y1="273.38202"
+         x1="436.98001" />
+      <line
+         id="line434"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="327.38202"
+         x2="462.17999"
+         y1="327.38202"
+         x1="440.22" />
+      <text
+         id="text436"
+         y="392.422"
+         x="349.98001">4</text>
+      <text
+         id="text438"
+         y="417.08203"
+         x="333.84">6</text>
+      <line
+         id="line440"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="389.12201"
+         x2="346.32001"
+         y1="389.12201"
+         x1="325.5" />
+      <line
+         id="line442"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="413.12201"
+         x2="329.94"
+         y1="413.12201"
+         x1="298.26001" />
+      <polyline
+         id="polyline444"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="333.12 668.22, 325.5 670.56, 333.12 672.3"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline446"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="306.18 692.22, 298.56 694.56, 306.18 696.3"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline448"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="373.86 692.52, 381.48 694.86, 373.86 696.6"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline450"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="374.16 668.46, 381.78 670.8, 374.16 672.54"
+         transform="translate(0,-281.43799)" />
+      <text
+         id="text452"
+         y="391.64203"
+         x="407.88">4</text>
+      <text
+         id="text454"
+         y="416.18201"
+         x="420.89999">6</text>
+      <line
+         id="line456"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="341.18201"
+         x2="259.73999"
+         y1="341.18201"
+         x1="290.34" />
+      <line
+         id="line458"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="285.56201"
+         x2="258.60001"
+         y1="285.56201"
+         x1="300.89999" />
+      <line
+         id="line460"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="379.04199"
+         x2="265.79999"
+         y1="379.04199"
+         x1="285.89999" />
+      <text
+         id="text462"
+         y="361.58203"
+         x="268.07999">3</text>
+      <text
+         id="text464"
+         y="353.302"
+         x="487.14001">4</text>
+      <text
+         id="text466"
+         y="299.78198"
+         x="486.95999">4</text>
+      <line
+         id="line468"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="413.302"
+         x2="341.82001"
+         y1="413.302"
+         x1="381.06" />
+      <line
+         id="line470"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="413.302"
+         x2="415.85999"
+         y1="413.302"
+         x1="376.01999" />
+      <line
+         id="line472"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="413.302"
+         x2="464.51999"
+         y1="413.302"
+         x1="429.17999" />
+      <line
+         id="line474"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="389.362"
+         x2="357.66"
+         y1="389.362"
+         x1="381.89999" />
+      <line
+         id="line476"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="389.362"
+         x2="406.38"
+         y1="389.362"
+         x1="381.89999" />
+      <line
+         id="line478"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="388.76202"
+         x2="436.44"
+         y1="388.76202"
+         x1="415.85999" />
+      <polyline
+         id="polyline480"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="389.4 668.58, 381.78 670.86, 389.4 672.66"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline482"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="388.86 692.52, 381.24 694.86, 388.86 696.6"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline484"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="429.12 668.28, 436.68 670.62, 429.12 672.36"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline486"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="456.66 692.76, 464.28 695.1, 456.66 696.9"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline488"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.14 574.62, 269.1 567, 267.06 574.5"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline490"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.14 630.3, 269.1 622.62, 267.06 630.18"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline492"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.14 614.94, 269.1 622.62, 267.06 615.12"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline494"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.44 652.62, 269.34 660.3, 267.36 652.8"
+         transform="translate(0,-281.43799)" />
+      <text
+         id="text496"
+         y="316.46204"
+         x="267">4</text>
+      <line
+         id="line498"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="271.64203"
+         x2="501.84"
+         y1="271.64203"
+         x1="481.79999" />
+      <line
+         id="line500"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="257.72198"
+         x2="260.28"
+         y1="257.72198"
+         x1="302.57999" />
+      <line
+         id="line502"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="278.84204"
+         x2="269.16"
+         y1="297.742"
+         x1="269.16" />
+      <line
+         id="line504"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="258.26202"
+         x2="269.16"
+         y1="266.06201"
+         x1="269.16" />
+      <text
+         id="text506"
+         y="276.38202"
+         x="267.54001">2</text>
+      <polyline
+         id="polyline508"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="491.88 561.3, 489.78 553.62, 487.8 561.12"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline510"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="492.12 616.08, 490.08 608.4, 488.04 615.9"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline512"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="492.36 652.68, 490.32 660.36, 488.28 652.86"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline514"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="491.88 599.88, 489.84 607.5, 487.8 600"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline516"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.2 559.56, 269.16 567.18, 267.12 559.68"
+         transform="translate(0,-281.43799)" />
+      <polyline
+         id="polyline518"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="271.38 547.32, 269.28 539.64, 267.3 547.14"
+         transform="translate(0,-281.43799)" />
+      <line
+         id="line520"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="289.22198"
+         x2="489.84"
+         y1="272.302"
+         x1="489.84" />
+      <line
+         id="line522"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="302.06201"
+         x2="490.07999"
+         y1="325.16199"
+         x1="490.07999" />
+      <line
+         id="line524"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="344.66199"
+         x2="490.07999"
+         y1="325.76202"
+         x1="490.07999" />
+      <line
+         id="line526"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="353.84204"
+         x2="490.26001"
+         y1="378.98199"
+         x1="490.26001" />
+      <line
+         id="line528"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="306.922"
+         x2="269.28"
+         y1="287.54199"
+         x1="269.28" />
+      <line
+         id="line530"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="341.06201"
+         x2="269.28"
+         y1="318.26202"
+         x1="269.28" />
+      <line
+         id="line532"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="351.862"
+         x2="269.28"
+         y1="343.10199"
+         x1="269.28" />
+      <line
+         id="line534"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="378.32202"
+         x2="269.28"
+         y1="362.96204"
+         x1="269.28" />
+      <line
+         id="line536"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         y2="238.76202"
+         x2="437.28"
+         y1="268.82202"
+         x1="437.28" />
+      <polygon
+         id="polygon538"
+         style="fill:#000000;stroke:#000000;stroke-width:1"
+         points="434.04,540.9 440.34,540.9 437.34,550.02 437.22,550.5 "
+         transform="translate(0,-281.43799)" />
+      <text
+         id="text540"
+         y="250.28198"
+         x="443.94">180 kN</text>
+      <text
+         id="text542"
+         y="316.52203"
+         x="275.64001">m</text>
+      <text
+         id="text544"
+         y="355.82202"
+         x="416.88">A</text>
+      <polyline
+         id="polyline546"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         points="412.26 635.4, 417.72 624.72, 430.14 630.9, 425.22 641.58"
+         transform="translate(0,-281.43799)" />
+    </g>
+  </g>
+</svg>

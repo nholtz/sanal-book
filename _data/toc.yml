@@ -78,4 +78,8 @@
   - title: Problems - Beam VM Diagrams
     not_numbered: true
     url: /text/sdbeams/beam-VM-problems
-    
+  - title: Problems - Frame NVM Diagrams
+    not_numbered: true
+    url: /text/sdbeams/frame-NVM-problems
+- title: Forces in Statically Determinate Trusses
+  url: /text/sdtrusses/introduction

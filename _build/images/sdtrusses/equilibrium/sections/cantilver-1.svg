@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with wpg2svg/libwpg 0.2.0 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="640.8"
+   height="244.8"
+   id="svg2"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="TRUSS1.svg">
+  <metadata
+     id="metadata136">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs134" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview132"
+     showgrid="false"
+     inkscape:zoom="0.80212236"
+     inkscape:cx="320.39999"
+     inkscape:cy="137.36031"
+     inkscape:window-x="666"
+     inkscape:window-y="148"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <ellipse
+     cx="73.08"
+     cy="173.34"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse4" />
+  <ellipse
+     cx="71.88"
+     cy="101.22"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse6" />
+  <ellipse
+     cx="145.26"
+     cy="101.22"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse8" />
+  <ellipse
+     cx="145.26"
+     cy="172.14"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse10" />
+  <ellipse
+     cx="216.18"
+     cy="101.22"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse12" />
+  <ellipse
+     cx="216.18"
+     cy="27.9"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse14" />
+  <ellipse
+     cx="288.36"
+     cy="29.04"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse16" />
+  <ellipse
+     cx="359.28"
+     cy="28.98"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse18" />
+  <ellipse
+     cx="432.72"
+     cy="101.16"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse20" />
+  <ellipse
+     cx="288.48"
+     cy="101.16"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse22" />
+  <ellipse
+     cx="359.34"
+     cy="101.16"
+     rx="4.8"
+     ry="4.8"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="ellipse24" />
+  <line
+     x1="69.78"
+     y1="97.68"
+     x2="69.78"
+     y2="37.92"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line26" />
+  <line
+     x1="70.5"
+     y1="105.6"
+     x2="70.5"
+     y2="168.66"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line28" />
+  <line
+     x1="71.16"
+     y1="177.18"
+     x2="71.16"
+     y2="228.42"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line30" />
+  <line
+     x1="76.38"
+     y1="100.98"
+     x2="142.02"
+     y2="100.98"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line32" />
+  <line
+     x1="77.64"
+     y1="172.56"
+     x2="140.76"
+     y2="172.56"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line34" />
+  <line
+     x1="75.72"
+     y1="169.26"
+     x2="143.34"
+     y2="104.88"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line36" />
+  <line
+     x1="145.32"
+     y1="166.62"
+     x2="145.32"
+     y2="106.92"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line38" />
+  <line
+     x1="147.9"
+     y1="97.02"
+     x2="213.66"
+     y2="31.32"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line40" />
+  <line
+     x1="149.88"
+     y1="101.64"
+     x2="211.62"
+     y2="101.64"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line42" />
+  <line
+     x1="216.9"
+     y1="32.04"
+     x2="216.24"
+     y2="95.7"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line44" />
+  <line
+     x1="220.14"
+     y1="28.68"
+     x2="283.26"
+     y2="28.68"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line46" />
+  <line
+     x1="220.86"
+     y1="100.98"
+     x2="283.86"
+     y2="100.98"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line48" />
+  <line
+     x1="288.48"
+     y1="33.96"
+     x2="288.48"
+     y2="95.7"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line50" />
+  <line
+     x1="219.48"
+     y1="30.66"
+     x2="285.24"
+     y2="97.68"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line52" />
+  <line
+     x1="68.46"
+     y1="39.84"
+     x2="49.38"
+     y2="56.34"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line54" />
+  <line
+     x1="68.46"
+     y1="55.62"
+     x2="49.38"
+     y2="72.12"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line56" />
+  <line
+     x1="68.46"
+     y1="72.78"
+     x2="49.38"
+     y2="89.28"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line58" />
+  <line
+     x1="69.12"
+     y1="88.5"
+     x2="50.04"
+     y2="105"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line60" />
+  <line
+     x1="70.44"
+     y1="105.6"
+     x2="51.36"
+     y2="122.1"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line62" />
+  <line
+     x1="70.38"
+     y1="123.36"
+     x2="51.3"
+     y2="139.86"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line64" />
+  <line
+     x1="70.44"
+     y1="140.34"
+     x2="51.36"
+     y2="156.84"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line66" />
+  <line
+     x1="70.38"
+     y1="157.5"
+     x2="51.3"
+     y2="174"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line68" />
+  <line
+     x1="70.44"
+     y1="173.22"
+     x2="51.36"
+     y2="189.72"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line70" />
+  <line
+     x1="71.04"
+     y1="188.94"
+     x2="51.96"
+     y2="205.44"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line72" />
+  <line
+     x1="70.38"
+     y1="205.44"
+     x2="51.3"
+     y2="221.94"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line74" />
+  <line
+     x1="71.1"
+     y1="221.88"
+     x2="52.02"
+     y2="238.38"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line76" />
+  <line
+     x1="292.44"
+     y1="28.68"
+     x2="354.18"
+     y2="28.68"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line78" />
+  <line
+     x1="363.42"
+     y1="30.66"
+     x2="430.32"
+     y2="97.68"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line80" />
+  <line
+     x1="293.1"
+     y1="100.92"
+     x2="354.9"
+     y2="100.92"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line82" />
+  <line
+     x1="364.02"
+     y1="100.92"
+     x2="427.74"
+     y2="101.58"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line84" />
+  <line
+     x1="359.46"
+     y1="34.62"
+     x2="359.46"
+     y2="96.3"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line86" />
+  <line
+     x1="291.12"
+     y1="97.68"
+     x2="356.16"
+     y2="32.64"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line88" />
+  <line
+     x1="432.48"
+     y1="106.02"
+     x2="432.48"
+     y2="158.34"
+     style="stroke-width: 1.0; stroke: #000000; fill: none; "
+     id="line90" />
+  <polygon
+     points="432.48 167.88, 427.92 146.04, 437.04 146.46, 432.9 168.78"
+     style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+     id="polygon92" />
+  <text
+     x="110.34"
+     y="171.6"
+     id="text94">
+1
+</text>
+  <text
+     x="103.26"
+     y="137.34"
+     id="text96">
+2
+</text>
+  <text
+     x="104.16"
+     y="98.88"
+     id="text98">
+3
+</text>
+  <text
+     x="148.62"
+     y="138.84"
+     id="text100">
+4
+</text>
+  <text
+     x="186.36"
+     y="145.02"
+     id="text102">
+5
+</text>
+  <text
+     x="182.64"
+     y="99.66"
+     id="text104">
+6
+</text>
+  <text
+     x="173.64"
+     y="63.66"
+     id="text106">
+7
+</text>
+  <text
+     x="219.06"
+     y="73.56"
+     id="text108">
+8
+</text>
+  <text
+     x="252.12"
+     y="65.64"
+     id="text110">
+10
+</text>
+  <line
+     x1="149.52"
+     y1="170.82"
+     x2="213.66"
+     y2="106.08"
+     style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+     id="line112" />
+  <text
+     x="242.82"
+     y="99.12"
+     id="text114">
+9
+</text>
+  <text
+     x="247.86"
+     y="28.74"
+     id="text116">
+11
+</text>
+  <text
+     x="314.58"
+     y="30"
+     id="text118">
+15
+</text>
+  <text
+     x="288.42"
+     y="66.12"
+     id="text120">
+12
+</text>
+  <text
+     x="324.54"
+     y="74.22"
+     id="text122">
+14
+</text>
+  <text
+     x="321.42"
+     y="114.06"
+     id="text124">
+13
+</text>
+  <text
+     x="358.74"
+     y="75.42"
+     id="text126">
+16
+</text>
+  <text
+     x="392.4"
+     y="61.8"
+     id="text128">
+18
+</text>
+  <text
+     x="387.42"
+     y="114.12"
+     id="text130">
+17
+</text>
+</svg>

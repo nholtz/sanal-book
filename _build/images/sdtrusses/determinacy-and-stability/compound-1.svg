@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   height="252.0359"
+   width="280.20007">
+  <script
+     id="script3033"
+     xlink:href="" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3811" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3814" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TrussNodeS"
+       markerUnits="userSpaceOnUse"
+       style="overflow:visible">
+      <circle
+         cx="0"
+         cy="0"
+         r="3"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1"
+         id="circle3799" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-148.30806,-308.862)"
+     id="layer1">
+    <g
+       id="g3546">
+      <g
+         id="g3466">
+        <g
+           id="g3432">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 225,332.362 v 45"
+             id="path11181" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 270,377.362 h -45 -45 l 45,-45 h 45 z"
+             id="path11185" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 225,332.362 45,45"
+             id="path11187" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 315,332.362 h 45 l 45,45 h -45 -45 z"
+             id="path11189" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 360,377.362 v 0 0 -45 l -45,45"
+             id="path11191" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 270,332.362 h 45"
+             id="path11193" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)"
+             d="m 270,377.362 h 45"
+             id="path11195" />
+          <g
+             id="g3395"
+             transform="translate(182.76928,42.759065)">
+            <path
+               d="m 132.30977,337.64131 5,7.5 h -10 z"
+               id="path5224-5"
+               style="fill:#000000;stroke:#000000;stroke-width:0" />
+            <path
+               d="m 124.80977,352.22885 h 15"
+               id="path5226-4"
+               style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square" />
+            <path
+               d="m 139.80977,352.22885 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75"
+               id="path5228-7"
+               style="fill:none;stroke:#000000;stroke-width:1.25" />
+            <path
+               id="path3342"
+               d="m 123.97004,345.62043 h 16.4794"
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <g
+               transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)"
+               id="use3513-4">
+              <circle
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1"
+                 id="circle3573-4"
+                 r="2.5"
+                 cy="0"
+                 cx="0" />
+            </g>
+            <g
+               transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)"
+               id="use3513-4-7">
+              <circle
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1"
+                 id="circle3573-4-8"
+                 r="2.5"
+                 cy="0"
+                 cx="0" />
+            </g>
+          </g>
+          <g
+             id="g3395-2"
+             transform="translate(137.69023,42.72069)">
+            <path
+               d="m 132.30977,337.64131 5,7.5 h -10 z"
+               id="path5224-5-5"
+               style="fill:#000000;stroke:#000000;stroke-width:0" />
+            <path
+               d="m 124.80977,352.22885 h 15"
+               id="path5226-4-4"
+               style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square" />
+            <path
+               d="m 139.80977,352.22885 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75"
+               id="path5228-7-7"
+               style="fill:none;stroke:#000000;stroke-width:1.25" />
+            <path
+               id="path3342-4"
+               d="m 123.97004,345.62043 h 16.4794"
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <g
+               transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)"
+               id="use3513-4-4">
+              <circle
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1"
+                 id="circle3573-4-3"
+                 r="2.5"
+                 cy="0"
+                 cx="0" />
+            </g>
+            <g
+               transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)"
+               id="use3513-4-7-0">
+              <circle
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1"
+                 id="circle3573-4-8-7"
+                 r="2.5"
+                 cy="0"
+                 cx="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(-75.65647,25.26473)"
+             id="g10775">
+            <g
+               transform="matrix(1.25,0,0,1.25,255.65647,356.59727)"
+               id="use90">
+              <path
+                 style="fill:#000000;stroke:#000000;stroke-width:0"
+                 id="path5224"
+                 d="M 0.19825424,-1.057356 5.1895254,5.8678305 H -5.3216949 Z" />
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:1"
+                 id="path5226"
+                 d="M -6,6 H 6" />
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:1"
+                 id="path5228"
+                 d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="229.63467"
+             y="413.06726"
+             id="text12510"><tspan
+               style="font-size:11px;line-height:1.25"
+               id="tspan12512"
+               x="229.63467"
+               y="413.06726">a) Compound Truss</tspan></text>
+        </g>
+        <g
+           transform="translate(-270.59086,126.41816)"
+           id="g3398">
+          <path
+             id="path12452"
+             d="m 540.59978,377.362 h -45 -45 l 45,-45 h 45 z"
+             style="fill:#b3b3b3;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)" />
+          <path
+             id="path12456"
+             d="m 585.59978,332.362 h 45 l 45,45 h -45 -45 z"
+             style="fill:#b3b3b3;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)" />
+          <path
+             id="path12460"
+             d="m 540.59978,332.362 h 45"
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)" />
+          <path
+             id="path12462"
+             d="m 540.59978,377.362 h 45"
+             style="fill:none;stroke:#000000;stroke-width:1.98000002;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TrussNodeS);marker-mid:url(#TrussNodeS);marker-end:url(#TrussNodeS)" />
+          <g
+             transform="translate(453.36906,42.759065)"
+             id="g12464">
+            <path
+               style="fill:#000000;stroke:#000000;stroke-width:0"
+               id="path12466"
+               d="m 132.30977,337.64131 5,7.5 h -10 z" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square"
+               id="path12468"
+               d="m 124.80977,352.22885 h 15" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1.25"
+               id="path12470"
+               d="m 139.80977,352.22885 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 123.97004,345.62043 h 16.4794"
+               id="path12472" />
+            <g
+               id="g12474"
+               transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)">
+              <circle
+                 cx="0"
+                 cy="0"
+                 r="2.5"
+                 id="circle12476"
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+            </g>
+            <g
+               id="g12478"
+               transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)">
+              <circle
+                 cx="0"
+                 cy="0"
+                 r="2.5"
+                 id="circle12480"
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+            </g>
+          </g>
+          <g
+             transform="translate(408.29001,42.72069)"
+             id="g12482">
+            <path
+               style="fill:#000000;stroke:#000000;stroke-width:0"
+               id="path12484"
+               d="m 132.30977,337.64131 5,7.5 h -10 z" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square"
+               id="path12486"
+               d="m 124.80977,352.22885 h 15" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1.25"
+               id="path12488"
+               d="m 139.80977,352.22885 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75 m 0,-3.75 -3.75,3.75" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 123.97004,345.62043 h 16.4794"
+               id="path12490" />
+            <g
+               id="g12492"
+               transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)">
+              <circle
+                 cx="0"
+                 cy="0"
+                 r="2.5"
+                 id="circle12494"
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+            </g>
+            <g
+               id="g12496"
+               transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)">
+              <circle
+                 cx="0"
+                 cy="0"
+                 r="2.5"
+                 id="circle12498"
+                 style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+            </g>
+          </g>
+          <g
+             id="g12500"
+             transform="translate(194.94331,25.26473)">
+            <g
+               id="g12502"
+               transform="matrix(1.25,0,0,1.25,255.65647,356.59727)">
+              <path
+                 d="M 0.19825424,-1.057356 5.1895254,5.8678305 H -5.3216949 Z"
+                 id="path12504"
+                 style="fill:#000000;stroke:#000000;stroke-width:0" />
+              <path
+                 d="M -6,6 H 6"
+                 id="path12506"
+                 style="fill:none;stroke:#000000;stroke-width:1" />
+              <path
+                 d="M 6,6 3,9 M 3,6 0,9 M 0,6 -3,9 m 0,-3 -3,3 m 0,-3 -3,3"
+                 id="path12508"
+                 style="fill:none;stroke:#000000;stroke-width:1" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="506.47949"
+             y="412.26685"
+             id="text12514"><tspan
+               style="font-size:11px;line-height:1.25"
+               id="tspan12516"
+               x="506.47949"
+               y="412.26685">b)Simplified System</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="454.27042"
+             y="313.04825"
+             id="text12518"><tspan
+               style="font-size:11px;line-height:1.25"
+               id="tspan12520"
+               x="454.27042"
+               y="313.04825">simple trusses (rigid)</tspan></text>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:url(#Arrow1Mend)"
+             d="m 508.27676,354.35659 c 3.10672,-9.32016 6.77287,-22.87557 14.63185,-27.83435 21.46383,-13.54304 54.23423,9.3373 52.5783,-15.5722 m -1.40021,0.35005 c 35.51966,2.92196 42.35512,24.8563 32.20486,45.15682"
+             id="path12522" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="185.52802"
+         y="511.88037"
+         id="text3534"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan3536"
+           x="185.52802"
+           y="511.88037">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="276.89178"
+         y="514.68079"
+         id="text3538"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan3540"
+           x="276.89178"
+           y="514.68079">b</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="320.99847"
+         y="513.28058"
+         id="text3542"><tspan
+           style="font-size:11px;line-height:1.25"
+           id="tspan3544"
+           x="320.99847"
+           y="513.28058">c</tspan></text>
+    </g>
+  </g>
+</svg>

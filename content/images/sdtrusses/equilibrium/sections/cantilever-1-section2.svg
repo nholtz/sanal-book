@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with wpg2svg/libwpg 0.2.0 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="640.8"
+   height="244.8"
+   id="svg4598"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="cantilever-1-section2.svg"
+   inkscape:export-filename="D:\CHAPS.45\png\TRUSS1B.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata4704">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4702" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="736"
+     inkscape:window-height="712"
+     id="namedview4700"
+     showgrid="false"
+     inkscape:zoom="1.011236"
+     inkscape:cx="247.29174"
+     inkscape:cy="94.261812"
+     inkscape:window-x="1180"
+     inkscape:window-y="162"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4598" />
+  <g
+     id="g3099"
+     inkscape:export-filename="/home/nholtz/3203/drawings/SDTrusses/Equilibrium/MethodOfSections/cantilever-1-section2.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <ellipse
+       id="ellipse4600"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="101.22"
+       cx="145.25999"
+       sodipodi:cx="145.25999"
+       sodipodi:cy="101.22"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4602"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="101.22"
+       cx="216.17999"
+       sodipodi:cx="216.17999"
+       sodipodi:cy="101.22"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4604"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="27.9"
+       cx="216.17999"
+       sodipodi:cx="216.17999"
+       sodipodi:cy="27.9"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4606"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="29.040001"
+       cx="288.35999"
+       sodipodi:cx="288.35999"
+       sodipodi:cy="29.040001"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4608"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="28.98"
+       cx="359.28"
+       sodipodi:cx="359.28"
+       sodipodi:cy="28.98"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4610"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="101.16"
+       cx="432.72"
+       sodipodi:cx="432.72"
+       sodipodi:cy="101.16"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4612"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="101.16"
+       cx="288.48001"
+       sodipodi:cx="288.48001"
+       sodipodi:cy="101.16"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <ellipse
+       id="ellipse4614"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       ry="4.8000002"
+       rx="4.8000002"
+       cy="101.16"
+       cx="359.34"
+       sodipodi:cx="359.34"
+       sodipodi:cy="101.16"
+       sodipodi:rx="4.8000002"
+       sodipodi:ry="4.8000002" />
+    <line
+       id="line4616"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="31.32"
+       x2="213.66"
+       y1="97.019997"
+       x1="147.89999" />
+    <line
+       id="line4618"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="101.64"
+       x2="211.62"
+       y1="101.64"
+       x1="149.88" />
+    <line
+       id="line4620"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="95.699997"
+       x2="216.24001"
+       y1="32.040001"
+       x1="216.89999" />
+    <line
+       id="line4622"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="28.68"
+       x2="283.26001"
+       y1="28.68"
+       x1="220.14" />
+    <line
+       id="line4624"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="100.98"
+       x2="283.85999"
+       y1="100.98"
+       x1="220.86" />
+    <line
+       id="line4626"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="95.699997"
+       x2="288.48001"
+       y1="33.959999"
+       x1="288.48001" />
+    <line
+       id="line4628"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="97.68"
+       x2="285.23999"
+       y1="30.66"
+       x1="219.48" />
+    <line
+       id="line4630"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="28.68"
+       x2="354.17999"
+       y1="28.68"
+       x1="292.44" />
+    <line
+       id="line4632"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="97.68"
+       x2="430.32001"
+       y1="30.66"
+       x1="363.42001" />
+    <line
+       id="line4634"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="100.92"
+       x2="354.89999"
+       y1="100.92"
+       x1="293.10001" />
+    <line
+       id="line4636"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="101.58"
+       x2="427.73999"
+       y1="100.92"
+       x1="364.01999" />
+    <line
+       id="line4638"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="96.300003"
+       x2="359.45999"
+       y1="34.619999"
+       x1="359.45999" />
+    <line
+       id="line4640"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="32.639999"
+       x2="356.16"
+       y1="97.68"
+       x1="291.12" />
+    <line
+       id="line4642"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       y2="158.34"
+       x2="432.48001"
+       y1="106.02"
+       x1="432.48001" />
+    <polygon
+       id="polygon4644"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       points="437.04,146.46 432.9,168.78 432.48,167.88 427.92,146.04 " />
+    <text
+       id="text4646"
+       y="134.10001"
+       x="179.82001">5</text>
+    <text
+       id="text4648"
+       y="99.660004"
+       x="182.64">6</text>
+    <text
+       id="text4650"
+       y="63.66"
+       x="173.64">7</text>
+    <text
+       id="text4652"
+       y="73.559998"
+       x="219.06">8</text>
+    <text
+       id="text4654"
+       y="65.639999"
+       x="252.12">10</text>
+    <text
+       id="text4656"
+       y="99.120003"
+       x="242.82001">9</text>
+    <text
+       id="text4658"
+       y="28.74"
+       x="247.86">11</text>
+    <text
+       id="text4660"
+       y="30"
+       x="314.57999">15</text>
+    <text
+       id="text4662"
+       y="66.120003"
+       x="288.42001">12</text>
+    <text
+       id="text4664"
+       y="74.220001"
+       x="324.54001">14</text>
+    <text
+       id="text4666"
+       y="114.06"
+       x="321.42001">13</text>
+    <text
+       id="text4668"
+       y="75.419998"
+       x="358.73999">16</text>
+    <text
+       id="text4670"
+       y="61.799999"
+       x="392.39999">18</text>
+    <text
+       id="text4672"
+       y="114.12"
+       x="387.42001">17</text>
+    <line
+       id="line4674"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="100.02"
+       x2="109.02"
+       y1="100.02"
+       x1="140.82001" />
+    <polyline
+       id="polyline4676"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       points="117.9 95.58, 109.02 100.02, 117.9 104.46" />
+    <line
+       id="line4678"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="131.10001"
+       x2="115.68"
+       y1="104.46"
+       x1="142.25999" />
+    <polyline
+       id="polyline4680"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       points="120.84 120.72, 115.68 131.1, 126 126.66" />
+    <text
+       id="text4682"
+       y="127.98"
+       x="173.10001">F</text>
+    <path
+       id="path4684"
+       style="fill:none;stroke:#000000;stroke-width:0.5"
+       d="m 125.22,75.06 c 7.68,18.3 15.48,29.88 29.58,43.86 20.4,20.22 42.24,23.34 63.84,42.48"
+       inkscape:connector-curvature="0" />
+    <line
+       id="line4692"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="105.24"
+       x2="214.25999"
+       y1="135.89999"
+       x1="182.28" />
+    <polyline
+       id="polyline4694"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       points="205.08 110.04, 214.26 105.24, 209.46 114.42" />
+    <line
+       id="line4696"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       y2="144.66"
+       x2="144.60001"
+       y1="106.14"
+       x1="144.60001" />
+    <polyline
+       id="polyline4698"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       points="141.12 132.84, 144.6 145.08, 148.14 133.68" />
+  </g>
+</svg>

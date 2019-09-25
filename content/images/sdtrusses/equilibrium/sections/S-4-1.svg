@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with wpg2svg/libwpg 0.2.0 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="640.8"
+   height="244.8"
+   id="svg4706"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="S-4-1.svg"
+   inkscape:export-filename="D:\CHAPS.45\png\MOS6.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata4788">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4786" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="476"
+     inkscape:window-height="447"
+     id="namedview4784"
+     showgrid="false"
+     inkscape:zoom="0.71505182"
+     inkscape:cx="372.99175"
+     inkscape:cy="139.58392"
+     inkscape:window-x="797"
+     inkscape:window-y="220"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4706" />
+  <g
+     id="g3019"
+     inkscape:export-filename="/home/nholtz/3203/drawings/SDTrusses/Equilibrium/MethodOfSections/S-4-1.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <ellipse
+       id="ellipse4708"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="187.62"
+       cx="288.24" />
+    <ellipse
+       id="ellipse4710"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="13.8"
+       cx="289.44" />
+    <ellipse
+       id="ellipse4712"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="188.76"
+       cx="172.32" />
+    <ellipse
+       id="ellipse4714"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="187.62"
+       cx="57.6" />
+    <ellipse
+       id="ellipse4716"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="187.62"
+       cx="402.96" />
+    <ellipse
+       id="ellipse4718"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="187.62"
+       cx="517.68" />
+    <ellipse
+       id="ellipse4720"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="48.06"
+       cx="403.14" />
+    <ellipse
+       id="ellipse4722"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="6.06"
+       rx="6.12"
+       cy="48"
+       cx="172.32" />
+    <line
+       id="line4724"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="52.62"
+       x2="166.62"
+       y1="181.8"
+       x1="61.14" />
+    <line
+       id="line4726"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="180"
+       x2="172.08"
+       y1="53.58"
+       x1="171.18" />
+    <line
+       id="line4728"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="181.8"
+       x2="283.92"
+       y1="49.92"
+       x1="177.54" />
+    <line
+       id="line4730"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="187.26"
+       x2="167.52"
+       y1="187.26"
+       x1="63.84" />
+    <line
+       id="line4732"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="189.12"
+       x2="281.22"
+       y1="189.12"
+       x1="176.64" />
+    <line
+       id="line4734"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="19.92"
+       x2="288.48"
+       y1="181.8"
+       x1="288.48" />
+    <text
+       style="font-size:24.28473663px"
+       transform="scale(0.90443014,1.1056686)"
+       id="text4770"
+       y="24.660292"
+       x="237.67038">A</text>
+    <line
+       id="line4736"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="16.32"
+       x2="283.02"
+       y1="43.5"
+       x1="176.64" />
+    <line
+       id="line4738"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="45.42"
+       x2="397.62"
+       y1="15.36"
+       x1="294.9" />
+    <line
+       id="line4740"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="182.7"
+       x2="403.02"
+       y1="53.58"
+       x1="403.02" />
+    <line
+       id="line4742"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="187.26"
+       x2="295.74"
+       y1="189.12"
+       x1="394.92" />
+    <line
+       id="line4744"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="183.6"
+       x2="293.04"
+       y1="52.62"
+       x1="396.72" />
+    <line
+       id="line4746"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="182.94"
+       x2="512.28"
+       y1="51"
+       x1="407.64" />
+    <line
+       id="line4748"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="188.4"
+       x2="513.18"
+       y1="188.4"
+       x1="409.44" />
+    <line
+       id="line4750"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="235.86"
+       x2="57.3"
+       y1="197.28"
+       x1="57.3" />
+    <line
+       id="line4752"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="219.3"
+       x2="172.62"
+       y1="196.08"
+       x1="172.62" />
+    <polygon
+       id="polygon4754"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="57.3 196.02, 51.6 211.32, 62.52 211.32, 57.3 196.86" />
+    <polygon
+       id="polygon4756"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="172.62 221.94, 170.4 210.54, 174.78 210.54, 173.04 221.46" />
+    <line
+       id="line4758"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="235.62"
+       x2="517.32"
+       y1="197.04"
+       x1="517.32" />
+    <polygon
+       id="polygon4760"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="517.32 195.78, 511.62 211.08, 522.54 211.08, 517.32 196.62" />
+    <line
+       id="line4762"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="217.86"
+       x2="287.58"
+       y1="194.64"
+       x1="287.58" />
+    <polygon
+       id="polygon4764"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="287.58 220.5, 285.36 209.1, 289.74 209.1, 288 220.02" />
+    <line
+       id="line4766"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="216.54"
+       x2="403.38"
+       y1="193.32"
+       x1="403.38" />
+    <polygon
+       id="polygon4768"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="403.38 219.18, 401.16 207.78, 405.54 207.78, 403.8 218.7" />
+    <polyline
+       id="polyline4772"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="211.2 33.36, 205.02 11.7, 235.92 3, 242.16 24.96" />
+    <path
+       id="path4774"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       d="  M202.14,4.14 C230.52,29.4 246.54,51.18 262.44,85.8 C273.06,108.42 270.24,126.9 277.8,150.78" />
+    <polyline
+       id="polyline4778"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="262.44 85.8, 263.22 87.48, 263.94 89.16, 264.6 90.84, 265.26 92.46, 265.8 94.14, 266.4 95.76, 266.88 97.32, 267.36 98.94, 267.84 100.56, 268.26 102.12, 268.62 103.74, 268.98 105.3, 269.34 106.86, 269.64 108.42, 269.94 109.98, 270.24 111.54, 270.48 113.16, 270.78 114.72, 271.02 116.28, 271.26 117.84, 271.5 119.4, 271.74 120.96, 271.92 122.52, 272.16 124.08, 272.4 125.7, 272.64 127.26, 272.88 128.88, 273.12 130.5, 273.42 132.12, 273.72 133.74, 274.02 135.36, 274.32 137.04, 274.62 138.66, 274.98 140.34, 275.4 142.08, 275.82 143.76, 276.24 145.5, 276.72 147.24, 277.26 148.98, 277.8 150.78" />
+    <polyline
+       id="polyline4776"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="202.14 4.14, 204.24 6.06, 206.28 7.92, 208.32 9.78, 210.3 11.64, 212.22 13.5, 214.08 15.36, 215.94 17.16, 217.74 19.02, 219.54 20.88, 221.28 22.68, 222.96 24.54, 224.64 26.4, 226.32 28.26, 227.88 30.06, 229.5 31.98, 231 33.84, 232.56 35.7, 234.06 37.62, 235.5 39.54, 236.94 41.46, 238.38 43.38, 239.76 45.36, 241.14 47.34, 242.52 49.38, 243.84 51.42, 245.16 53.46, 246.48 55.56, 247.74 57.66, 249 59.82, 250.26 61.98, 251.52 64.2, 252.78 66.42, 253.98 68.7, 255.24 71.04, 256.44 73.38, 257.64 75.78, 258.84 78.18, 260.04 80.7, 261.24 83.22, 262.44 85.8" />
+    <polyline
+       id="polyline4780"
+       style="stroke-width:1;stroke:#000000;fill:none"
+       points="277.8 150.78, 278.52 153.18, 279.3 155.46, 280.02 157.8, 280.74 160.02, 281.52 162.24, 282.24 164.46, 282.96 166.62, 283.68 168.78, 284.4 170.88, 285.12 172.98, 285.84 175.02, 286.62 177.06, 287.34 179.1, 288.06 181.08, 288.78 183.06, 289.56 185.04, 290.28 187.02, 291.06 189, 291.78 190.92, 292.56 192.84, 293.34 194.82, 294.12 196.74, 294.96 198.72, 295.74 200.64, 296.58 202.56, 297.42 204.54, 298.26 206.46, 299.1 208.44, 300 210.42, 300.9 212.46, 301.8 214.44, 302.7 216.48, 303.66 218.52, 304.62 220.62, 305.64 222.66, 306.6 224.82, 307.62 226.92, 308.7 229.14, 309.72 231.3, 310.86 233.58" />
+    <text
+       id="text4782"
+       y="229.56"
+       x="310.08">
+sect.
+</text>
+  </g>
+</svg>

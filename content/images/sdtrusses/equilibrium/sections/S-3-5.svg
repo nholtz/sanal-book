@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with wpg2svg/libwpg 0.2.0 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="640.8"
+   height="244.8"
+   id="svg2"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="S-3-5.svg">
+  <metadata
+     id="metadata124">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs122" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview120"
+     showgrid="false"
+     inkscape:zoom="0.80212236"
+     inkscape:cx="320.39999"
+     inkscape:cy="137.36031"
+     inkscape:window-x="227"
+     inkscape:window-y="296"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g3101"
+     inkscape:export-filename="/home/nholtz/3203/drawings/SDTrusses/Equilibrium/MethodOfSections/S-3-5.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <ellipse
+       id="ellipse4"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="156.42"
+       cx="43.8" />
+    <ellipse
+       id="ellipse6"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="156.48"
+       cx="130.14" />
+    <ellipse
+       id="ellipse8"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="157.62"
+       cx="216.48" />
+    <ellipse
+       id="ellipse10"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="156.48"
+       cx="303.96" />
+    <ellipse
+       id="ellipse12"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="71.34"
+       cx="302.88" />
+    <ellipse
+       id="ellipse14"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="70.14"
+       cx="216.54" />
+    <ellipse
+       id="ellipse16"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="71.34"
+       cx="130.2" />
+    <ellipse
+       id="ellipse18"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="70.14"
+       cx="43.8" />
+    <ellipse
+       id="ellipse20"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="115.08"
+       cx="45" />
+    <ellipse
+       id="ellipse22"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="113.88"
+       cx="130.14" />
+    <ellipse
+       id="ellipse24"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="3.84"
+       rx="3.84"
+       cy="113.88"
+       cx="217.68" />
+    <line
+       id="line26"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="71.58"
+       x2="126.96"
+       y1="70.08"
+       x1="47.22" />
+    <line
+       id="line28"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="70.8"
+       x2="211.98"
+       y1="71.58"
+       x1="134.4" />
+    <line
+       id="line30"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="156.54"
+       x2="124.8"
+       y1="156.54"
+       x1="47.22" />
+    <line
+       id="line32"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="158.04"
+       x2="211.98"
+       y1="156.54"
+       x1="135.12" />
+    <line
+       id="line34"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="109.26"
+       x2="44.22"
+       y1="74.46"
+       x1="43.5" />
+    <line
+       id="line36"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="152.1"
+       x2="44.94"
+       y1="118.86"
+       x1="44.94" />
+    <line
+       id="line38"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="109.26"
+       x2="129.96"
+       y1="76.02"
+       x1="129.96" />
+    <line
+       id="line40"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="150.66"
+       x2="129.96"
+       y1="117.42"
+       x1="129.96" />
+    <line
+       id="line42"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="108.54"
+       x2="216.42"
+       y1="73.08"
+       x1="216.42" />
+    <line
+       id="line44"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="152.1"
+       x2="217.14"
+       y1="118.14"
+       x1="217.14" />
+    <line
+       id="line46"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="73.8"
+       x2="128.46"
+       y1="112.98"
+       x1="47.94" />
+    <line
+       id="line48"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="72.3"
+       x2="214.98"
+       y1="112.98"
+       x1="132.9" />
+    <line
+       id="line50"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="154.32"
+       x2="125.52"
+       y1="115.92"
+       x1="47.22" />
+    <line
+       id="line52"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="154.32"
+       x2="212.7"
+       y1="114.42"
+       x1="132.9" />
+    <line
+       id="line54"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="210.9"
+       x2="43.92"
+       y1="163.56"
+       x1="43.92" />
+    <polygon
+       id="polygon56"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="43.92 163.56, 39.66 178.8, 48.12 178.8, 43.92 164.46" />
+    <line
+       id="line58"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="37.68"
+       x2="130.02"
+       y1="65.58"
+       x1="130.02" />
+    <polygon
+       id="polygon60"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="130.02 66.42, 125.76 54.54, 133.38 54.54, 130.86 65.58" />
+    <line
+       id="line62"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       y2="37.26"
+       x2="216.96"
+       y1="65.16"
+       x1="216.96" />
+    <polygon
+       id="polygon64"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="216.96 66, 212.7 54.12, 220.32 54.12, 217.8 65.16" />
+    <text
+       id="text66"
+       y="66.3"
+       x="227.22">
+i
+</text>
+    <text
+       id="text68"
+       y="62.64"
+       x="299.34">
+j
+</text>
+    <text
+       id="text70"
+       y="123"
+       x="196.8">
+k
+</text>
+    <text
+       id="text72"
+       y="188.04"
+       x="205.98">
+l
+</text>
+    <text
+       id="text74"
+       y="180.96"
+       x="292.8">
+m
+</text>
+    <ellipse
+       id="ellipse76"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="13.08"
+       rx="13.08"
+       cy="56.16"
+       cx="230.46" />
+    <ellipse
+       id="ellipse78"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="13.08"
+       rx="13.08"
+       cy="53.88"
+       cx="302.52" />
+    <ellipse
+       id="ellipse80"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="13.08"
+       rx="13.08"
+       cy="172.14"
+       cx="300.24" />
+    <ellipse
+       id="ellipse82"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="13.08"
+       rx="13.08"
+       cy="113.04"
+       cx="200.88" />
+    <ellipse
+       id="ellipse84"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       ry="13.08"
+       rx="13.08"
+       cy="176.88"
+       cx="209.16" />
+    <path
+       id="path86"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       d="  M249.42,27.78 C266.4,57.18 272.88,81.36 273.12,115.26 C272.58,143.04 258.06,159.12 253.02,186.24" />
+    <polyline
+       id="polyline88"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       points="249.42 27.78, 250.68 30, 251.88 32.16, 253.08 34.32, 254.22 36.48, 255.3 38.58, 256.32 40.74, 257.4 42.84, 258.36 44.94, 259.32 46.98, 260.22 49.08, 261.12 51.18, 261.96 53.22, 262.8 55.32, 263.58 57.36, 264.3 59.46, 265.02 61.5, 265.68 63.6, 266.34 65.64, 266.94 67.74, 267.54 69.84, 268.08 71.94, 268.62 74.04, 269.1 76.14, 269.52 78.3, 270 80.4, 270.36 82.56, 270.78 84.78, 271.08 86.94, 271.38 89.16, 271.68 91.44, 271.98 93.66, 272.16 95.94, 272.4 98.28, 272.58 100.62, 272.7 102.96, 272.82 105.36, 272.94 107.76, 273 110.22, 273.06 112.74, 273.12 115.26" />
+    <polyline
+       id="polyline90"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       points="273.12 115.26, 273.06 117.3, 272.94 119.34, 272.76 121.32, 272.58 123.24, 272.28 125.16, 271.98 127.08, 271.68 128.88, 271.32 130.68, 270.9 132.48, 270.42 134.28, 270 136.02, 269.46 137.7, 268.98 139.44, 268.38 141.12, 267.84 142.8, 267.24 144.42, 266.64 146.1, 266.04 147.72, 265.38 149.34, 264.78 151.02, 264.12 152.64, 263.46 154.26, 262.74 155.88, 262.08 157.56, 261.42 159.18, 260.76 160.86, 260.1 162.48, 259.5 164.22, 258.84 165.9, 258.18 167.58, 257.58 169.32, 256.98 171.12, 256.38 172.86, 255.84 174.72, 255.3 176.52, 254.76 178.38, 254.28 180.3, 253.86 182.22, 253.44 184.2, 253.02 186.24" />
+    <polyline
+       id="polyline92"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       points="253.02 186.24, 252.78 187.56, 252.54 188.76, 252.36 189.96, 252.18 191.1, 252.06 192.24, 251.94 193.38, 251.82 194.46, 251.76 195.6, 251.7 196.74, 251.7 197.94, 251.7 199.2, 251.76 200.46" />
+    <text
+       id="text94"
+       y="217.38"
+       x="235.62">
+sect.
+</text>
+    <line
+       id="line96"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="70.5"
+       x2="260.46"
+       y1="70.5"
+       x1="219.06" />
+    <line
+       id="line98"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="92.88"
+       x2="263.04"
+       y1="112.56"
+       x1="220.38" />
+    <line
+       id="line100"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="136.2"
+       x2="265.68"
+       y1="115.86"
+       x1="219.72" />
+    <line
+       id="line102"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="157.86"
+       x2="256.5"
+       y1="157.86"
+       x1="221.7" />
+    <line
+       id="line104"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="70.5"
+       x2="296.52"
+       y1="70.5"
+       x1="262.38" />
+    <line
+       id="line106"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="74.46"
+       x2="299.16"
+       y1="91.5"
+       x1="265.68" />
+    <line
+       id="line108"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="151.98"
+       x2="299.16"
+       y1="136.86"
+       x1="267.66" />
+    <line
+       id="line110"
+       style="stroke-width: 1.0; stroke: #000000; fill: none; "
+       y2="157.86"
+       x2="297.84"
+       y1="157.86"
+       x1="260.46" />
+    <polygon
+       id="polygon112"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="263.4 70.26, 247.8 65.46, 248.34 73.44, 261.78 70.26" />
+    <polygon
+       id="polygon114"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="261.78 158.28, 246.18 153.48, 246.72 161.46, 260.16 158.28" />
+    <polygon
+       id="polygon116"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="270.9 140.52, 259.02 129.42, 256.02 136.8, 269.46 139.86" />
+    <polygon
+       id="polygon118"
+       style="stroke-width: 1.0; stroke: #000000; fill: #000000; "
+       points="269.34 90.78, 253.08 92.16, 256.56 99.42, 267.84 91.38" />
+  </g>
+</svg>
