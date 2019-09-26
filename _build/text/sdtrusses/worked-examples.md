@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdtrusses/method-of-sections.html
   title: 'Method of Sections'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdtrusses/matrix-methods.html
+  title: 'Matrix Methods'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses
@@ -32,7 +32,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 [Solution](../../images/sdtrusses/equilibrium/eg/Example-T3.pdf)
 
-### 3.5.4 - Example T-5
+### 3.5.4 - Example T-4
 
 [Solution](../../images/sdtrusses/equilibrium/eg/Example-T4.pdf)
 

@@ -170,7 +170,7 @@ The truss shown in Fig. 3.2.2-9 is particularly attractive for use in large roof
 Each portion can be assemblied in the shop, trucked to the site, and
 placed by making a field conenction at the top and inserting the tie.
 And yes, it is really a simple truss rather than a compound truss by
-our criteria; we mention in this section because of its normal
+our criteria; we mention it in this section because of its normal
 fabrication practice.
 
 **Complex Trusses**
@@ -187,8 +187,9 @@ Figure 3.2.2-10: Complex Truss
 Figure 3.2.2-11: Complex Truss
 
 It can be very difficult to tell by inspection whether a complex truss
-is stable or not.  For example, in Fig. 3.2.2-10 and Fig. 3.2.2-11,
-$m=9$, $r=3$, and $j=6$ and so $m+r=2j$.  While the supports and
+is stable or not.  For example, in Fig. 3.2.2-10, $m=11$, $j=7$ and $r=3$
+and in Fig. 3.2.2-11,
+$m=9$, $r=3$, and $j=6$ and so $m+r=2j$ for both.  While the supports and
 connectivity are the same in both, the truss in Fig. 3.2.2-10 is
 stable and the one in Fig. 3.2.2-11 is not.
 

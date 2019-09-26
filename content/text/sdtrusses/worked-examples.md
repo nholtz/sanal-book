@@ -22,7 +22,7 @@
 
 [Solution](../../images/sdtrusses/equilibrium/eg/Example-T3.pdf)
 
-### 3.5.4 - Example T-5
+### 3.5.4 - Example T-4
 
 [Solution](../../images/sdtrusses/equilibrium/eg/Example-T4.pdf)
 
