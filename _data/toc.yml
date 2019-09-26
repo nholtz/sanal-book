@@ -83,3 +83,6 @@
     url: /text/sdbeams/frame-NVM-problems
 - title: Forces in Statically Determinate Trusses
   url: /text/sdtrusses/introduction
+  sections:
+  - title: Determinacy and Stability
+    url: /text/sdtrusses/determinacy-and-stability

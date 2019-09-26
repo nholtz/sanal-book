@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="hextruss.svg"
+   sodipodi:docname="hextruss-simple.svg"
    inkscape:export-filename="/home/nholtz/3203/hextruss6.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -214,7 +214,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
       </cc:Work>
@@ -239,7 +239,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="step4"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(32.01564,-258.55087)">
     <path
@@ -252,7 +252,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="step3"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(32.01564,-258.55087)">
     <path
@@ -328,7 +328,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="step2"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(32.01564,-258.55087)">
     <path
@@ -369,7 +369,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="step1"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(32.01564,-258.55087)">
     <path
@@ -405,7 +405,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Paths"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(32.01564,-258.55087)">
     <g
@@ -482,26 +482,26 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(32.01564,-320.91287)"
-     sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 508.9505,572.86695 -121.5,210.44417 -243,0 -121.5,-210.44417 121.5,-210.44417 243,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 508.9505,572.86695 -121.5,210.44417 h -243 l -121.5,-210.44417 121.5,-210.44417 h 243 z"
        id="path3015"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 387.4505,362.42278 -243,420.88834"
        id="path3022"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 144.4505,362.42278 243,420.88834"
        id="path3024"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 22.9505,572.86695 486,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 22.9505,572.86695 h 486"
        id="path3026"
        inkscape:connector-curvature="0" />
     <g
@@ -510,12 +510,12 @@
       <title
          id="title3739">Roller Support</title>
       <path
-         d="m 132.30977,337.64131 5,7.5 -10,0 z"
+         d="m 132.30977,337.64131 5,7.5 h -10 z"
          id="path5224-5"
          inkscape:connector-curvature="0"
          style="fill:#000000;stroke:#000000;stroke-width:0" />
       <path
-         d="m 124.80977,352.22885 15,0"
+         d="m 124.80977,352.22885 h 15"
          id="path5226-4"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:square" />
@@ -527,37 +527,27 @@
       <path
          inkscape:connector-curvature="0"
          id="path3342"
-         d="m 123.97004,345.62043 16.4794,0"
+         d="m 123.97004,345.62043 h 16.4794"
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <g
          transform="matrix(0.93789014,0,0,0.93789014,136.50605,348.88774)"
          id="use3513-4">
         <circle
            style="fill:#ffffff;stroke:#000000;stroke-width:1"
-           sodipodi:ry="2.5"
-           sodipodi:rx="2.5"
-           sodipodi:cy="0"
-           sodipodi:cx="0"
            id="circle3573-4"
            r="2.5"
            cy="0"
-           cx="0"
-           d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z" />
+           cx="0" />
       </g>
       <g
          transform="matrix(0.93789014,0,0,0.93789014,128.23072,348.94766)"
          id="use3513-4-7">
         <circle
            style="fill:#ffffff;stroke:#000000;stroke-width:1"
-           sodipodi:ry="2.5"
-           sodipodi:rx="2.5"
-           sodipodi:cy="0"
-           sodipodi:cx="0"
            id="circle3573-4-8"
            r="2.5"
            cy="0"
-           cx="0"
-           d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z" />
+           cx="0" />
       </g>
     </g>
     <g
@@ -573,12 +563,12 @@
            style="fill:#000000;stroke:#000000;stroke-width:0"
            inkscape:connector-curvature="0"
            id="path5224"
-           d="m 0.19825424,-1.057356 4.99127116,6.9251865 -10.5112203,0 z" />
+           d="M 0.19825424,-1.057356 5.1895254,5.8678305 H -5.3216949 Z" />
         <path
            style="fill:none;stroke:#000000;stroke-width:1"
            inkscape:connector-curvature="0"
            id="path5226"
-           d="M -6,6 6,6" />
+           d="M -6,6 H 6" />
         <path
            style="fill:none;stroke:#000000;stroke-width:1"
            inkscape:connector-curvature="0"
@@ -656,91 +646,71 @@
        id="use3513"
        transform="matrix(1.25,0,0,1.25,23.853354,572.7449)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
     </g>
     <g
        id="use3513-5"
        transform="matrix(1.25,0,0,1.25,144.6216,362.36315)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573-1"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
     </g>
     <g
        id="use3513-0"
        transform="matrix(1.25,0,0,1.25,387.55829,362.36315)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573-5"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
     </g>
     <g
        id="use3513-7"
        transform="matrix(1.25,0,0,1.25,508.32652,572.74491)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573-53"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
     </g>
     <g
        id="use3513-09"
        transform="matrix(1.25,0,0,1.25,144.27156,783.12667)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573-16"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
     </g>
     <g
        id="use3513-3"
        transform="matrix(1.25,0,0,1.25,387.50918,783.12666)">
       <circle
-         d="M 2.5,0 C 2.5,1.3807119 1.3807119,2.5 0,2.5 -1.3807119,2.5 -2.5,1.3807119 -2.5,0 c 0,-1.3807119 1.1192881,-2.5 2.5,-2.5 1.3807119,0 2.5,1.1192881 2.5,2.5 z"
          cx="0"
          cy="0"
          r="2.5"
          id="circle3573-0"
-         sodipodi:cx="0"
-         sodipodi:cy="0"
-         sodipodi:rx="2.5"
-         sodipodi:ry="2.5"
          style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       transform="matrix(1.25,0,0,1.25,266.6216,572.36315)"
+       id="g138">
+      <circle
+         style="fill:#ffffff;stroke:#000000;stroke-width:1"
+         id="circle136"
+         r="2.5"
+         cy="0"
+         cx="0" />
     </g>
   </g>
 </svg>
