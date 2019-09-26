@@ -43,22 +43,22 @@ a classification system that can help.
 
 **Simple Trusses**
 
-![Figure](../../images/sdtrusses/determinacy-and-stability/simple-1.svg)
-
-Figure 3.2.2-1:  Triangle (base truss unit)
-
 A simple truss is one that can be built up starting from a triangular
 arrangement of 3 members and 3 joints, such as that shown in
 Fig. 3.2.2-1.
 
-![Figure](../../images/sdtrusses/determinacy-and-stability/simple-2.svg)
+![Figure](../../images/sdtrusses/determinacy-and-stability/simple-1.svg)
 
-Figure 3.2.2-2: Simple truss built from base unit
+Figure 3.2.2-1:  Triangle (base truss unit)
 
 The truss is to be built up in steps by adding 2 members and a joint
 at each step, as shown in Fig. 3.2.2-2.  The original triangle is
 stable, and if, at each step, the two new members are not co-linear,
 the result will be stable as well.
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/simple-2.svg)
+
+Figure 3.2.2-2: Simple truss built from base unit
 
 The base triangle has $m=3$ and $j=3$.  The minimum stable support set
 consists of a pin and a roller, so $r=3$ for the case of a simply
@@ -72,19 +72,14 @@ equality holds and the resulting truss remains statically determinate.
    If the reactions are stable, they are stable externally as well.
 </div>
 
-![Figure](../../images/sdtrusses/determinacy-and-stability/simple-3.svg)
-
-Figure 3.2.2-3: Simple truss
-
 Recognizing simple trusses is a good first step in evaluating
 stability.  For example, see Fig. 3.2.2-3 showing a simple truss, such
 as might be used for a small bridge.  We note that it is supported by
 a pin and a roller, thus ensuring that it is externally stable.
 
+![Figure](../../images/sdtrusses/determinacy-and-stability/simple-3.svg)
 
-![Figure](../../images/sdtrusses/determinacy-and-stability/simple-4.svg)
-
-Figure 3.2.2-4: Truss "construction"
+Figure 3.2.2-3: Simple truss
 
 To determine that it is a simple truss, and therefore stable, we
 imagine the construction of that truss, in steps, starting from a base
@@ -92,18 +87,23 @@ triangle.  One possible set of construction steps is show in
 Fig. 3.2.2-4.  That figure shows the construction of the truss adding
 2 members and a joint at each step.
 
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/simple-4.svg)
+
+Figure 3.2.2-4: Truss "construction"
+
 Because the result is a simple truss, and because it is simply
 supported, it is both stable and statically determinate.
 
-
-![Figure](../../images/sdtrusses/determinacy-and-stability/simple-5.svg)
-
-Figure 3.2.2-5: Simple truss.
 
 Consider the truss of Fig. 3.2.2-5.  Is it stable and statically
 determinate?  Because we can locate a starting triangle and can see
 how the truss is built up 2 members and a joint at a time, the answer
 to both questions is "yes".
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/simple-5.svg)
+
+Figure 3.2.2-5: Simple truss.
 
 
 **Compound Trusses**
@@ -113,13 +113,13 @@ members.  It can sometimes be quite difficult to tell by inspection
 whether the resulting truss is stable or not (you can always judge
 determinacy by counting the members, joints and reactions).
 
-![Figure](../../images/sdtrusses/determinacy-and-stability/compound-1.svg)
-
-Figure 3.2.2-6:  Compound Truss
-
 Consider the compound truss shown in Fig. 3.2.2-6, part a).  For this
 truss, we see that $m=16$, $r=4$ and $j=10$.  Therefore $m+r=2j$ and
 the truss is statically determinate, if it is stable.
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/compound-1.svg)
+
+Figure 3.2.2-6:  Compound Truss
 
 To judge stability, one tactic is to identify the simple parts; we
 know that those parts are each stable (i.e., rigid).  These are
@@ -255,7 +255,7 @@ Figure 3.2.2-14: Step 1
 
 Now, in step 2 shown in Figure 3.2.2-15, investigate some of the other
 members attached to joint _b_.  If member _be_ is not to change in length,
-then joint _e_ will be leftward the same amount as joint _b_
+then joint _e_ will move leftward the same amount as joint _b_.
 If joint _e_ moves to the left the
 same amount as joint _b_, it will move up the same amount as _b_ moves
 downward and member _be_ will not change in length. Member _fe_ will
@@ -277,7 +277,7 @@ Figure 3.2.2-16: Step 3
 
 Finally, the last step is shown in Figure 3.2.2-17.  We have one
 remaining member to fit: _cd_.  Joints _c_ and _d_ plainly displace
-horizontally the same amount. As these are very small displacments,
+horizontally the same amount. As these are very small displacements,
 the distance _c'd'_ is the same as _cd_ and so member _cd_ does not
 change in length.
 
