@@ -82,11 +82,15 @@
     not_numbered: true
     url: /text/sdbeams/frame-NVM-problems
 - title: Forces in Statically Determinate Trusses
-  url: /text/sdtrusses/introduction
+  url: /text/sdtrusses/index
   sections:
+  - title: Introduction
+    url: /text/sdtrusses/introduction
   - title: Determinacy and Stability
     url: /text/sdtrusses/determinacy-and-stability
   - title: Method of Joints
     url: /text/sdtrusses/method-of-joints
   - title: Method of Sections
     url: /text/sdtrusses/method-of-sections
+  - title: Worked Examples
+    url: /text/sdtrusses/worked-examples
