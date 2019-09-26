@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+import sys
+sys.path[:0] = ['/usr/share/inkscape/extensions']
+import inkex
+import re
+import sys
+
+class LayerFilter(inkex.Effect):
+    pass
+
+ns = 'http://www.inkscape.org/namespaces/inkscape'
+groupmode_tag = '{%s}groupmode' %(ns,)
+id_tag = 'id'
+label_tag = '{%s}label' % (ns,)
+style_tag = 'style'
+
+for svgfile in sys.argv[1:]:
+    print(svgfile)
+    dst = 'x-'+svgfile
+    lf = LayerFilter()
+    lf.parse(svgfile)
+    root = lf.document.getroot()
+    for el in root.getchildren():
+        if el.get(groupmode_tag) == 'layer':
+            s = 'display:none' if el.get(label_tag) in ['Border'] else 'display:inline'
+            el.set(style_tag,s)
+            print('  ',el,el.get(label_tag),el.get(id_tag),el.get(style_tag))
+    
+    lf.document.write(svgfile)
+
+
+# In[ ]:
+
+
+
+
