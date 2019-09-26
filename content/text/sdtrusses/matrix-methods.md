@@ -103,12 +103,12 @@ Figure 3.6-2: Truss Portion
 
 Fig. 3.6-2 part a) shows two joints in a truss, _i_ and _j_, and the
 member _k_ that connects between them.  Also shown are other members
-that frame into each joint, as well as the loads, _P_, that are
+that frame into each joint, as well as the components of the loads, _P_, that are
 applied to each joint.
 
 To develop the equilibrium equations, we shall refer to part b) of
 that figure which shows some dimensions, the forces corresponding to
-member _k_, and the directions equilibrium equations to be developed:
+member _k_, and the indices for the equilibrium equations to be developed:
 _2i-1_ and _2i_ at joint _i_, and _2j-1_ and _2j_ at joint _j_.
 
 We first define some of the geometric quantities:
@@ -123,7 +123,9 @@ $$
    \end{split}
 $$
 
-$l_{ij}$ and $m_{ij}$ are the _directional cosines_ of the line from node _i_ to node _j_.
+<div class="admonition important">
+$l_{ij}$ and $m_{ij}$ are the <em>directional cosines</em> of the line from node $i$ to node $j$.
+</div>
 
 The equilibrium equation that corresponds to $\sum F_x=0$ at joint _i_
 is equation number $2i-1$.  The equation itself, showing only the
