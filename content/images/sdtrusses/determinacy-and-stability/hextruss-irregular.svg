@@ -14,7 +14,7 @@
    height="490.80173"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="hextruss-irregular.svg"
    inkscape:export-filename="/home/nholtz/3203/hextruss6.png"
    inkscape:export-xdpi="90"
@@ -109,11 +109,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6716553"
-     inkscape:cx="217.90112"
+     inkscape:zoom="2.0110682"
+     inkscape:cx="289.38715"
      inkscape:cy="246.67221"
      inkscape:document-units="in"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer6"
      showgrid="true"
      units="in"
      inkscape:window-width="1653"
@@ -239,13 +239,36 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="step4"
-     style="display:none"
-     sodipodi:insensitive="true"
-     transform="translate(32.01564,-258.55087)">
+     style="display:inline"
+     transform="translate(32.01564,-258.55087)"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 113.56564,317.77285 359.15181,283.81827"
+       d="M 125.83258,315.34061 369.30376,284.66427"
        id="path4100"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 472.57147,510.16672 369.20693,284.62502"
+       id="path110"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       style="display:inline;stroke:#ff0000"
+       id="use3513-0-3"
+       transform="matrix(1.25,0,0,1.25,369.30367,284.58359)">
+      <circle
+         cx="0"
+         cy="0"
+         r="2.5"
+         id="circle3573-5-6"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:1" />
+    </g>
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 23.694238,721.06918 369.22922,284.67366"
+       id="path130"
        inkscape:connector-curvature="0" />
   </g>
   <g
@@ -253,7 +276,8 @@
      id="layer5"
      inkscape:label="step3"
      style="display:inline"
-     transform="translate(32.01564,-258.55087)">
+     transform="translate(32.01564,-258.55087)"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 508.52705,721.39006 125.6649,315.46181"
