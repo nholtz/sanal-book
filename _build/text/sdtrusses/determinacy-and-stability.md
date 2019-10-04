@@ -300,3 +300,65 @@ would be statically indeterminate to 1 degree.
 ![Figure](../../images/sdtrusses/determinacy-and-stability/hextruss-simple.svg)
 
 Figure 3.2.2-18: Stable version of hexagon truss
+
+### Example of Non-critical Form
+
+We will now illustrate the above procedure of manually attempting to find a 
+critical form for a stable truss.  Consider the complex truss show below
+in Figure 3.2.2-19 (a repeat of a truss shown earlier).
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/complex-1-1.svg)
+
+Figure 3.2.2-19: Complex Truss
+
+The first step is to sketch possible paths of joint displacements as in Figure
+3.2.2-20.  Here we note that there are two triangles: _a-b-g_ and _e-f-g_, each
+attached to a support.  The only possible displacements for joints _b_ and _e_
+are horizontal and for joint _g_ vertical, corresponding to rigid-body
+rotations of the triangles about supports _a_ and _f_.  
+
+Also shown are possible paths for joints _c_ and _d_, perpendicular to
+members _fc_ and _ad_ respectively (which are constrained to rotate about
+non-movable supports _a_ and _f_)
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/complex-1-2.svg)
+
+Figure 3.2.2-20: Step 1 - Possible Paths
+
+Figure 3.2.2-21 shows step 2, imagining the rotations of the two
+triangles.
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/complex-1-3.svg)
+
+Figure 3.2.2-21: Step 2
+
+Step 3 in Figure 3.2.2-22
+is to imagine the consistent displacement of members _bc_ and _de_.
+_c_ and _d_ must follow their paths, with the result that both _c_ and _d_
+must move upwards and inwards toward the centre-line of the truss.
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/complex-1-4.svg)
+
+Figure 3.2.2-22: Step 3
+
+Figure 3.2.2-23 shows what would have to happen at step 4, showing that
+member _cd_ would have to shorten, as the paths at the ends through joints
+_c_ and _d_ are not parallel.
+
+![Figure](../../images/sdtrusses/determinacy-and-stability/complex-1-5.svg)
+
+Figure 3.2.2-23: Step 4
+
+That plainly is not possible and so the displacement pattern we attempted to
+show is not valid.
+
+As the only prossible displacements must involve the rotations
+of triangles _a-b-g_ and _e-f-g_, we see that it is impossible to find a
+consistent displacement pattern.  
+
+Therefore the truss is stable.
+
+<div class="admonition important">
+If no small displacement pattern is possible, a truss is stable.
+</div>
+
