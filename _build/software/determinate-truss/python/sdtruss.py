@@ -66,7 +66,7 @@ def sdtruss( jc, mi, rf, jl, print_flag=True ):
     
 if __name__ == '__main__':
 
-    print 'Solution of Question 1, HW 3, October 2011.'
+    print 'Solution of Question 2, HW 2, October 2019.'
 
     jc = [ ('a', 0, 4),           # joint coordinates (j,x,y)
            ('b', 3, 4),
@@ -87,12 +87,13 @@ if __name__ == '__main__':
            ('e','f'),
            ]
 
-    rf = [ ('d',1,0),             # reaction forces (j,dcx,dcy)
-           ('d',0,1),
+    rf = [ ('f',1,0),             # reaction forces (j,dcx,dcy)
            ('f',0,1),
+           ('d',0,1),
            ]
 
-    jl = [ ('b',100,0,-1),        # joint loads (j,p,dcx,dcy),
+    jl = [ ('b',80,0,-1),        # joint loads (j,p,dcx,dcy),
+           ('e',100,0,-1),
            ]
 
     sdtruss( jc, mi, rf, jl )
