@@ -4,8 +4,8 @@ kernel_name: python3
 has_widgets: false
 title: 'Stability and Matrix Methods'
 prev_page:
-  url: /text/sdtrusses/matrix-methods.html
-  title: 'Matrix Methods'
+  url: /notebooks/sdtrusses/sdtruss.html
+  title: 'Matrix Methods Implementation'
 next_page:
   url: /text/sdtrusses/suggested-problems.html
   title: 'Suggested Problems'
@@ -154,7 +154,7 @@ except SDTError as err:
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-**** Error: 'C' matrix is rank-deficient, truss is probably unstable.
+**** Error: 'C' matrix is rank deficient.  Truss is unstable.
 ```
 </div>
 </div>
@@ -205,20 +205,20 @@ except SDTError as err:
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-uid   iid   jid        force
----   ---   ---        -----
-ab    a     b           1779 T
-bc    b     c           1988 T
-cd    c     d           2222 T
-de    d     e           1988 T
-ef    e     f           1778 T
-fa    f     a           1334 T
-be    b     e          889.1 C
-cf    c     f           2224 C
-ad    a     d           2222 C
-Rax   a                   -1 
-Ray   a                   -1 
-Rfy   f                    1 
+unknown  joint-i  joint-j        force
+-------  -------  -------        -----
+ab       a        b               1779 T
+bc       b        c               1988 T
+cd       c        d               2222 T
+de       d        e               1988 T
+ef       e        f               1778 T
+fa       f        a               1334 T
+be       b        e              889.1 C
+cf       c        f               2224 C
+ad       a        d               2222 C
+Rax      a                          -1  @ 1,0
+Ray      a                          -1  @ 0,1
+Rfy      f                           1  @ 0,1
 ```
 </div>
 </div>

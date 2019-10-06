@@ -96,6 +96,8 @@
     url: /text/sdtrusses/worked-examples
   - title: Matrix Methods
     url: /text/sdtrusses/matrix-methods
+  - title: Matrix Methods Implementation
+    url: /notebooks/sdtrusses/sdtruss
   - title: Stability and Matrix Methods
     url: /notebooks/sdtrusses/hextruss-irregular
   - title: Suggested Problems
