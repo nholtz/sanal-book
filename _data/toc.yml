@@ -102,3 +102,12 @@
     url: /notebooks/sdtrusses/hextruss-irregular
   - title: Suggested Problems
     url: /text/sdtrusses/suggested-problems
+- title: Virtual Displacements
+  url: /text/virtualdisplacements/index
+  sections:
+  - title: Introduction
+    url: /text/virtualdisplacements/introduction
+  - title: Worked Examples
+    url: /text/virtualdisplacements/examples
+  - title: Suggested Problems
+    url: /text/virtualdisplacements/problems

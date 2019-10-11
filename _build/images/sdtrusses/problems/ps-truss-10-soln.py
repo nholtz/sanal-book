@@ -1,5 +1,6 @@
 import sys
-sys.path = ["../../../../software/determinate-truss/python"] + sys.path
+#sys.path = ["../../../software/determinate-truss/python"] + sys.path
+sys.path = ["../../../notebooks/sdtrusses"] + sys.path
 from sdtruss import sdtruss
 
 jc = [ ('a', 0, 1),
