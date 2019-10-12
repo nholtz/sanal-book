@@ -1,0 +1,7 @@
+# svg-file	layer-labels		target
+#               + to add to previous layers
+reactions-eg.svg	Layer 1			reactions-eg-0
+reactions-eg.svg	Layer 1,vert-a		reactions-eg-vert-a
+reactions-eg.svg	Layer 1,vert-d		reactions-eg-vert-d
+reactions-eg.svg	Layer 1,horiz-d		reactions-eg-horiz-d
+reactions-eg.svg	Layer 1,mom-d		reactions-eg-mom-d
