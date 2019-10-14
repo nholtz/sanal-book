@@ -3,7 +3,7 @@
 $$
 \def\kN{~\text{kN}}
 \def\m{~\text{m}}
-\def\kNm{~\text{kN-m}}
+\def\kNm{~\text{kN}\cdot\text{m}}
 \def\kNpm{~\text{kN/m}}
 $$
 
@@ -40,6 +40,9 @@ forces) by the method of virtual displacements.
 1. Write a virtual work equation in terms of the unknown action and known displacements
    and set it to zero.
 1. Solve for the unknown action.
+
+This procedure, with the
+proper displaced shapes, ensures that we can write equations that contain only one unknown action.
 
 Some notes:
 
@@ -191,10 +194,6 @@ $$
 
 ## 4.1.4 Frame Internal Forces
 
-<div class="admonition caution">
-The following section is not yet complete.
-</div>
-
 The following sections showsthe virtual displaced shape for a number of internal quantities.
 On each drawing is shown the assigned displacement, other key displacements,
 and displacements at the centroids of the distributed load, above.
@@ -244,6 +243,15 @@ As the portion to the right of _b_ cannot rotate, all of the rotation must occur
 left portion _ab_.  It is assigned a unit counter-clockwise rotation.  The centre of _ab_ 
 is 1m away, so that point displaces downwards $1\times1\m = 1\m$.
 
+Virtual work:
+
+$$
+\begin{split}
+&M_b\times1 + 12\kNpm\times2\m\times1\m = 0\\
+&M_b = -24\kNm\\
+\end{split}
+$$
+
 ### Moment at c
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-c.svg)
@@ -257,6 +265,16 @@ and to the right of _c_ is 1, the vertical distance
 from _d_ to the extended line is $1\times2\m=2\m$.  Similar triangles give the 
 remaining displacements.
 
+Virtual work:
+
+$$
+\begin{split}
+&M_c \times 1 + 12\kNpm\times2\m\times\frac{2}{3}\m - 12\kNpm\times 1\m\times\frac{1}{3}\m  
+   - 12\kNpm\times 2\m\times\frac{1}{3}\m = 0\\
+&M_c = 4\kNm\\
+\end{split}
+$$
+
 ### Moment at e
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-e.svg)
@@ -268,8 +286,17 @@ joint _e_ for clarity:
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/joint-e-mom-ed.svg)
 
-THe vertical displacement of _d_ is given as $1\times2\m=2\m$.  Use similar triangles
-to get the others.
+The vertical displacement of _d_ is given as $1\times2\m=2\m$.  Use similar triangles
+to get the other displacements.
+
+Virtual work:
+
+$$
+\begin{split}
+&M_{ed}\times 1 - 12\kNpm\times2\m\times\frac{2}{3}\m + 12\kNpm\times3\m\times1\m = 0\\
+&M_{ed} = -20\kNm\\
+\end{split}
+$$
 
 ### Moment at f
 
@@ -279,24 +306,43 @@ A unit rotation is imposed at point _f_, causing that point to move perpendicula
 line _eg_.  In order for that to happen, _def_ must rotate about a point on that same line
 (ie., on a line through _e_ and _g_.  At the same time, point _d_ must move perpendicular
 to the line through _e_, _d_ and _b_ (constrained by _db_).  The only way that can
-happen is if _def_ rotates about a point on that line.  Point _e_ is the only point
+happen is if _def_ rotates about a point on the line through _bde_.  Point _e_ is the only point
 that statisfies both rotation criteria, therefore _def_ rotates about _e_.
 
 As the distance _ef_ is 2m, the distance from _e_ to the extension of rotated _fg_
 is $1\times2\m=2\m$.  By similar triangles, the displacement of _f_ is $2\m\times3/5=6/5\m$.
-As _de_ is the same length as _ef_, the downward displacement of _d_ is the same.
+As _de_ is the same length as _ef_, and _def_ rotates rigidly, the downward displacement of _d_ is the same as _f_.
+
+Virtual work:
+
+$$
+\begin{split}
+&M_{f}\times 1 - 12\kNpm\times2\m\times\frac{2}{5}\m + 12\kNpm\times3\m\times\frac{3}{5}\m = 0\\
+&M_{f} = -12\kNm\\
+\end{split}
+$$
 
 ### Shear to the left of b
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-left-b.svg)
 
 Here we are determining shear force at a point of
-interest_just to the left of support b_.  For the displaced shape for shear forces,
+interest _just to the left of support b_.  For the displaced shape for shear forces,
 the rotations must almost always be kept equal (see 'Shear at d' below for the only exception).
-The the member _bd_ to the right of the point of interest is prevented from
+The member _bd_ to the right of the point of interest is prevented from
 translating or rotating (see general comments above).  Therefore, all of the
 translation must occur on the left side of the point of interest, and
 the rotation must be kept to zero.
+
+Virtual work:
+
+$$
+\begin{split}
+&V_{ba}\times 1 + 12\kNpm\times2\m\times1 = 0\\
+&V_{ba} = -24\kN\\
+\end{split}
+$$
+
 
 ### Shear to the right of b
 
@@ -308,6 +354,15 @@ The left side of that point is prevented from moving vertically by support _b_
 of the point of interest.  Point _d_ still cannot move (see above), so member _bd_
 rotates upward about _d_.  The slope to the left must be made equal to the slope
 to the right, leading to the displacements shown.
+
+Virtual work:
+
+$$
+\begin{split}
+&V_{bd}\times 1 - 12\kNpm\times2\m\times\frac13 - 12\kNpm\times3\m\times\frac12 = 0\\
+&V_{bd} = 26\kN\\
+\end{split}
+$$
 
 ### Shear at c
 
@@ -324,6 +379,16 @@ so the distance from point _b_ to the extension of _cd_ is 1.  That allows us
 to compute the angle $\theta = 1/3\m = 1/3 \m^{-1}$.  All other displacements
 can be calculated from the horizontal distances and $\theta$.
 
+Virtual work:
+
+$$
+\begin{split}
+&V_{c}\times 1 - 12\kNpm\times2\m\times\frac13 + 12\kNpm\times1\m\times\frac16 - 12\kNpm\times2\m\times\frac13 = 0\\
+&V_{c} = 14\kN\\
+\end{split}
+$$
+
+
 ### Shear at d
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-d.svg)
@@ -332,6 +397,15 @@ Because there are no internal bending moments at _d_ (it is an internal pin), th
 of the deflected shape do _not_ have to be equal on each side of _d_ (this is the single
 exception to the requirement for equal slopes).  As _d_ attached to _deg_ cannot move,
 all of the transverse displacement must occur on the left side (in _abd_).
+
+Virtual work:
+
+$$
+\begin{split}
+&V_{d}\times 1 - 12\kNpm\times2\m\times\frac13 + 12\kNpm\times3\m\times\frac12 = 0\\
+&V_{d} = -10\kN\\
+\end{split}
+$$
 
 ### Shear to the left of e
 
@@ -342,9 +416,26 @@ Here our point of interest is _just to the left of the joint at e_.
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/joint-e-V-ed.svg)
 
 For reasons explained above, the portion of joint _e_ attached to _eg_ cannot have any displacement
-(or rotation).   Therefore all displacement must be on the left side of our
+or rotation.   Therefore all displacement must be on the left side of our
 point of interest, and the rotation at _e_ must be zero.  Relative rotation is allowed
-at th epint at _d_, and so the displaced shape is as shown.
+at the pin at _d_, and so the displaced shape is as shown.
+
+Virtual work:
+
+$$
+\begin{split}
+&V_{ed}\times 1 - 12\kNpm\times2\m\times\frac13 + 12\kNpm\times3\m\times\frac12 = 0\\
+&V_{ed} = -10\kN\\
+\end{split}
+$$
+
+Note that the 60Kn load is not included because it is just to the right of the point
+at which we are finding the shear,
+and does not appear on any displaced portion of the virtual displacement diagram.
+
+Also note that as there are no transverse loads between _d_ and just to
+the left of _e_, the shear forces
+at these two locations will be equal.
 
 ### Shear at the top of eg
 
@@ -358,12 +449,36 @@ _de_ above the point of interest must reotate the same amount to keep the slopes
 equal.  The amount of rotation is easy to determine as the length of _eg_ is 5m, thus
 $\theta = 1/5\m^{-1}$.
 
+Virtual work:
+
+$$
+\begin{split}
+&V_{eg}\times 1 + 12\kNpm\times2\m\times\frac{2}{15} - 12\kNpm\times3\m\times\frac{1}{5} = 0\\
+&V_{eg} = 4\kN\\
+\end{split}
+$$
+
+
 ### Shear at f
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-f.svg)
 
 The shear force at _f_ is determined very similar to that at _c_, above -- the only complexity
 being the directions are perpendicular to the sloped member, _eg_.
+
+Virtual work:
+
+Virtual work:
+
+$$
+\begin{split}
+&V_{f}\times 1 + 12\kNpm\times2\m\times\frac{2}{15} - 12\kNpm\times3\m\times\frac{1}{5} = 0\\
+&V_{f} = 4\kN\\
+\end{split}
+$$
+
+As there are no transverse loads between _e_ and _f_, the shear force at _f_ must be the same
+as at _ef_ (above).
 
 ### Axial force at c
 
@@ -373,16 +488,49 @@ Assuming tension forces +ive, the virtual displacement imposed is a unit overlap
 at _c_.  As _c_ cannot move rightward, that means that both 
 points _d_ and _e_ must move leftward a unit
 amount to accomodate this.  The only way this can happen is if _deg_ rotates an amount
-$\theta$ about point $g$.  From the relationship that horizontal displacement = vertical
-distance times $\theta$, and the vertical distance is 4m, then $\theta = 1/4\m^{-1}$.
+$\theta$ about point $g$.  
+
+From the relationship that horizontal displacement = vertical
+distance times angle, and the vertical distance is 4m, then $\theta = 1/4\m^{-1}$.
 The horizontal distance from _g_ to _d_ is 5m, so its vertical displacement
 is $5\theta = 5/4$.
+
+Virtual work:
+
+$$
+\begin{split}
+&N_{c}\times 1 - 12\kNpm\times2\m\times\frac{5}{12} + 12\kNpm\times3\m\times\frac{5}{8} 
+  + 60\kN\times\frac{3}{4} - 30\kN\times1= 0\\
+&N_{c} = -27.5\kN\\
+\end{split}
+$$
+
 
 ### Axial force at f
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-N-f.svg)
 
-A unit overlap at point _f_ must be accommodated by displacement in the portion above, as
+A unit overlap at point _f_ must be accommodated by displacement in the portion above, _def_, as
 the portion below _f_ is constrained by support _g_.  Point _e_ has to move a unit amount
-in the direction _eg_.  That amount is a component of the vertical displacement.
+in the direction _eg_.  Also, point _e_ must move straight vertically, as it is constrained
+from moving horizontally (support at _b_ and member _bde_).  Therefore, the displacement
+in the direction _eg_ is a component of the vertical displacement.
 From $\Delta_y\times(4/5) = 1$, we get the vertical displacement required as $\Delta_y=5/4$.
+
+The displacement of _e_ perpendicular to _eg_ is $(3/5)\times\Delta_y = 3/4$.  The rotation of member
+_eg_ is then $(3/4)/5 = 3/20\m^{-1}$.
+
+The vertical displacement of _d_ is the vertical displacement of _e_ plus the rotation of
+_ed_:  $(5/4) + 2\m\times 3/20\m^{-1} = 31/20$.
+
+Virtual work:
+
+$$
+\begin{split}
+&N_{f}\times 1 - 12\kNpm\times2\m\times\frac{31}{60} + 12\kNpm\times3\m\times\frac{31}{40} 
+  + 60\kN\times\frac{5}{4} = 0\\
+&N_{f} = -90.5\kN\\
+\end{split}
+$$
+
+
