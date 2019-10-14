@@ -189,4 +189,92 @@ $$
 \end{split}
 $$
 
-## 4.1.4 Beam Internal Forces
+## 4.1.4 Frame Internal Forces
+
+<div class="admonition caution">
+The following section is not yet complete.
+</div>
+
+The following shows the virtual displaced shape for a number of internal quantities.
+On each drawing is shown the assigned displacement, other key displacements,
+and displacements at the centroids of the distributed load, above.
+
+The virtual work expressions are not yet shown, but they will be (someday).
+
+Note that for the three internal actions are as follows:
+
+1. For moment, a unit rotation of one side of the point relative to the other.
+Normal sign convention would have the left portion rotating coun ter-clockwise and
+the rigth portion clockwise (relatively).  Relative transverse and longitudinal displacements
+are prevented
+
+1. For shear, a unit relative displacement of one side of the point relative
+to the other.  This displacement is transverse (perpendicular to the axis of the
+member).  If there is a non-zero bending moment at the point, there may be no
+relative rotations.
+
+1. For axial force, a unit relative displacement in the longitudinal direction.
+
+### Moment at b
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-b.svg)
+
+As the portion to the right of _b_ cannot rotate, all of the rotation must occur in the
+left portion _ab_.  It is assigned a unit counter-clockwise rotation.  The centre of _ab_ 
+is 1m away, so that point displaces downwards $1\times1\m = 1\m$.
+
+### Moment at c
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-c.svg)
+
+The beam is given a unit rotation at point _c_.  Point _d_ cannot move vertically, so the
+section _cd_ must rotate about _d_ to allow the upward displacement of point _c_.
+
+To compute the displacements, extend the straight line _abc_ to over point _d_.
+As the horizontal distance from _c_ to _d_ is 2m and the angle is 1, the vertical distance
+from _d_ to the extended line is also 2m.  Similar triangles give the remaining displacements.
+
+### Moment at e
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-e.svg)
+
+### Moment at f
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-f.svg)
+
+### Shear to the left of b
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-left-b.svg)
+
+### Shear to the right of b
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-right-b.svg)
+
+### Shear at c
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-c.svg)
+
+### Shear at d
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-d.svg)
+
+### Shear to the left of e
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-left-e.svg)
+
+### Shear at the top of eg
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-eg.svg)
+
+### Shear at f
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-V-f.svg)
+
+### Axial force at c
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-N-c.svg)
+
+### Axial force at f
+
+![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-N-f.svg)
+
