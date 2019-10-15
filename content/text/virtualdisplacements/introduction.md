@@ -3,11 +3,13 @@
 $$
 \def\kN{~\text{kN}}
 \def\m{~\text{m}}
-\def\kNm{~\text{kN}\cdot\text{m}}
+\def\kNm{~\text{kN}\!\cdot\!\text{m}}
 \def\kNpm{~\text{kN/m}}
 $$
 
-## 4.1.1 Introduction
+## 4.1 Introduction
+
+## 4.1.1 Principle of Virtual Displacements
 
 The main principle is offered here without proof:
 
@@ -19,7 +21,9 @@ The main principle is offered here without proof:
    
   Some proofs are available here:
   1. [CIVE 3203 Lecture, 2019](http://holtz3.cee.carleton.ca/recordings/3203/2019/2019-10-11/Part-1/)
-  1. [Learning the Virtual Work Method in Statics](https://peer.asee.org/learning-the-virtual-work-method-in-statics-what-is-a-compatible-virtual-displacement.pdf)
+  1. [Learning the Virtual Work Method in Statics](https://peer.asee.org/learning-the-virtual-work-method-in-statics-what-is-a-compatible-virtual-displacement.pdf).
+     Note that the first portion of this paper has a good discussion of small virtual 
+	 rigid body displacements.
 	
 ## 4.1.2 Procedure
 
@@ -37,12 +41,13 @@ forces) by the method of virtual displacements.
    structural members.
 1. Assign one of the displacements an arbitrary value, and express all other displacements
    in the deflected shape in terms of that.
-1. Write a virtual work equation in terms of the unknown action and known displacements
+1. Write a virtual work equation in terms of the unknown action and known displacements and forces
    and set it to zero.
 1. Solve for the unknown action.
 
-This procedure, with the
-proper displaced shapes, ensures that we can write equations that contain only one unknown action.
+This procedure, with the use of
+properly displaced structures, ensures that we can write equations that contain only 
+one unknown action.
 
 Some notes:
 
@@ -57,14 +62,14 @@ Some notes:
 The procedure will be illustrated by determining all four reactions in the following
 frame (note that by inspection it is stable and statically determinate).  Each reaction
 will be determined seperately and independently.  For each, the virtual deflected
-shape will be drawn underneath the structure and key displacements will be shown.
+shape will be drawn below the structure and key displacements will be shown.
 
 <div class="admonition important">
 For each deflected shape, the displacement corresponding to the action desired will
 be assigned the value '1' (with no units).  It will be labelled on the drawing
 as '1*' to remind us that this is a virtual displacement.
 <P/>
-The value '1' is used, as this slightly simplifies the solution of the equations.
+The value '1' is used as this slightly simplifies the solution of the resulting equations.
 </div>
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/reactions-eg-0.svg)
@@ -91,7 +96,7 @@ track of that way.
 
 <div class="admonition note">
 The work done by displacement of a distributed load can be calculated using the
-displacement of its centroid, times the total load.
+displacement at its centroid, times the total load.
 </div>
 
 Writing the virtual work expression:
@@ -134,7 +139,7 @@ in its place.  The frame drawing shows that $H_d$ is assumed acting rightwards a
 is assigned in the same direction.
 
 The fixed support at $d$ constrains the frame portion $bcd$ from rotating and from displacing 
-vertically, so that portion can only move horizontally a unit amount everywhere (especially at joint
+vertically, so that portion can only move horizontally a unit amount everywhere (especially note joint
 $c$, the point of application of the $30\kN$ load).
 
 The pin at $b$ prevents differential horizontal displacements af $ab$ and $bcd$ so $ab$
@@ -174,8 +179,7 @@ the constraint against relative transverse displacement at $b$, while honouring 
 against vertical displacement at $a$.
 
 Deflection amounts are shown.  Although the rotation is unitless, the member lengths
-are not.  Therefore the displacements on the deflected shape have units in this example, 
-whereas in the above three examples all displacements were unitless.
+are not.  Therefore the displacements on the deflected shape all have units.
 
 <div class="admonition important">
 When displacements are calculated from rotations, the displacements will have
@@ -194,28 +198,28 @@ $$
 
 ## 4.1.4 Frame Internal Forces
 
-The following sections showsthe virtual displaced shape for a number of internal quantities.
+The following sections show the virtual displaced shape for a number of internal quantities.
 On each drawing is shown the assigned displacement, other key displacements,
-and displacements at the centroids of the distributed load, above.
+and displacements at the centroids of the distributed load, above each portion.
 
-The virtual work expressions are not yet shown, but they will be (someday).
-
-Note that for the three internal actions are as follows:
+Note that consistent displacements for the three types of internal actions are as follows:
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-releases.svg)
 
 
 1. For moment, a unit rotation of one side of the point relative to the other.
-Normal sign convention would have the left portion rotating coun ter-clockwise and
+Normal beam sign convention would have the left portion rotating counter-clockwise and
 the rigth portion clockwise (relatively).  Relative transverse and longitudinal displacements
-are prevented
+are prevented.
 
 1. For shear, a unit relative displacement of one side of the point relative
 to the other.  This displacement is transverse (perpendicular to the axis of the
-member).  If there is a non-zero bending moment at the point, there may be no
-relative rotations.
+member).  Unless the bening moments are forced to be zero (by a pin), there may be no
+relative rotations.  Normal beam sign convention will have the left portion
+moving dow relative to the right portion.
 
 1. For axial force, a unit relative displacement in the longitudinal direction.
+If tension is assumed +ive, the displacement is an overlap.
 
 ### General Comments on Stability
 
@@ -223,14 +227,16 @@ The frame used in the following examples is shown here:
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal.svg)
 
-Many of the following examples rely on one particularly consequence of the stability
-of this frame, so we will explain it once here and rely on this explanation below.
+Many of the following examples rely on one particular consequence of the stability
+of this frame, so we will explain it once here and rely on this explanation 
+many times below.
 
-Obviously, the pin supports at _b_ and _g_ prevent horizontal and vertical
-displacements at those points, but allow rotation.  Also, the internal pin
+The pin supports at _b_ and _g_ prevent horizontal and vertical
+displacements at those points, but allow rotation.  The internal pin
 at _d_ allows relative rotation, only, between parts _abd_ and _deg_.
-If part _deg_ rotated about point _g_, points _d_ and _e_ would have to have  horizontal
-components of displacement.  That is prevented by support _b_ and member
+
+Now, if part _deg_ rotates about point _g_, points _d_ and _e_ will have horizontal
+components of displacement.  But that is prevented by support _b_ and member
 _bd_.  We will often say something like "point _d_ cannot move" in the
 explanations below.  That is what we mean.
 
@@ -258,10 +264,11 @@ $$
 
 The beam is given a unit rotation at point _c_.  Point _d_ cannot move vertically, so the
 section _cd_ must rotate about _d_ to allow the upward displacement of point _c_.
+Section _abc_ rotates about _b_ to maintain the vertical displacement constraint at _b_.
 
 To compute the displacements, extend the straight line _abc_ to over point _d_.
-As the horizontal distance from _cd_ is 2m and the angle in the triangle above
-and to the right of _c_ is 1, the vertical distance
+As the angle in the triangle above
+and to the right of _c_ is 1 and the horizontal distance _cd_ is 2m, the vertical distance
 from _d_ to the extended line is $1\times2\m=2\m$.  Similar triangles give the 
 remaining displacements.
 
@@ -278,6 +285,8 @@ $$
 ### Moment at e
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-e.svg)
+
+Here we compute the bending moment just to the left of joint _e_.
 
 As member _eg_ cannot rotate (see above), all rotation must occur in _ed_, which is given the
 normal unit rotation, counter-clockwise as that is the direction of +ive moment on that
@@ -302,16 +311,19 @@ $$
 
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-mom-f.svg)
 
-A unit rotation is imposed at point _f_, causing that point to move perpendicular to the
+A unit rotation is imposed at point _f_, causing that point to move perpendicularly to the
 line _eg_.  In order for that to happen, _def_ must rotate about a point on that same line
-(ie., on a line through _e_ and _g_.  At the same time, point _d_ must move perpendicular
-to the line through _e_, _d_ and _b_ (constrained by _db_).  The only way that can
-happen is if _def_ rotates about a point on the line through _bde_.  Point _e_ is the only point
+(ie., on a line through _e_ and _g_).  
+
+At the same time, point _d_ must move perpendicularly
+to the line through _e_, _d_ and _b_ (constrained by _db_).  
+The only way that can happen is if _def_ rotates about a point on the line 
+through _bde_.  Point _e_ is the only point
 that statisfies both rotation criteria, therefore _def_ rotates about _e_.
 
 As the distance _ef_ is 2m, the distance from _e_ to the extension of rotated _fg_
 is $1\times2\m=2\m$.  By similar triangles, the displacement of _f_ is $2\m\times3/5=6/5\m$.
-As _de_ is the same length as _ef_, and _def_ rotates rigidly, the downward displacement of _d_ is the same as _f_.
+As _de_ is the same length as _ef_, and _def_ rotates rigidly, the downward displacement of _d_ is the same as the displacement of _f_.
 
 Virtual work:
 
@@ -332,7 +344,7 @@ the rotations must almost always be kept equal (see 'Shear at d' below for the o
 The member _bd_ to the right of the point of interest is prevented from
 translating or rotating (see general comments above).  Therefore, all of the
 translation must occur on the left side of the point of interest, and
-the rotation must be kept to zero.
+the rotation must be kept to zero (to match the right side).
 
 Virtual work:
 
@@ -443,9 +455,9 @@ at these two locations will be equal.
 
 Now the point of interest is just below joint _e_, at the top of member _eg_.  As we are
 interested in shear force, the directions of interest are perpendicular to _eg_.  Point _e_
-on member _de_ cannont move in that direction, so all translation must occur
+on member _de_ cannot move in that direction, so all translation must occur
 in _eg_ just below our point of interest, resulting in a rotation of _eg_ about _g_.
-_de_ above the point of interest must reotate the same amount to keep the slopes
+_de_ above the point of interest must rotate the same amount to keep the slopes
 equal.  The amount of rotation is easy to determine as the length of _eg_ is 5m, thus
 $\theta = 1/5\m^{-1}$.
 
@@ -468,8 +480,6 @@ being the directions are perpendicular to the sloped member, _eg_.
 
 Virtual work:
 
-Virtual work:
-
 $$
 \begin{split}
 &V_{f}\times 1 + 12\kNpm\times2\m\times\frac{2}{15} - 12\kNpm\times3\m\times\frac{1}{5} = 0\\
@@ -485,9 +495,9 @@ as at _ef_ (above).
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-N-c.svg)
 
 Assuming tension forces +ive, the virtual displacement imposed is a unit overlap in member _bd_
-at _c_.  As _c_ cannot move rightward, that means that both 
+at _c_.  As _c_ cannot move rightward, both 
 points _d_ and _e_ must move leftward a unit
-amount to accomodate this.  The only way this can happen is if _deg_ rotates an amount
+amount to accommodate this.  The only way this can happen is if _deg_ rotates an amount
 $\theta$ about point $g$.  
 
 From the relationship that horizontal displacement = vertical
@@ -511,17 +521,17 @@ $$
 ![Figure](../../images/virtualwork/virtualdisplacement/introduction/internal-eg-N-f.svg)
 
 A unit overlap at point _f_ must be accommodated by displacement in the portion above, _def_, as
-the portion below _f_ is constrained by support _g_.  Point _e_ has to move a unit amount
+the portion below _f_ is constrained by support _g_.  Point _e_, therefore, has to move a unit amount
 in the direction _eg_.  Also, point _e_ must move straight vertically, as it is constrained
-from moving horizontally (support at _b_ and member _bde_).  Therefore, the displacement
+from moving horizontally (by the support at _b_ and member _bde_).  Therefore, the displacement
 in the direction _eg_ is a component of the vertical displacement.
 From $\Delta_y\times(4/5) = 1$, we get the vertical displacement required as $\Delta_y=5/4$.
 
 The displacement of _e_ perpendicular to _eg_ is $(3/5)\times\Delta_y = 3/4$.  The rotation of member
 _eg_ is then $(3/4)/5 = 3/20\m^{-1}$.
 
-The vertical displacement of _d_ is the vertical displacement of _e_ plus the rotation of
-_ed_:  $(5/4) + 2\m\times 3/20\m^{-1} = 31/20$.
+The vertical displacement of _d_ is the vertical displacement of _e_ plus a portion due to 
+the rotation of _ed_:  $(5/4) + 2\m\times 3/20\m^{-1} = 31/20$.
 
 Virtual work:
 
