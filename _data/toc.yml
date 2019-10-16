@@ -107,6 +107,8 @@
   sections:
   - title: Introduction
     url: /text/virtualdisplacements/introduction
+  - title: Work Done by Loads
+    url: /text/virtualdisplacements/work-done
   - title: Worked Examples
     url: /text/virtualdisplacements/examples
   - title: Suggested Problems

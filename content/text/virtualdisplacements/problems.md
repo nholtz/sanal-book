@@ -1,6 +1,6 @@
 # 4: Method of Virtual Work (1): Principle of Virtual Displacements
 
-## 4.3 Suggested Problems
+## 4.4 Suggested Problems
 
 ### Problem 1
 
