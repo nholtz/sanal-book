@@ -113,3 +113,12 @@
     url: /text/virtualdisplacements/examples
   - title: Suggested Problems
     url: /text/virtualdisplacements/problems
+- title: Influence Lines
+  url: /text/influencelines/index
+  sections:
+  - title: Introduction
+    url: /text/influencelines/introduction
+  - title: Worked Examples
+    url: /text/influencelines/examples
+  - title: Suggested Problems
+    url: /text/influencelines/problems
