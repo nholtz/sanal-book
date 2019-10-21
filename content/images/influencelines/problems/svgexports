@@ -1,0 +1,6 @@
+# svg-file	layer-labels		target
+#               + to add to previous layers
+girder-with-stringers.svg	Layer 1			girder-with-stringers-0
+girder-with-stringers.svg	Layer 1,v-right-a			girder-with-stringers-v-right-a
+girder-with-stringers.svg	Layer 1,m-b			girder-with-stringers-m-b
+
