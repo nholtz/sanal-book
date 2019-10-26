@@ -1,0 +1,8 @@
+# svg-file	layer-labels		target
+#               + to add to previous layers
+il-intro.svg	Layer 1	    	     il-intro-0
+il-intro.svg	Overall FBD	     il-intro-fbd
+il-intro.svg	Part-FBD-1	     il-intro-part1
+il-intro.svg	Part-FBD-2	     il-intro-part2
+il-intro.svg	IL-Mc		     il-intro-plot-mc
+il-intro.svg	IL-Vc		     il-intro-plot-vc
