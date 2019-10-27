@@ -116,8 +116,14 @@
 - title: Influence Lines
   url: /text/influencelines/index
   sections:
-  - title: Introduction
+  - title: Introduction - Part 1 - Equilibrium
     url: /text/influencelines/introduction
+  - title: Introduction - Part 2 - M&uuml;ller-Breslau
+    not_numbered: true
+    url: /text/influencelines/introduction-part-2-mb
+  - title: Introduction - Part 3 - Use
+    not_numbered: true
+    url: /text/influencelines/introduction-part-3-use
   - title: Worked Examples
     url: /text/influencelines/examples
   - title: Suggested Problems
