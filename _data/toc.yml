@@ -128,3 +128,9 @@
     url: /text/influencelines/examples
   - title: Suggested Problems
     url: /text/influencelines/problems
+- title: Elastic Displacements
+  url: /text/displacements/index
+  sections:
+  - title: Assumptions
+    url: /text/displacements/assumptions
+ 

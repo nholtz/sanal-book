@@ -6,28 +6,17 @@
 }
 
 /* ---- admonition start ---- */
-div.caution, 
-div.important, 
-div.note, 
-div.tip, 
-div.warning {
+div.admonition {
     border: 1pt solid #E5E5E5;
     background-color: #F9F9FF;
     color: black;
     
     margin: 10pt 30pt 10pt 30pt;
+    margin-top: 10px; /*to align text with bg graphic*/
     background-repeat: no-repeat;
     background-position: 8px 8px;
     min-height: 64px; /*64=48+8+8 but doesn't work with IE*/
 padding-left: 64px;
-}
- 
-div.caution p, 
-div.important p, 
-div.note p, 
-div.tip p, 
-div.warning p {
-    margin-top: 10px; /*to align text with bg graphic*/
 }
 
 div.tip::before {
@@ -68,5 +57,5 @@ div.warning { background-image: url("../images/admon-warning.png"); }
 /* ---- admonition end ---- */
 
 p img {
-    max-width: 1000px;
+    max-width: 900px;
 }

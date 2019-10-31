@@ -133,10 +133,10 @@ The general principle is to place all loads where their effect will be worse.
 
 ### Example live loads
 
-The beam structure has a live distributed load of 20kN/m, and 2 live concentrated live 
-loads
+The beam structure has a live distributed load of 20kN/m, and two
+concentrated live loads
 of 25kN and 40kN.  The concentrated loads are separated by a fixed 1.0m distance
-to repreent truck axles,
+to represent truck axles,
 and may be travelling in either direction.  Determine the maximum +ive and -ive moment
 at point $c$.
 
