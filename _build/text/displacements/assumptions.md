@@ -4,8 +4,8 @@ prev_page:
   url: /text/displacements/index.html
   title: 'Elastic Displacements'
 next_page:
-  url: 
-  title: ''
+  url: /text/displacements/workenergy/external-work-strain-energy.html
+  title: 'Work and Energy'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 7. Displacements in Elastic Structures
@@ -37,12 +37,6 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
    * a displacement, at a point.
    * etc.
    
-<div class="admonition note">
-You have to remember this stuff!!
-<p/>
-It is important!
-</div>
-
 ### When does super-position not hold?
 
 1. Non-linear stress strain.

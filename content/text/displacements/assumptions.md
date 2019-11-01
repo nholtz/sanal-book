@@ -27,12 +27,6 @@
    * a displacement, at a point.
    * etc.
    
-<div class="admonition note">
-You have to remember this stuff!!
-<p/>
-It is important!
-</div>
-
 ### When does super-position not hold?
 
 1. Non-linear stress strain.
