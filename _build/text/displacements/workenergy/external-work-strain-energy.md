@@ -152,8 +152,10 @@ is allowed to return to its original position.
 ![Figure](../../../images/displacements/workenergy/axial-4.svg)
 
 The above figure shows internal forces (stresses) acting through internal
-displacements (strain) resulting in internal work, $U_i$.  In the element,
-the differential amount of work is:
+displacements (strain) resulting in internal work, $U_i$.  
+Remembering that both $\sigma$ and $\epsilon$ increase 
+simultaneously from 0, in the element
+the differential amount of work done is:
 
 $$
 d U_i = \frac12 \sigma A \epsilon dx
@@ -206,9 +208,10 @@ This  displacement was computed using the "Direct Energy Method".
 ![Figure](../../../images/displacements/workenergy/bending-0.svg)
 
 As loads are increased from 0 to their final values, moment on the element
-also increases from 0 to $M_x$ and anglr change, $d\theta$ increases linearly from 0.
+also increases from 0 to $M_x$ and angle change, $d\theta$ increases linearly from 0
+at the same time.
 
-The work done on the element by the internal forces is the strain energy stored.
+The work done on the element by the internal forces is the strain energy.
 
 Considering only bending moments,
 
@@ -233,3 +236,53 @@ For the whole beam, where $M_x$ varies over the length, the strain energy is:
 $$
 U_i = \int_0^L \frac{M_x^2}{2 E I} dx
 $$
+
+### Example: Using direct energy method to find deflection
+
+![Figure](../../../images/displacements/workenergy/direct-energy-example-1.svg)
+
+Consider the prismatic simply-supported beam as shown in the above figure.
+$E$ and $I$ are constant over the whole length and a single concentrated
+force $P$ is applied at the centre.
+
+As the force is increased from 0 to $P$, the work done by the force
+is the external work, given by:
+
+$$
+U_e = \frac12 P\Delta
+$$
+
+From above, we have the strain energy (internal work) as:
+
+$$
+\begin{align}
+U_i &= \int_0^L \frac{M_x^2}{2 E I} dx\\
+    &= 2\times\frac{1}{2 E I} \int_0^{L/2} (\frac{P}{2} x)^2 dx\\
+	&= \frac{P^2}{4 E I} \int_0^{L/2} x^2 dx\\
+	&= \left. \frac{P^2}{4 E I} \frac{x^3}{3} \right|_0^{L/2}\\
+U_i &= \frac{P^2 L^3}{96 E I}\\
+\end{align}
+$$
+
+but, as $U_e = U_i$,
+
+$$
+\begin{align}
+\frac12 P\Delta &= \frac{P^2 L^3}{96 E I}\\
+\Delta &= \frac{P L^3}{48 E I}\\
+\end{align}
+$$
+
+We have just calculated a beam displacement using the direct energy method. 
+While that
+method should have made the basis of work and energy methods
+easier to understand, it has a very serious drawback that makes it essentially useless
+in practice.
+
+<div class="admonition warning">
+For beams, using the direct energy method, it is only possible to compute displacements
+when there is a sigle concentrated force applied, and then only
+at the point of application of the force.
+</div>
+
+Below, we will develop methods that are more general.
