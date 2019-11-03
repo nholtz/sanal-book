@@ -6,21 +6,21 @@
 
 ![Figure](../../../images/displacements/workenergy/bending-1.svg)
 
-The above figure shows, in sub-figure a), a beam subject to two concentrated forces, 
+The above figure shows, in sub-figure c), a beam subject to two concentrated forces, 
 $P_1$ and $P_2$.  At each of those locations is also shown the corresponding
 vertical displacements, $\Delta_1$ and $\Delta_2$.
 
-Shown below in sub-figures b) and c) is the same beam with the loads
-acting individually, rather than together as in a).
+Shown above that, in sub-figures a) and b) is the same beam with the loads
+acting individually, rather than together as in c).
 
 The principle of superposition says that any structural effect in 
-a) can be determined by summing the same effect from b) and c).
-More specifically:
+c) can be determined by summing the same effect from a) and b).
+More specifically, for one particular effect:
 
 $$
 \begin{align}
-\Delta_1 = \delta_{11} + \delta_{12}\\
-\Delta_2 = \delta_{21} + \delta_{22}\\
+\Delta_1 &= \delta_{11} + \delta_{12}\\
+\Delta_2 &= \delta_{21} + \delta_{22}\\
 \end{align}
 $$
 
@@ -32,10 +32,10 @@ $\delta_{ij}$ is the displacement at location $i$ due to the force at location $
 
 The above figure shows the same three beams, but this time with the
 bending moment diagram for each.  And again, the principle of superposition
-says, that for any point along the span, the bending moment at that point in beam a)
-is the sum of the bending moments at the same point in b) and c).
+says, that for any point along the span, the bending moment at that point in beam c)
+is the sum of the bending moments at the same point in a) and b).
 
-In beam b) the bending moment diagram is labelled as $M_1$ as it results
+In beam a) the bending moment diagram is labelled as $M_1$ as it results
 from the force applied at location 1.  Beam b)'s bending moment diagram
 is labelled as $M_2$ as it results from the force at location 2.
 
@@ -44,7 +44,10 @@ is labelled as $M_2$ as it results from the force at location 2.
 __Step a)__
 
 In the above beam, first imagine the force at location 1 increasing from 0 to
-$P_1$ while $P_2$ is held at 0.  This would correspond to beam b) in the above figures.
+$P_1$ while $P_2$ is held at 0.  This would correspond to beam a) in the above figures,
+and the load-displacement behaviour at the two locations is show here:
+
+![Figure](../../../images/displacements/workenergy/bending-1-a.svg)
 
 We can then compute external work and strain energy for that system:
 
@@ -64,6 +67,8 @@ __Step b)__
 Now imagine the force $P_1$ held to 0 and the force at location 2
 increasing from 0 to $P_2$.
 
+![Figure](../../../images/displacements/workenergy/bending-1-b.svg)
+
 Now the work and energy terms are:
 
 $$
@@ -80,13 +85,18 @@ $$
 __Step c)__
 
 Finally imagine the force at location 1 increasing from 0 to $P_1$, then being held constant
-at that value while the force at location 2 is increased from 0 to $P_2$.  The final state will be 
-beam a) in the above figures.
+at that value while the force at location 2 is increased from 0 to $P_2$.  
+The final state will be beam c) in the above figures, with load-displacement
+relationship shown here:
+
+![Figure](../../../images/displacements/workenergy/bending-1-c.svg)
 
 The total external work will involve the work done by force 1 as it increases and moves through
-the displacement at 1, plus the work done by the constant force $P_1$ as it moves through
-the displacement at location 1 caused by increasing force $P_2$, plus the work done by $P_2$
-as it increases and moves through the displacement it causes at location 2.
+the displacement at 1 ($\delta_{11}$), 
+plus the work done by the constant force $P_1$ as it moves through
+the displacement at location 1 caused by increasing force $P_2$ ($\delta_{12}$), 
+plus the work done by $P_2$
+as it increases and moves through the displacement it causes at location 2 ($\delta_{22}$).
 
 In other words:
 

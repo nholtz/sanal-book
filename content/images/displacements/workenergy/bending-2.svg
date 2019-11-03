@@ -323,7 +323,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.967803"
      inkscape:cx="39.757557"
-     inkscape:cy="324.81509"
+     inkscape:cy="253.05633"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -338,7 +338,8 @@
      fit-margin-right="0.2"
      fit-margin-left="0.2"
      fit-margin-bottom="0.2"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        spacingy="0.1in"
        spacingx="0.1in"
@@ -428,12 +429,12 @@
      transform="translate(-129.71248,-15.1807)">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 192,78 H 480"
+       d="m 192.50818,426.10393 h 288"
        id="path56"
        inkscape:connector-curvature="0" />
     <g
        id="g10775"
-       transform="translate(-63.904288,-276.5569)">
+       transform="translate(-63.396112,71.54704)">
       <title
          id="title3737">Pin Support</title>
       <g
@@ -459,7 +460,7 @@
     </g>
     <g
        id="g3395"
-       transform="translate(347.93089,-259.18197)">
+       transform="translate(348.43907,88.92197)">
       <title
          id="title3739">Roller Support</title>
       <path
@@ -505,7 +506,7 @@
     </g>
     <path
        id="path3507"
-       d="m 318.2028,44.55654 v 28.75"
+       d="m 318.71098,392.66047 v 28.75"
        class="cload"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd-1)" />
@@ -513,7 +514,7 @@
        style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd-1)"
        inkscape:connector-curvature="0"
        class="cload"
-       d="m 274.2028,44.55654 v 28.75"
+       d="m 274.71098,392.66047 v 28.75"
        id="path8692" />
     <g
        id="g8800"
@@ -526,7 +527,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-350.36178,-244.41794)">
+       transform="matrix(2,0,0,2,-349.8536,103.686)">
       <g
          id="surface1">
         <g
@@ -562,7 +563,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-279.94338,-245.4343)">
+       transform="matrix(2,0,0,2,-279.4352,102.66964)">
       <g
          id="g8942">
         <g
@@ -590,10 +591,10 @@
     <path
        inkscape:connector-curvature="0"
        id="path11276"
-       d="M 192,236 H 480"
+       d="M 192,70 H 480"
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <g
-       transform="translate(-63.904288,-118.5569)"
+       transform="translate(-63.904288,-284.5569)"
        id="g11288">
       <title
          id="title11278">Pin Support</title>
@@ -619,7 +620,7 @@
       </g>
     </g>
     <g
-       transform="translate(347.93089,-101.18197)"
+       transform="translate(347.93089,-267.18197)"
        id="g11308">
       <title
          id="title11290">Roller Support</title>
@@ -666,12 +667,12 @@
     </g>
     <path
        id="path11334"
-       d="m 274.2028,202.55654 v 28.75"
+       d="m 274.2028,36.55654 v 28.75"
        class="cload"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd-1)" />
     <g
-       transform="matrix(2,0,0,2,-350.36178,-86.41794)"
+       transform="matrix(2,0,0,2,-350.36178,-252.41794)"
        ns1:version="0.11.0"
        ns1:texconverter="pdflatex"
        ns1:pdfconverter="pdf2svg"
@@ -708,12 +709,12 @@
     </g>
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 192,430 H 480"
+       d="M 192,264 H 480"
        id="path11396"
        inkscape:connector-curvature="0" />
     <g
        id="g11408"
-       transform="translate(-63.904288,75.4431)">
+       transform="translate(-63.904288,-90.5569)">
       <title
          id="title11398">Pin Support</title>
       <g
@@ -739,7 +740,7 @@
     </g>
     <g
        id="g11428"
-       transform="translate(347.93089,92.81803)">
+       transform="translate(347.93089,-73.18197)">
       <title
          id="title11410">Roller Support</title>
       <path
@@ -785,7 +786,7 @@
     </g>
     <path
        id="path11432"
-       d="m 318.2028,396.55654 v 28.75"
+       d="m 318.2028,230.55654 v 28.75"
        class="cload"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.25;marker-end:url(#CLArrowEnd-1)" />
@@ -800,7 +801,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-279.94338,106.5657)">
+       transform="matrix(2,0,0,2,-279.94338,-59.434299)">
       <g
          id="g11476">
         <g
@@ -828,56 +829,56 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:10.66666698px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="313.76846"
-       y="192.89253"
+       x="314.78482"
+       y="384.98492"
        id="text12799"><tspan
          sodipodi:role="line"
          id="tspan12797"
-         x="313.76846"
-         y="192.89253">=</tspan></text>
+         x="314.78482"
+         y="384.98492">=</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:10.66666698px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="306.14575"
-       y="367.00223"
+       y="201.00223"
        id="text12803"><tspan
          sodipodi:role="line"
          id="tspan12801"
          x="306.14575"
-         y="367.00223">+</tspan></text>
+         y="201.00223">+</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:10.66666698px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="149.68027"
-       y="82.217285"
+       x="150.18845"
+       y="430.32123"
        id="text12807"><tspan
          sodipodi:role="line"
          id="tspan12805"
-         x="149.68027"
-         y="82.217285">a)</tspan></text>
+         x="150.18845"
+         y="430.32123">c)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:10.66666698px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="150.18843"
-       y="240.76973"
+       y="74.76973"
        id="text12811"><tspan
          sodipodi:role="line"
          id="tspan12809"
          x="150.18843"
-         y="240.76973">b)</tspan></text>
+         y="74.76973">a)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:10.66666698px;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="152.72935"
-       y="434.46945"
+       y="268.46945"
        id="text12815"><tspan
          sodipodi:role="line"
          id="tspan12813"
          x="152.72935"
-         y="434.46945">c)</tspan></text>
+         y="268.46945">b)</tspan></text>
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 191.63088,318.34051 288.1386,0.50818 -205.23966,-48.78537 z"
+       d="m 191.63088,152.34051 288.1386,0.50818 -205.23966,-48.78537 z"
        id="path12926"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -885,11 +886,11 @@
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path12928"
-       d="m 191.63088,504.34051 288.1386,0.50818 -161.23966,-48.78537 z"
+       d="m 191.63088,338.34051 288.1386,0.50818 -161.23966,-48.78537 z"
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 191.99998,155.19996 v 0 l 82.8,-48 44,-9.599997 161.2,57.599997 z"
+       d="m 192.50816,503.3039 v 0 l 82.8,-48.00001 44,-9.59999 161.2,57.6 z"
        id="path12930"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
@@ -904,7 +905,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-452.42727,-135.27129)">
+       transform="matrix(2,0,0,2,-451.91909,212.83265)">
       <g
          id="g13086">
         <g
@@ -920,7 +921,7 @@
       </g>
     </g>
     <g
-       transform="matrix(2,0,0,2,-451.92102,27.772466)"
+       transform="matrix(2,0,0,2,-451.92102,-138.22753)"
        ns1:version="0.11.0"
        ns1:texconverter="pdflatex"
        ns1:pdfconverter="pdf2svg"
@@ -956,7 +957,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-450.88977,218.43497)">
+       transform="matrix(2,0,0,2,-450.88977,52.43497)">
       <g
          id="g13117">
         <g
@@ -982,7 +983,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-221.77174,-11.699334)">
+       transform="matrix(2,0,0,2,-221.77174,-177.69933)">
       <g
          id="g13291">
         <g
@@ -1018,7 +1019,7 @@
        ns1:pdfconverter="pdf2svg"
        ns1:texconverter="pdflatex"
        ns1:version="0.11.0"
-       transform="matrix(2,0,0,2,-213.32652,168.85499)">
+       transform="matrix(2,0,0,2,-213.32652,2.8549903)">
       <g
          id="g13500">
         <g
@@ -1045,12 +1046,12 @@
     </g>
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 355.77333,464.18844 9.65543,-7.62271 h 17.27816"
+       d="m 355.77333,298.18844 9.65543,-7.62271 h 17.27816"
        id="path13521"
        inkscape:connector-curvature="0" />
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 345.60971,284.29239 9.65544,-8.63908 h 19.31087"
+       d="m 345.60971,118.29239 9.65544,-8.63908 h 19.31087"
        id="path13523"
        inkscape:connector-curvature="0" />
   </g>
