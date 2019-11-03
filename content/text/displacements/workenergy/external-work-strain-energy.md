@@ -212,7 +212,7 @@ $$
 from strength of materials, we have:
 
 $$
-d\theta = \frac{M}{EI} dx
+\frac{d\theta}{dx} = \frac{M}{EI}
 $$
 
 and thus for the element:

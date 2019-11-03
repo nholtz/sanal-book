@@ -4,8 +4,8 @@ prev_page:
   url: /text/displacements/assumptions.html
   title: 'Assumptions'
 next_page:
-  url: 
-  title: ''
+  url: /text/displacements/workenergy/bettis-law.html
+  title: 'Bettis Law'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements
@@ -222,7 +222,7 @@ $$
 from strength of materials, we have:
 
 $$
-d\theta = \frac{M}{EI} dx
+\frac{d\theta}{dx} = \frac{M}{EI}
 $$
 
 and thus for the element:

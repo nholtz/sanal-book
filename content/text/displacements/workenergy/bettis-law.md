@@ -35,7 +35,7 @@ bending moment diagram for each.  And again, the principle of superposition
 says, that for any point along the span, the bending moment at that point in beam a)
 is the sum of the bending moments at the same point in b) and c).
 
-In beam b) the bending moment diagram is labelled as $M_1$ as it is results
+In beam b) the bending moment diagram is labelled as $M_1$ as it results
 from the force applied at location 1.  Beam b)'s bending moment diagram
 is labelled as $M_2$ as it results from the force at location 2.
 
@@ -130,6 +130,84 @@ This is a remarkable result.  It essentially says:
 <div class="admonition important">
 The external work done by load 1 acting through the
 displacements caused by load 2 is equal to
-the strain energy of the moments of load 1 
+the strain energy of the moments of load 2
 acting through the curvatures caused by load 1.
 </div>
+
+That interpretation is as if we had writtent the right hand side of the equality as:
+
+$$
+ P_1\delta_{12} =  \int_0^L M_2 \frac{M_1}{E I} dx
+$$
+
+As multiplication is commutative, we can rewrite the right hand side thus:
+
+$$
+ P_1\delta_{12} =  \int_0^L M_1 \frac{M_2}{E I} dx
+$$
+
+and because the $M/EI$ terms are curvatures, the principle also says:
+
+<div class="admonition important">
+The external work done by load 1 acting through the
+displacements caused by load 2 is equal to
+the strain energy of the moments of load 1
+acting through the curvatures caused by load 2.
+</div>
+
+### Virtual Work Example
+
+The beauty of the above is that one of the load sets doesn't
+even have to be real.  We can 'imagine' a force as load 1,
+and perform the calculations to determine the displacement
+caused by real load 2.  The force that we imagine, the virtual force, 
+can be of any
+non-zero magnitude.  It is convenient to use a magnitude of 1 (one).
+
+ ![Figure](../../../images/displacements/workenergy/vw-example-1.svg)
+
+The above figure shows the same beam that we used previously
+in an example of the direct energy method. It has a single concentrated
+force of $P$ acting at the middle of a span of length $L$.  We will call
+that 'Load 2' for congruence with the principles summarized above.
+
+In the bottom portion of the figure is the same beam, but now its
+real loads are replaced by a single unit virtual load at the location
+of and in the direction of the displacement we wish to calculate.
+In algebraic terms, the above principle says:
+
+$$
+1\times\Delta = \int_0^L m_x \frac{M_x}{E I} dx
+$$
+
+working this out, we have:
+
+$$
+\begin{align}
+\Delta &= \frac{2}{EI} \int_0^{L/2} \frac12 x \frac{P}{2}x dx\\
+  &= \frac{P}{2EI} \int_0^{L/2} x^2 dx\\
+  &= \left. \frac{P}{2EI} \frac{x^3}{3}\right|_0^{L/2}\\
+\\
+\Delta &= \frac{P L^3}{48 E I}\\
+\end{align}
+$$
+
+This was about the same amount of work as the direct energy
+method, but now this can be applied for any number of loads
+in load set 2, and we can determine the displacement at
+any locations just by varying the position of the virtual
+unit load.
+
+#### Dimensions
+
+The dimensions of $M$ are [$F\times L$] (force$\times$length).
+
+The dimensions of $m$ are [$L$] (the unit virtual load is unitless).
+
+The dimensions of $\int m M dx$ are [$F\times L^3$].
+
+The dimensions of $E$ is [$F/L^2$].
+
+The dimensions of $I$ is [$L^4$].
+
+The dimensions of $\int m M / E I dx$ is [$L$].
