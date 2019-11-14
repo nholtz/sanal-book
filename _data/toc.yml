@@ -139,3 +139,6 @@
     url: /text/displacements/workenergy/bettis-law
   - title: Virtual Work
     url: /text/displacements/workenergy/virtual-work
+  - title: Truss Example 1
+    url: /text/virtualwork/virtualforce/planetruss/examples/truss-example-1
+    
