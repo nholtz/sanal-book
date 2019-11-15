@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdtrusses/method-of-joints.html
   title: 'Method of Joints'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdtrusses/worked-examples.html
+  title: 'Worked Examples'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses

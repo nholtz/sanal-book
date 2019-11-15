@@ -6,8 +6,8 @@ prev_page:
   url: /text/sdbeams/frame-reaction-problems.html
   title: 'Problems - Frame Reactions'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdbeams/beam-VM-problems.html
+  title: 'Problems - Beam VM Diagrams'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Frames

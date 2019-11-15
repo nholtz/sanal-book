@@ -1,11 +1,11 @@
 ---
 title: 'Suggested Problems'
 prev_page:
-  url: /text/sdtrusses/stability-redux.html
+  url: /notebooks/sdtrusses/hextruss-irregular.html
   title: 'Stability and Matrix Methods'
 next_page:
-  url: 
-  title: ''
+  url: /text/virtualdisplacements/index.html
+  title: 'Virtual Displacements'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses

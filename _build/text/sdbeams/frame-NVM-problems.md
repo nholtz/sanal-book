@@ -6,8 +6,8 @@ prev_page:
   url: /text/sdbeams/beam-VM-problems.html
   title: 'Problems - Beam VM Diagrams'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdtrusses/index.html
+  title: 'Forces in Statically Determinate Trusses'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Plane Frames

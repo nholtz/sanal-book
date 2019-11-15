@@ -1,11 +1,11 @@
 ---
-title: 'Introduction'
+title: 'Introduction - Part 1 - Equilibrium'
 prev_page:
   url: /text/influencelines/index.html
   title: 'Influence Lines'
 next_page:
-  url: /text/influencelines/examples.html
-  title: 'Worked Examples'
+  url: /text/influencelines/introduction-part-2-mb.html
+  title: 'Introduction - Part 2 - M&uuml;ller-Breslau'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 5. Influence Lines

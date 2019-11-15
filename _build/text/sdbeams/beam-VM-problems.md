@@ -6,8 +6,8 @@ prev_page:
   url: /text/sdbeams/NVM-diagrams.html
   title: 'NVM Diagrams'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdbeams/frame-NVM-problems.html
+  title: 'Problems - Frame NVM Diagrams'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 2: Forces in Statically Determinate Beams and Plane Frames

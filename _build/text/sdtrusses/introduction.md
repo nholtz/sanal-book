@@ -1,11 +1,11 @@
 ---
-title: 'Forces in Statically Determinate Trusses'
+title: 'Introduction'
 prev_page:
-  url: /text/sdbeams/frame-NVM-problems.html
-  title: 'Problems - Frame NVM Diagrams'
+  url: /text/sdtrusses/index.html
+  title: 'Forces in Statically Determinate Trusses'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdtrusses/determinacy-and-stability.html
+  title: 'Determinacy and Stability'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses

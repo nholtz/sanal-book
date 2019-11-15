@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdtrusses/determinacy-and-stability.html
   title: 'Determinacy and Stability'
 next_page:
-  url: 
-  title: ''
+  url: /text/sdtrusses/method-of-sections.html
+  title: 'Method of Sections'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses

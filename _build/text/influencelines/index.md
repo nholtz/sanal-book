@@ -5,7 +5,7 @@ prev_page:
   title: 'Suggested Problems'
 next_page:
   url: /text/influencelines/introduction.html
-  title: 'Introduction'
+  title: 'Introduction - Part 1 - Equilibrium'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 5. Influence Lines

@@ -4,8 +4,8 @@ prev_page:
   url: /text/virtualdisplacements/examples.html
   title: 'Worked Examples'
 next_page:
-  url: 
-  title: ''
+  url: /text/influencelines/index.html
+  title: 'Influence Lines'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 4: Method of Virtual Work (1): Principle of Virtual Displacements

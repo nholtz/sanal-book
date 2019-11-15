@@ -4,8 +4,8 @@ prev_page:
   url: /text/influencelines/examples.html
   title: 'Worked Examples'
 next_page:
-  url: 
-  title: ''
+  url: /text/displacements/index.html
+  title: 'Elastic Displacements'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 5. Influence Lines

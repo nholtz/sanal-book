@@ -4,8 +4,8 @@ prev_page:
   url: /text/displacements/workenergy/external-work-strain-energy.html
   title: 'Work and Energy'
 next_page:
-  url: 
-  title: ''
+  url: /text/displacements/workenergy/virtual-work.html
+  title: 'Virtual Work'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements

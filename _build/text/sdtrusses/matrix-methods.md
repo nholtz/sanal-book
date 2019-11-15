@@ -4,8 +4,8 @@ prev_page:
   url: /text/sdtrusses/worked-examples.html
   title: 'Worked Examples'
 next_page:
-  url: /text/sdtrusses/stability-redux.html
-  title: 'Stability and Matrix Methods'
+  url: /notebooks/sdtrusses/sdtruss.html
+  title: 'Matrix Methods Implementation'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 3: Forces in Statically Determinate Trusses

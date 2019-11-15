@@ -4,8 +4,8 @@ prev_page:
   url: /text/virtualwork/virtualforce/planetruss/examples/truss-example-2.html
   title: 'Truss Example 2'
 next_page:
-  url: 
-  title: ''
+  url: /text/virtualwork/virtualforce/problems/problem-set-1.html
+  title: 'Suggested Problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements

@@ -4,8 +4,8 @@ prev_page:
   url: /text/displacements/workenergy/bettis-law.html
   title: 'Bettis Law'
 next_page:
-  url: 
-  title: ''
+  url: /text/virtualwork/virtualforce/planetruss/examples/truss-example-1.html
+  title: 'Truss Example 1'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements
