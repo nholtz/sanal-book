@@ -1,6 +1,6 @@
-# 7. Displacements in Elastic Structures
+# 6. Displacements in Elastic Structures
 
-## 7.1 Assumptions for Analysis
+## 6.1 Assumptions for Analysis
 
 1. Internal and extrnal forces are in equilibrium.
 

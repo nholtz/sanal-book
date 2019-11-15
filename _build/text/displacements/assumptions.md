@@ -8,9 +8,9 @@ next_page:
   title: 'Work and Energy'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
-# 7. Displacements in Elastic Structures
+# 6. Displacements in Elastic Structures
 
-## 7.1 Assumptions for Analysis
+## 6.1 Assumptions for Analysis
 
 1. Internal and extrnal forces are in equilibrium.
 
