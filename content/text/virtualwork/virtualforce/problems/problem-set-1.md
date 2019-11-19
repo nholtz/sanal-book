@@ -47,6 +47,8 @@ In the following frame, determine:
 
 ![Figure](../../../../images/virtualwork/virtualforce/problems/p5.svg)
 
+([Notebook Solution](../../../../notebooks/virtualwork/virtualforce/Problem-6-5))
+
 ### Problem 6-6
 
 In the following structure determine:
@@ -59,6 +61,8 @@ In the following structure determine:
 ![Figure](../../../../images/virtualwork/virtualforce/problems/p6.svg)
 
 ([Solution for 6-6](../../../../images/virtualwork/virtualforce/problems/p6-soln-1.svg))
+
+([Notebook Solution](../../../../notebooks/virtualwork/virtualforce/Problem-P6-demo))
 
 
 ### Problem 6-7

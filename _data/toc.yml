@@ -152,4 +152,10 @@
   sections:
   - title: Introduction
     url: /text/sibeams/flexibility/introduction/introduction
- 
+- title: Notebooks
+  url: /notebooks/index
+  sections:
+  - title: Problem 6-5 Solution
+    url: /notebooks/virtualwork/virtualforce/Problem-6-5
+  - title: Problem 6-6 Alternate Solution
+    url: /notebooks/virtualwork/virtualforce/Problem-P6-demo

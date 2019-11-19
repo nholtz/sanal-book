@@ -4,8 +4,8 @@ prev_page:
   url: /text/virtualwork/virtualforce/beams/example-1.html
   title: 'Beams and Frames'
 next_page:
-  url: 
-  title: ''
+  url: /text/sibeams/index.html
+  title: 'Statically Indeterminate Beams and Frames'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements
@@ -57,6 +57,8 @@ In the following frame, determine:
 
 ![Figure](../../../../images/virtualwork/virtualforce/problems/p5.svg)
 
+([Notebook Solution](../../../../notebooks/virtualwork/virtualforce/Problem-6-5))
+
 ### Problem 6-6
 
 In the following structure determine:
@@ -69,6 +71,8 @@ In the following structure determine:
 ![Figure](../../../../images/virtualwork/virtualforce/problems/p6.svg)
 
 ([Solution for 6-6](../../../../images/virtualwork/virtualforce/problems/p6-soln-1.svg))
+
+([Notebook Solution](../../../../notebooks/virtualwork/virtualforce/Problem-P6-demo))
 
 
 ### Problem 6-7
