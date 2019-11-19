@@ -147,5 +147,9 @@
     url: /text/virtualwork/virtualforce/beams/example-1
   - title: Suggested Problems
     url: /text/virtualwork/virtualforce/problems/problem-set-1
-    
+- title: Statically Indeterminate Beams and Frames
+  url: /text/sibeams/index
+  sections:
+  - title: Introduction
+    url: /text/sibeams/flexibility/introduction/introduction
  
