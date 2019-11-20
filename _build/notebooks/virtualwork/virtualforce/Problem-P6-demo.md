@@ -22,26 +22,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-class MDiag(object):
-    
-    def __init__(self,L,m0,m1=0.,w=0.):
-        self.L = L
-        self.m0 = m0
-        self.m1 = m1
-        self.w = w
-        
-def intmM(m,M,EI=1.):
-    assert isinstance(m,MDiag),"Arguments must be instances of MDiag"
-    assert isinstance(M,MDiag),"Arguments must be instances of MDiag"
-    assert m.L == M.L,"Lengths of MDiags must be equal"
-    assert m.w == 0.,"Virtual MDiag cannot have a UDL - w must be 0."
-    L = m.L
-    m0 = m.m0
-    m1 = m.m1
-    M0 = M.m0
-    M1 = M.m1
-    w = M.w
-    return (L/24.)*(m0*(w*L*L+8.*M0+4.*M1) + m1*(w*L*L+4.*M0+8.*M1))/EI
+def intmM(L,m0,m1,M0,M1,w=0,EI=1.):
+    return (L/24.)*(m0*(w*L*L + 8.*M0 + 4.*M1) + m1*(w*L*L + 4.*M0 + 8.*M1))/EI
 
 ```
 </div>
@@ -58,11 +40,11 @@ def intmM(m,M,EI=1.):
 <div class="input_area" markdown="1">
 ```python
 # units are kN and m
-EI = 90000.
-intmM(MDiag(2,0,3),MDiag(2,0,-30),EI) + \
-intmM(MDiag(3,3,0),MDiag(3,-30,0),EI) + \
-intmM(MDiag(2,0,-2),MDiag(2,0,-20),EI) + \
-intmM(MDiag(2,-2,0),MDiag(2,-20,0),EI)
+EI = 90000 # kN m^2
+intmM( L=2, m0=0, m1=3, M0=0, M1=-30, EI=EI) + \
+intmM( L=3, m0=3, m1=0, M0=-30, M1=0, EI=EI ) + \
+intmM( L=2, m0=0, m1=-2, M0=0, M1=-20, EI=EI ) + \
+intmM( L=2, m0=-2, m1=0, M0=-20, M1=0, EI=EI )
 
 ```
 </div>
@@ -83,13 +65,5 @@ intmM(MDiag(2,-2,0),MDiag(2,-20,0),EI)
 
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-# this confirms the "manual" solution
-
-```
-</div>
-
-</div>
+This confirms the "manual" solution
 

@@ -155,6 +155,8 @@
 - title: Notebooks
   url: /notebooks/index
   sections:
+  - title: Demo of integrating m*M
+    url: /notebooks/virtualwork/virtualforce/00-Integrate-mM
   - title: Problem 6-5 Solution
     url: /notebooks/virtualwork/virtualforce/Problem-6-5
   - title: Problem 6-6 Alternate Solution
