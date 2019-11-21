@@ -1,13 +1,13 @@
 ---
 redirect_from:
-  - "/notebooks/virtualwork/virtualforce/00-integrate-mm"
-interact_link: content/notebooks/virtualwork/virtualforce/00-Integrate-mM.ipynb
+  - "/notebooks/virtualwork/virtualforce/10-integrate-mm"
+interact_link: content/notebooks/virtualwork/virtualforce/10-Integrate-mM.ipynb
 kernel_name: python3
 has_widgets: false
 title: 'Demo of integrating m*M'
 prev_page:
-  url: /notebooks/index.html
-  title: 'Notebooks'
+  url: /notebooks/virtualwork/virtualforce/05-Develop-intmM-formulae.html
+  title: 'Development of Integration Formulae'
 next_page:
   url: /notebooks/virtualwork/virtualforce/Problem-6-5.html
   title: 'Problem 6-5 Solution'

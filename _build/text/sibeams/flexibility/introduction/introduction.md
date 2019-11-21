@@ -4,8 +4,8 @@ prev_page:
   url: /text/sibeams/index.html
   title: 'Statically Indeterminate Beams and Frames'
 next_page:
-  url: 
-  title: ''
+  url: /text/sibeams/flexibility/examples/beam1.html
+  title: 'Example - Beam 1'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 7. Statically Indeterminate Beams and Frames

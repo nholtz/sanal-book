@@ -1,11 +1,11 @@
 ---
 title: 'Notebooks'
 prev_page:
-  url: /text/sibeams/flexibility/introduction/introduction.html
-  title: 'Introduction'
+  url: /text/sibeams/flexibility/examples/beam1.html
+  title: 'Example - Beam 1'
 next_page:
-  url: /notebooks/virtualwork/virtualforce/Problem-6-5.html
-  title: 'Problem 6-5 Solution'
+  url: /notebooks/virtualwork/virtualforce/05-Develop-intmM-formulae.html
+  title: 'Development of Integration Formulae'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Notebooks

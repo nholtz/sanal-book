@@ -152,11 +152,15 @@
   sections:
   - title: Introduction
     url: /text/sibeams/flexibility/introduction/introduction
+  - title: Example - Beam 1
+    url: /text/sibeams/flexibility/examples/beam1
 - title: Notebooks
   url: /notebooks/index
   sections:
+  - title: Development of Integration Formulae
+    url: /notebooks/virtualwork/virtualforce/05-Develop-intmM-formulae
   - title: Demo of integrating m*M
-    url: /notebooks/virtualwork/virtualforce/00-Integrate-mM
+    url: /notebooks/virtualwork/virtualforce/10-Integrate-mM
   - title: Problem 6-5 Solution
     url: /notebooks/virtualwork/virtualforce/Problem-6-5
   - title: Problem 6-6 Alternate Solution

@@ -6,7 +6,7 @@ kernel_name: python3
 has_widgets: false
 title: 'Problem 6-5 Solution'
 prev_page:
-  url: /notebooks/virtualwork/virtualforce/00-Integrate-mM.html
+  url: /notebooks/virtualwork/virtualforce/10-Integrate-mM.html
   title: 'Demo of integrating m*M'
 next_page:
   url: /notebooks/virtualwork/virtualforce/Problem-P6-demo.html
