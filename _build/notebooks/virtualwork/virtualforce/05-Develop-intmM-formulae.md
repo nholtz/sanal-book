@@ -391,9 +391,18 @@ $$\left ( m, \quad M\right )$$
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-virtual_specials = [{m0:m,m1:m},{m1:0},{m0:0},{}]
-real_specials = [{w:0,M0:M,M1:M},{w:0,M1:0},{w:0,M0:0},{w:0},
-                 {M0:0,M1:0,w:8*M/(L*L)},{w:-2*M1/(L*L),M0:0},{w:2*(M0-M1)/(L*L)},]
+virtual_specials = [{m0:m,m1:m},      # m0=m1=m, virtual equal at both ends
+                    {m1:0},           # m1=0, virtual 0 at right end
+                    {m0:0},           # m0=0, virtual 0 at left end
+                    {}]               # general
+real_specials = [{w:0,M0:M,M1:M},     # w=0, M0=M1=M, no UDL, end moments equal
+                 {w:0,M1:0},          # w=0, M1=0, no UDL, right end moment 0
+                 {w:0,M0:0},          # w=0, M0=0, no UDL, left end moment 0
+                 {w:0},               # w=0, no UDL, end moments differ
+                 {M0:0,M1:0,w:8*M/(L*L)},  # M0=M1=0, UDL, end moments 0
+                 {w:-2*M1/(L*L),M0:0},     # M0=0, moment and shear at left end 0
+                 {w:2*(M0-M1)/(L*L)},      # shear at left end 0, end moments unequal
+                 {}]                       # general
 
 ```
 </div>
@@ -918,6 +927,78 @@ Column 7   Row 4
 <div class="output_subarea" markdown="1">
 
 $$\frac{L \left(m_{0} \left(5 M_{0} + M_{1}\right) + 3 m_{1} \left(M_{0} + M_{1}\right)\right)}{12}$$
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+ 
+Column 8   Row 1
+{}
+{m0: m, m1: m}
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+$$\frac{L m \left(L^{2} w + 6 M_{0} + 6 M_{1}\right)}{12}$$
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+ 
+Column 8   Row 2
+{}
+{m1: 0}
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+$$\frac{L m_{0} \left(L^{2} w + 8 M_{0} + 4 M_{1}\right)}{24}$$
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+ 
+Column 8   Row 3
+{}
+{m0: 0}
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+$$\frac{L m_{1} \left(L^{2} w + 4 M_{0} + 8 M_{1}\right)}{24}$$
+
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+ 
+Column 8   Row 4
+{}
+{}
+```
+</div>
+</div>
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+$$\frac{L \left(m_{0} \left(L^{2} w + 8 M_{0} + 4 M_{1}\right) + m_{1} \left(L^{2} w + 4 M_{0} + 8 M_{1}\right)\right)}{24}$$
 
 </div>
 </div>

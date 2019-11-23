@@ -154,6 +154,8 @@
     url: /text/sibeams/flexibility/introduction/introduction
   - title: Example - Beam 1
     url: /text/sibeams/flexibility/examples/beam1
+  - title: Example - Beam 1 Alternate Redundants
+    url: /text/sibeams/flexibility/examples/beam2
 - title: Notebooks
   url: /notebooks/index
   sections:
