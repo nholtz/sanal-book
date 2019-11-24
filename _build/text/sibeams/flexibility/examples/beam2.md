@@ -4,8 +4,8 @@ prev_page:
   url: /text/sibeams/flexibility/examples/beam1.html
   title: 'Example - Beam 1'
 next_page:
-  url: /notebooks/index.html
-  title: 'Notebooks'
+  url: /text/sibeams/flexibility/examples/support-settlement.html
+  title: 'Example - Support Settlement'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 7: Statically Indeterminate Beams and Plane Frames

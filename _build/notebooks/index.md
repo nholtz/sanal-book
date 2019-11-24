@@ -1,8 +1,8 @@
 ---
 title: 'Notebooks'
 prev_page:
-  url: /text/sibeams/flexibility/examples/beam1.html
-  title: 'Example - Beam 1'
+  url: /text/sibeams/flexibility/problems/problems.html
+  title: 'Suggested Problems'
 next_page:
   url: /notebooks/virtualwork/virtualforce/05-Develop-intmM-formulae.html
   title: 'Development of Integration Formulae'

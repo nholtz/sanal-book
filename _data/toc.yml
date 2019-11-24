@@ -156,6 +156,20 @@
     url: /text/sibeams/flexibility/examples/beam1
   - title: Example - Beam 1 Alternate Redundants
     url: /text/sibeams/flexibility/examples/beam2
+  - title: Example - Support Settlement
+    url: /text/sibeams/flexibility/examples/support-settlement
+  - title: Example - Elastic Supports
+    url: /text/sibeams/flexibility/examples/elastic-support
+  - title: Example - Frame 1
+    url: /text/sibeams/flexibility/examples/frame1
+  - title: Example - Frame 2 (Alternate Redundant)
+    url: /text/sibeams/flexibility/examples/frame2
+  - title: Example - Frame 3
+    url: /text/sibeams/flexibility/examples/frame3
+  - title: Example - Multiple Redundants
+    url: /text/sibeams/flexibility/examples/multiple
+  - title: Suggested Problems
+    url: /text/sibeams/flexibility/problems/problems
 - title: Notebooks
   url: /notebooks/index
   sections:

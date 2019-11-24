@@ -4,8 +4,8 @@ prev_page:
   url: /text/sibeams/flexibility/introduction/introduction.html
   title: 'Introduction'
 next_page:
-  url: /notebooks/index.html
-  title: 'Notebooks'
+  url: /text/sibeams/flexibility/examples/beam2.html
+  title: 'Example - Beam 1 Alternate Redundants'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 7: Statically Indeterminate Beams and Plane Frames
