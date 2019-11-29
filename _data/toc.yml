@@ -173,8 +173,10 @@
 - title: Statically Indeterminate Beams and Frames - Stiffness Method
   url: /text/sibeams/stiffness/slope-deflection/index
   sections:
-  - title: Introduction
+  - title: Introduction and Derivation
     url: /text/sibeams/stiffness/slope-deflection/introduction/introduction
+  - title: Fixed End Moments
+    url: /text/sibeams/stiffness/slope-deflection/introduction/fems
   - title: Example Problem Solutions
     url: /text/sibeams/stiffness/slope-deflection/examples/examples
 - title: Notebooks

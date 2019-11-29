@@ -1,6 +1,6 @@
 (define-abbrev-table 'global-abbrev-table
   '(
-    ("dir" "../../../../images/sibeams/flexibility/examples/frame2/" nil 5)
+    ("dir" "../../../../../images/sibeams/stiffness/slope-deflection/fem/" nil 5)
    ))
 (fset 'convert-display-math
    [?\C-s ?. ?. ?  ?m ?a ?t ?h ?: ?: ?\C-a ?\C-k ?\C-k ?$ ?$ escape ?\} ?$ ?$ return])
