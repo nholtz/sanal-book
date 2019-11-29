@@ -147,7 +147,7 @@
     url: /text/virtualwork/virtualforce/beams/example-1
   - title: Suggested Problems
     url: /text/virtualwork/virtualforce/problems/problem-set-1
-- title: Statically Indeterminate Beams and Frames
+- title: Statically Indeterminate Beams and Frames - Force Method
   url: /text/sibeams/index
   sections:
   - title: Introduction
@@ -170,6 +170,13 @@
     url: /text/sibeams/flexibility/examples/multiple
   - title: Suggested Problems
     url: /text/sibeams/flexibility/problems/problems
+- title: Statically Indeterminate Beams and Frames - Stiffness Method
+  url: /text/sibeams/stiffness/slope-deflection/index
+  sections:
+  - title: Introduction
+    url: /text/sibeams/stiffness/slope-deflection/introduction/introduction
+  - title: Example Problem Solutions
+    url: /text/sibeams/stiffness/slope-deflection/examples/examples
 - title: Notebooks
   url: /notebooks/index
   sections:
