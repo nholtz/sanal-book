@@ -1,5 +1,5 @@
 ---
-title: 'Statically Indeterminate Beams and Frames'
+title: 'Statically Indeterminate Beams and Frames - Force Method'
 prev_page:
   url: /text/virtualwork/virtualforce/problems/problem-set-1.html
   title: 'Suggested Problems'

@@ -4,8 +4,8 @@ prev_page:
   url: /text/sibeams/flexibility/examples/multiple.html
   title: 'Example - Multiple Redundants'
 next_page:
-  url: /notebooks/index.html
-  title: 'Notebooks'
+  url: /text/sibeams/stiffness/slope-deflection/index.html
+  title: 'Statically Indeterminate Beams and Frames - Stiffness Method'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 7: Statically Indeterminate Beams and Plane Frames

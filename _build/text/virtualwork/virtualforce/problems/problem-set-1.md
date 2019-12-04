@@ -5,7 +5,7 @@ prev_page:
   title: 'Beams and Frames'
 next_page:
   url: /text/sibeams/index.html
-  title: 'Statically Indeterminate Beams and Frames'
+  title: 'Statically Indeterminate Beams and Frames - Force Method'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 6. Elastic Displacements

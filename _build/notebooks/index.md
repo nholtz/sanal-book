@@ -1,7 +1,7 @@
 ---
 title: 'Notebooks'
 prev_page:
-  url: /text/sibeams/flexibility/problems/problems.html
+  url: /text/sibeams/stiffness/slope-deflection/problems/problems.html
   title: 'Suggested Problems'
 next_page:
   url: /notebooks/virtualwork/virtualforce/05-Develop-intmM-formulae.html

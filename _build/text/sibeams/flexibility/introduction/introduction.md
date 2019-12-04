@@ -2,7 +2,7 @@
 title: 'Introduction'
 prev_page:
   url: /text/sibeams/index.html
-  title: 'Statically Indeterminate Beams and Frames'
+  title: 'Statically Indeterminate Beams and Frames - Force Method'
 next_page:
   url: /text/sibeams/flexibility/examples/beam1.html
   title: 'Example - Beam 1'
