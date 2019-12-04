@@ -1,16 +1,16 @@
 ---
 title: 'Example Problem Solutions'
 prev_page:
-  url: /text/sibeams/stiffness/slope-deflection/introduction/introduction.html
-  title: 'Introduction'
+  url: /text/sibeams/stiffness/slope-deflection/introduction/fems.html
+  title: 'Fixed End Moments'
 next_page:
-  url: /notebooks/index.html
-  title: 'Notebooks'
+  url: /text/sibeams/stiffness/slope-deflection/problems/problems.html
+  title: 'Suggested Problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # 8. Slope Deflection
 
-# 8.2 Example Problems
+# 8.3 Example Problems
 
 * [Beam - Example 1](../../../../../images/sibeams/stiffness/slope-deflection/examples/beam1/beam-1.pdf) (in class)
 

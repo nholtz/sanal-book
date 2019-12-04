@@ -179,6 +179,8 @@
     url: /text/sibeams/stiffness/slope-deflection/introduction/fems
   - title: Example Problem Solutions
     url: /text/sibeams/stiffness/slope-deflection/examples/examples
+  - title: Suggested Problems
+    url: /text/sibeams/stiffness/slope-deflection/problems/problems
 - title: Notebooks
   url: /notebooks/index
   sections:

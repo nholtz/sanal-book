@@ -1,6 +1,6 @@
 # 8. Slope Deflection
 
-# 8.2 Example Problems
+# 8.3 Example Problems
 
 * [Beam - Example 1](../../../../../images/sibeams/stiffness/slope-deflection/examples/beam1/beam-1.pdf) (in class)
 
