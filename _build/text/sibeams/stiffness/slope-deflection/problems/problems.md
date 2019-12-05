@@ -77,6 +77,6 @@ force and bending moment diagrams.
 
 ![Figure](../../../../../images/sibeams/stiffness/slope-deflection/problems/problem-11.svg)
 
-### Problem 8.4-11
+### Problem 8.4-12
 
 ![Figure](../../../../../images/sibeams/stiffness/slope-deflection/problems/problem-12.svg)
