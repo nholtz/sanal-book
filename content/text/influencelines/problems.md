@@ -72,3 +72,21 @@ Sketch influence lines for the following effects.
 1. Vertical reaction at $e$.
 
 ([Partial-Solution](../../images/influencelines/suggested-problems/problem-04-frame-ans-1.svg))
+
+### Problem 5.3-05
+
+![Figure](../../images/influencelines/suggested-problems/problem-05-stringers.svg)
+
+In the above structure, vertical loads are applied to the stringers, which in turn are simply
+supported by the girder.  Draw influence lines for the following effects:
+
+1. Vertical reaction on the girder, at $a$.
+1. Moment in the girder at point $b$ (midway between the supports).
+1. Shear in girder just to the left of the support at $c$.
+1. Moment in the girder over the support at $c$.
+1. Moment in the girder at point $d$ (at the centre of the span).
+1. Shear in the girder just to the right of the support at $c$.
+1. Vertical reaction on the girder at $c$.
+
+
+([Partial-Solution](../../images/influencelines/suggested-problems/problem-05-stringers-ans-1.svg))
