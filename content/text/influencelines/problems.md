@@ -25,7 +25,9 @@ and a concentrated _live load_ of 60kN (acting simultaneously).
 Determine the range of each effect for this loading condition.
 Show the correwsponding position of the loads, for each.
 
-([Partial-Solution](../../images/influencelines/suggested-problems/problem-01-beam-ans-1.svg))
+([Partial-Solution](../../images/influencelines/suggested-problems/problem-01-beam-ans-1.svg) - influence lines)
+
+([Partial-Solution](../../images/influencelines/suggested-problems/problem-01-beam-ans-2.svg) - effect of live loads)
 
 ### Problem 5.3-02
 
